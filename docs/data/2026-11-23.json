@@ -2,13 +2,13 @@
  "meta": {
   "date": "2026-11-23",
   "weekday": "周一",
-  "generatedAt": "2026-11-23T02:50:55.912Z",
-  "mode": "local",
-  "totalItems": 286,
+  "generatedAt": "2026-11-23T03:57:42.269Z",
+  "mode": "ci",
+  "totalItems": 434,
   "cnSources": 9,
   "cnSourceTotal": 9,
-  "intlSources": 1,
-  "intlSourceTotal": 1,
+  "intlSources": 9,
+  "intlSourceTotal": 10,
   "schema": 1
  },
  "day": {
@@ -28,7 +28,7 @@
    {
     "bucket": "possibility",
     "w": 9,
-    "text": "市场异动 1 条：台股暴跌 卓荣泰据报召集金融业及产业代表商讨救市",
+    "text": "市场异动 1 条：中国“国家队”加码护市 ETF单日吸金900亿…",
     "tag": "market"
    },
    {
@@ -51,15 +51,15 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 年重新收缴手机（IT之家）。"
+    "text": "值得记一笔：San Francisco is enjoying an AI b…（BBC）。"
    },
    {
     "label": "内外",
-    "text": "同一件事两边都在说：亚太与 APEC。境内 8 条、境外 1 条，语气基本同向。"
+    "text": "今天没有一个议题被两侧同时提及，属于信息上比较「各说各话」的一天。"
    }
   ],
   "actions": [
-   "科技面值得跟进：韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 …。"
+   "科技面值得跟进：San Francisco is enjoying a…。"
   ],
   "upcoming": [
    {
@@ -293,66 +293,100 @@
  "tech": {
   "items": [
    {
-    "key": "ithome:https://www.ithome.com/1/030/770.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 58,
-    "title": "韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 年重新收缴手机",
-    "url": "https://www.ithome.com/1/030/770.htm",
-    "date": "2026-11-23",
-    "summary": "IT之家 11 月 23 日消息，据韩媒报道，韩国第 28 届警卫指导师考试前日开考。据考生所述，本次考试加强了作弊防范力度，去年只要求将手机和手表放在包里，今年全部收走。 考场还要求考生穿上餐馆使用的一次性围裙 ，各处都悬挂着禁止作弊的标语。 受韩国一税务师榜首考生自曝使用 AI 作弊影响，韩国 753 种国家资格考试开始加强反作弊措施。尽管此前已宣布严格监考，但警卫指导师考试仍有 6 人因作弊行为被查处，违规情况包括让平板电脑或手…",
-    "categories": [],
-    "tag": "AI",
-    "raw": 87.9,
-    "score": 123.06
-   },
-   {
-    "key": "ithome:https://www.ithome.com/1/030/769.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 58,
-    "title": "四部门：鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品",
-    "url": "https://www.ithome.com/1/030/769.htm",
-    "date": "2026-11-23",
-    "summary": "IT之家 11 月 23 日消息，今日，发改委等四部门印发《“一老一小”服务体系建设实施方案》。 其中提到，支持养老、托育机构应用智能管理服务、智慧消防安防等系统，提升管理水平。推动养老机构配置智能健康监测、辅助器具等设备。 鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品 ，支持在养老机构、社区等场景应用或设置体验区。鼓励有条件的地方利用电子政务服务平台等汇总各类信息，为家庭获取上门服务提供便利渠道。 IT…",
-    "categories": [],
-    "tag": "AI",
-    "raw": 87.9,
-    "score": 123.06
-   },
-   {
-    "key": "zaobao:https://www.zaobao.com.sg/news/china/story20261122-10037617?ref=home-top-news",
-    "sourceId": "zaobao",
-    "sourceName": "联合早报",
-    "short": "早报",
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc",
+    "sourceName": "BBC World",
+    "short": "BBC",
     "region": "intl",
     "kind": "media",
-    "weight": 64,
-    "title": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范",
-    "url": "https://www.zaobao.com.sg/news/china/story20261122-10037617?ref=home-top-news",
+    "weight": 82,
+    "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+    "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
     "date": "2026-11-23",
-    "summary": "",
+    "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
     "categories": [],
     "tag": "AI",
-    "raw": 87.2,
-    "score": 122.08
+    "raw": 101.1,
+    "score": 141.54
    },
    {
-    "key": "dramx:https://www.dramx.com/News/IC/20261123-41493.html",
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc",
+    "sourceName": "BBC World",
+    "short": "BBC",
+    "region": "intl",
+    "kind": "media",
+    "weight": 82,
+    "title": "South Korea education minister resigns over exam cheating scandal",
+    "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-22",
+    "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 92.1,
+    "score": 128.94
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/igbt/20261123-41494.html",
     "sourceId": "dramx",
     "sourceName": "TrendForce 集邦咨询",
     "short": "集邦",
     "region": "cn",
     "kind": "tech",
     "weight": 66,
-    "title": "星思半导体港股IPO获证监会备案",
-    "url": "https://www.dramx.com/News/IC/20261123-41493.html",
+    "title": "英飞凌与麦格米特合作推动800 VDC AI数据中心电源架构发展",
+    "url": "https://www.dramx.com/News/igbt/20261123-41494.html",
+    "date": "2026-11-23",
+    "summary": "",
+    "categories": [],
+    "tag": "AI",
+    "raw": 88.30000000000001,
+    "score": 123.62
+   },
+   {
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "【世界进行时】2026年11月20日",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "date": "2026-11-20",
+    "summary": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 74,
+    "score": 85.1
+   },
+   {
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143232",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "【子午播报】2026年11月20日",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143232",
+    "date": "2026-11-20",
+    "summary": "纽约时间零点，北京时间13点，欢迎收看《联合国子午播报》。本期节目您将看到，中美俄深圳会晤，联合国如何回应？国际法院认定缅甸对罗兴亚人实施种族灭绝。子午聚焦：联合国讨论管制“杀人机器人”。",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 74,
+    "score": 85.1
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/AI/20261123-41495.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "华尔街官宣迄今最大GPU租赁融资",
+    "url": "https://www.dramx.com/News/AI/20261123-41495.html",
     "date": "2026-11-23",
     "summary": "",
     "categories": [],
@@ -361,112 +395,36 @@
     "score": 83.885
    },
    {
-    "key": "dramx:https://www.dramx.com/News/made-sealing/20261123-41491.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
+    "key": "ithome:https://www.ithome.com/1/030/792.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
     "region": "cn",
     "kind": "tech",
-    "weight": 66,
-    "title": "思特威拟15亿元增资CIS晶圆代工厂",
-    "url": "https://www.dramx.com/News/made-sealing/20261123-41491.html",
+    "weight": 58,
+    "title": "特朗普：我希望英伟达董事会能重新聘用黄仁勋，这对英伟达、美国来说都是最好的事情",
+    "url": "https://www.ithome.com/1/030/792.htm",
     "date": "2026-11-23",
-    "summary": "",
+    "summary": "IT之家 11 月 23 日消息，美国总统唐纳德 · 特朗普今日在真实社交平台表示， 他希望英伟达董事会能重新聘用黄仁勋 。这对英伟达公司、美国来说都是最好的事情。 据IT之家此前报道 ，黄仁勋于 11 月初向英伟达发布全员信，承认自己的出轨行为，称他的行为伤害了妻儿，没有任何借口。 特朗普随后表示 ，他只知道黄仁勋是很好的人，他认为黄仁勋应该继续担任英伟达 CEO。 11 月 12 日，英伟达董事会宣布， 黄仁勋辞去公司总裁、CEO…",
     "categories": [],
     "tag": "半导体",
-    "raw": 88.30000000000001,
-    "score": 83.885
-   },
-   {
-    "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261123-10040889?ref=home-top-news",
-    "sourceId": "zaobao",
-    "sourceName": "联合早报",
-    "short": "早报",
-    "region": "intl",
-    "kind": "media",
-    "weight": 64,
-    "title": "贝森特：美国正就英伟达对华出售晶片寻求解释",
-    "url": "https://www.zaobao.com.sg/news/world/story20261123-10040889?ref=home-top-news",
-    "date": "2026-11-23",
-    "summary": "",
-    "categories": [],
-    "tag": "半导体",
-    "raw": 87.2,
-    "score": 82.84
-   },
-   {
-    "key": "sspai:https://sspai.com/post/119291",
-    "sourceId": "sspai",
-    "sourceName": "少数派",
-    "short": "少数派",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 42,
-    "title": "这群在鸿蒙写应用的年轻人，只想做点「用得上」的",
-    "url": "https://sspai.com/post/119291",
-    "date": "2026-11-21",
-    "summary": "上周末，今年正式被列入「全国普通高校学科竞赛排行榜」的2026鸿蒙高校创新赛在南京大学迎来全国总决赛颁奖典礼。华为董事、终端BGCEO何刚出席现场致辞并为获奖选手颁奖。他在现场表示，HarmonyOS ... 查看全文",
-    "categories": [],
-    "tag": "产品",
-    "raw": 61.1,
-    "score": 51.935
+    "raw": 87.9,
+    "score": 83.505
    }
   ],
   "counts": {
-   "total": 86,
-   "today": 61,
-   "semiconductor": 18,
-   "ai": 19
+   "total": 179,
+   "today": 64,
+   "semiconductor": 17,
+   "ai": 52
   }
  },
  "consensus": {
   "available": true,
-  "intlSourcesUp": 1,
+  "intlSourcesUp": 6,
   "cnSourcesUp": 7,
-  "topics": [
-   {
-    "id": "apec",
-    "label": "亚太与 APEC",
-    "zhCount": 8,
-    "enCount": 1,
-    "zh": {
-     "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7086992.htm",
-     "sourceId": "gov-yaowen",
-     "sourceName": "中国政府网 · 要闻",
-     "short": "要闻",
-     "region": "cn",
-     "kind": "official",
-     "weight": 90,
-     "title": "为共创亚太美好未来汇聚信心与力量——习近平主席APEC深圳会议期间系列重要讲话引发全球热烈反响",
-     "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086992.htm",
-     "date": "2026-11-21",
-     "summary": "",
-     "categories": []
-    },
-    "intl": {
-     "key": "zaobao:https://www.zaobao.com.sg/news/china/story20261123-10038949?ref=home-top-news",
-     "sourceId": "zaobao",
-     "sourceName": "联合早报",
-     "short": "早报",
-     "region": "intl",
-     "kind": "media",
-     "weight": 64,
-     "title": "戴庆成：深圳APEC峰会，香港错过了什么？",
-     "url": "https://www.zaobao.com.sg/news/china/story20261123-10038949?ref=home-top-news",
-     "date": "2026-11-23",
-     "summary": "",
-     "categories": []
-    },
-    "shared": [
-     "APEC"
-    ],
-    "zt": 0,
-    "et": 0,
-    "agree": true,
-    "strength": 76
-   }
-  ],
-  "note": "境外 1 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "topics": [],
+  "note": "境外 6 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
   "cnOnly": []
  },
  "health": [
@@ -477,7 +435,7 @@
    "kind": "tech",
    "ok": true,
    "count": 16,
-   "ms": 1528
+   "ms": 5293
   },
   {
    "id": "gov-gwy",
@@ -486,7 +444,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 4097
+   "ms": 560
   },
   {
    "id": "gov-yaowen",
@@ -495,7 +453,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 4747
+   "ms": 733
   },
   {
    "id": "gov-zuixin",
@@ -504,7 +462,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 4944
+   "ms": 813
   },
   {
    "id": "guancha",
@@ -513,7 +471,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 414
+   "ms": 2244
   },
   {
    "id": "huanqiu",
@@ -522,7 +480,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 1428
+   "ms": 1641
   },
   {
    "id": "ithome",
@@ -531,7 +489,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 2914
+   "ms": 1626
   },
   {
    "id": "qbitai",
@@ -540,7 +498,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1173
+   "ms": 3580
   },
   {
    "id": "sspai",
@@ -549,7 +507,89 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 691
+   "ms": 2064
+  },
+  {
+   "id": "arxiv",
+   "name": "arXiv cs.AI",
+   "region": "intl",
+   "kind": "academic",
+   "ok": true,
+   "count": 15,
+   "ms": 23
+  },
+  {
+   "id": "bbc",
+   "name": "BBC World",
+   "region": "intl",
+   "kind": "media",
+   "ok": true,
+   "count": 37,
+   "ms": 21
+  },
+  {
+   "id": "bbc-tech",
+   "name": "BBC Technology",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 21,
+   "ms": 6
+  },
+  {
+   "id": "eetimes",
+   "name": "EE Times",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 212
+  },
+  {
+   "id": "hn",
+   "name": "Hacker News",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 1105
+  },
+  {
+   "id": "reuters",
+   "name": "Reuters",
+   "region": "intl",
+   "kind": "media",
+   "ok": false,
+   "count": 0,
+   "ms": 2371,
+   "error": "HTTP 404"
+  },
+  {
+   "id": "techcrunch",
+   "name": "TechCrunch",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 24
+  },
+  {
+   "id": "theverge",
+   "name": "The Verge",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 204
+  },
+  {
+   "id": "un-news",
+   "name": "联合国新闻（中文）",
+   "region": "intl",
+   "kind": "official",
+   "ok": true,
+   "count": 30,
+   "ms": 26
   },
   {
    "id": "zaobao",
@@ -557,8 +597,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 30,
-   "ms": 2252
+   "count": 15,
+   "ms": 63
   }
  ]
 }
