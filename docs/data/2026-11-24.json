@@ -1,0 +1,591 @@
+{
+ "meta": {
+  "date": "2026-11-24",
+  "weekday": "周二",
+  "generatedAt": "2026-11-23T23:51:43.843Z",
+  "mode": "ci",
+  "totalItems": 434,
+  "cnSources": 9,
+  "cnSourceTotal": 9,
+  "intlSources": 9,
+  "intlSourceTotal": 10,
+  "schema": 1
+ },
+ "day": {
+  "type": "正常一天",
+  "dist": {
+   "normal": 52,
+   "possibility": 28,
+   "foresight": 20
+  },
+  "score": {
+   "sF": 18,
+   "sP": 24,
+   "sN": 45
+  },
+  "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
+  "signals": [
+   {
+    "bucket": "possibility",
+    "w": 12,
+    "text": "市场异动 2 条：黄仁勋恢复 CEO 职务：英伟达美股开盘大涨 …",
+    "tag": "market"
+   },
+   {
+    "bucket": "foresight",
+    "w": 4.4,
+    "text": "1月1日（38 天后）起施行：基金会管理条例",
+    "tag": "policy-effective"
+   },
+   {
+    "bucket": "foresight",
+    "w": 4.4,
+    "text": "1月1日（38 天后）起施行：中医药传统知识保护条例",
+    "tag": "policy-effective"
+   }
+  ],
+  "takeaways": [
+   {
+    "label": "政策",
+    "text": "今天没有新增，最近一次是 14 天前的《基金会管理条例》，最近一个施行节点在 1月1日。"
+   },
+   {
+    "label": "科技",
+    "text": "值得记一笔：US to blacklist Asian AI firm Meg…（BBC）。"
+   },
+   {
+    "label": "内外",
+    "text": "今天没有一个议题被两侧同时提及，属于信息上比较「各说各话」的一天。"
+   }
+  ],
+  "actions": [
+   "科技面值得跟进：US to blacklist Asian AI fi…。"
+  ],
+  "upcoming": [
+   {
+    "date": "2027-01-01",
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "days": 38,
+    "docNumber": "国令第848号"
+   },
+   {
+    "date": "2027-01-01",
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "days": 38,
+    "docNumber": "国令第850号"
+   }
+  ]
+ },
+ "gov": {
+  "headline": "今天国务院层面无新增文件；最近一次文件是 14 天前（11月10日）",
+  "todayCount": 0,
+  "newsCount": 0,
+  "weekCount": 0,
+  "items": [
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "date": "2026-11-10",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第848号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。",
+    "org": "国务院令"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "date": "2026-11-09",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第850号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。",
+    "org": "国务院令"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国家统计局职能配置、内设机构和人员编制规定",
+    "url": "https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "date": "2026-11-06",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "2026-10-28",
+    "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。",
+    "org": "国家层面"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": [],
+    "docNumber": "​国函〔2026〕113号",
+    "effectiveAt": "",
+    "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
+    "org": "国务院"
+   }
+  ],
+  "recent": [
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "date": "2026-11-10",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第848号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "date": "2026-11-09",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第850号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国家统计局职能配置、内设机构和人员编制规定",
+    "url": "https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "date": "2026-11-06",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "2026-10-28",
+    "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": [],
+    "docNumber": "​国函〔2026〕113号",
+    "effectiveAt": "",
+    "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院办公厅关于2027年部分节假日安排的通知",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于修改和废止部分行政法规的决定",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "事业单位登记管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "date": "2026-10-26",
+    "summary": "",
+    "categories": []
+   }
+  ],
+  "latestDate": "2026-11-10",
+  "latestTitle": "基金会管理条例"
+ },
+ "tech": {
+  "items": [
+   {
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc",
+    "sourceName": "BBC World",
+    "short": "BBC",
+    "region": "intl",
+    "kind": "media",
+    "weight": 82,
+    "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+    "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-23",
+    "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 92.1,
+    "score": 128.94
+   },
+   {
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc",
+    "sourceName": "BBC World",
+    "short": "BBC",
+    "region": "intl",
+    "kind": "media",
+    "weight": 82,
+    "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+    "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-23",
+    "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 92.1,
+    "score": 128.94
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/igbt/20261123-41494.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "英飞凌与麦格米特合作推动800 VDC AI数据中心电源架构发展",
+    "url": "https://www.dramx.com/News/igbt/20261123-41494.html",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "tag": "AI",
+    "raw": 88.30000000000001,
+    "score": 123.62
+   },
+   {
+    "key": "qbitai:https://www.qbitai.com/2026/11/512179.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 72,
+    "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
+    "url": "https://www.qbitai.com/2026/11/512179.html",
+    "date": "2026-11-23",
+    "summary": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
+    "categories": [
+     "资讯",
+     "XROBO",
+     "具身智能",
+     "机器人"
+    ],
+    "tag": "前沿",
+    "raw": 82.6,
+    "score": 94.98999999999998
+   },
+   {
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143247",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "联合国有关管制“杀人机器人”谈判达成最低限度共识",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143247",
+    "date": "2026-11-21",
+    "summary": "联合国《特定常规武器公约》第七次审议大会经过数小时密集磋商，于周六凌晨在瑞士日内瓦闭幕。会议最终同意，在未来两年内继续推进制定一项关于致命性自主武器系统的国际文书，但未能就直接启动具有法律约束力的规则谈判达成一致。",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 74,
+    "score": 85.1
+   },
+   {
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "【世界进行时】2026年11月20日",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "date": "2026-11-20",
+    "summary": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 74,
+    "score": 85.1
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/Memory/20261123-41496.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "晋达半导体即将亮相MTS2027，全面展现AI及工业领域硬实力",
+    "url": "https://www.dramx.com/News/Memory/20261123-41496.html",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "tag": "半导体",
+    "raw": 88.30000000000001,
+    "score": 83.885
+   }
+  ],
+  "counts": {
+   "total": 183,
+   "today": 20,
+   "semiconductor": 28,
+   "ai": 49
+  }
+ },
+ "consensus": {
+  "available": true,
+  "intlSourcesUp": 8,
+  "cnSourcesUp": 7,
+  "topics": [],
+  "note": "境外 8 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "cnOnly": []
+ },
+ "health": [
+  {
+   "id": "dramx",
+   "name": "TrendForce 集邦咨询",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 16,
+   "ms": 2609
+  },
+  {
+   "id": "gov-gwy",
+   "name": "中国政府网 · 国务院文件",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 1514
+  },
+  {
+   "id": "gov-yaowen",
+   "name": "中国政府网 · 要闻",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 1282
+  },
+  {
+   "id": "gov-zuixin",
+   "name": "中国政府网 · 最新政策",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 1366
+  },
+  {
+   "id": "guancha",
+   "name": "观察者网",
+   "region": "cn",
+   "kind": "media",
+   "ok": true,
+   "count": 30,
+   "ms": 1878
+  },
+  {
+   "id": "huanqiu",
+   "name": "环球网",
+   "region": "cn",
+   "kind": "media",
+   "ok": true,
+   "count": 30,
+   "ms": 1719
+  },
+  {
+   "id": "ithome",
+   "name": "IT之家",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 40,
+   "ms": 1507
+  },
+  {
+   "id": "qbitai",
+   "name": "量子位",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 2565
+  },
+  {
+   "id": "sspai",
+   "name": "少数派",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 1220
+  },
+  {
+   "id": "arxiv",
+   "name": "arXiv cs.AI",
+   "region": "intl",
+   "kind": "academic",
+   "ok": true,
+   "count": 15,
+   "ms": 197
+  },
+  {
+   "id": "bbc",
+   "name": "BBC World",
+   "region": "intl",
+   "kind": "media",
+   "ok": true,
+   "count": 34,
+   "ms": 115
+  },
+  {
+   "id": "bbc-tech",
+   "name": "BBC Technology",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 21,
+   "ms": 23
+  },
+  {
+   "id": "eetimes",
+   "name": "EE Times",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 1132
+  },
+  {
+   "id": "hn",
+   "name": "Hacker News",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 319
+  },
+  {
+   "id": "reuters",
+   "name": "Reuters",
+   "region": "intl",
+   "kind": "media",
+   "ok": false,
+   "count": 0,
+   "ms": 2856,
+   "error": "HTTP 404"
+  },
+  {
+   "id": "techcrunch",
+   "name": "TechCrunch",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 135
+  },
+  {
+   "id": "theverge",
+   "name": "The Verge",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 145
+  },
+  {
+   "id": "un-news",
+   "name": "联合国新闻（中文）",
+   "region": "intl",
+   "kind": "official",
+   "ok": true,
+   "count": 30,
+   "ms": 224
+  },
+  {
+   "id": "zaobao",
+   "name": "联合早报",
+   "region": "intl",
+   "kind": "media",
+   "ok": true,
+   "count": 18,
+   "ms": 353
+  }
+ ]
+}
