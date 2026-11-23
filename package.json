@@ -1,0 +1,17 @@
+{
+  "name": "jinri-zuobiao",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "今日坐标：每天四格的个人信息简报（国务院 / 科技AI半导体 / 内外共识 / 普通人的今天）",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:ci": "node src/build.mjs --ci",
+    "serve": "node src/serve.mjs 8099",
+    "dry": "node src/build.mjs --dry",
+    "postinstall": "echo '无依赖，直接 node src/build.mjs'"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
