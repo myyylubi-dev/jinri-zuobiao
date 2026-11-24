@@ -1,0 +1,820 @@
+{
+ "meta": {
+  "date": "2026-11-25",
+  "weekday": "周三",
+  "generatedAt": "2026-11-24T23:50:42.694Z",
+  "mode": "ci",
+  "totalItems": 432,
+  "cnSources": 9,
+  "cnSourceTotal": 9,
+  "intlSources": 9,
+  "intlSourceTotal": 10,
+  "schema": 1
+ },
+ "day": {
+  "type": "正常一天",
+  "dist": {
+   "normal": 37,
+   "possibility": 30,
+   "foresight": 33
+  },
+  "score": {
+   "sF": 34,
+   "sP": 30,
+   "sN": 38
+  },
+  "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
+  "signals": [
+   {
+    "bucket": "possibility",
+    "w": 15,
+    "text": "市场异动 3 条：英伟达股价盘前跌超 5%，黄仁勋回归带来的暴涨…",
+    "tag": "market"
+   },
+   {
+    "bucket": "foresight",
+    "w": 8,
+    "text": "技术节点：全球首次！量子计算机装上“高速内存”",
+    "tag": "tech-anchor"
+   },
+   {
+    "bucket": "foresight",
+    "w": 4.4,
+    "text": "1月1日（37 天后）起施行：基金会管理条例",
+    "tag": "policy-effective"
+   },
+   {
+    "bucket": "foresight",
+    "w": 4.4,
+    "text": "1月1日（37 天后）起施行：中医药传统知识保护条例",
+    "tag": "policy-effective"
+   }
+  ],
+  "takeaways": [
+   {
+    "label": "政策",
+    "text": "今天没有新增，最近一次是 15 天前的《基金会管理条例》，最近一个施行节点在 1月1日。"
+   },
+   {
+    "label": "科技",
+    "text": "值得记一笔：Faisal Islam: Fears over the AI b…（BBC Tech）。"
+   },
+   {
+    "label": "内外",
+    "text": "今天没有一个议题被两侧同时提及，属于信息上比较「各说各话」的一天。"
+   }
+  ],
+  "actions": [
+   "科技面值得跟进：Faisal Islam: Fears over th…。"
+  ],
+  "upcoming": [
+   {
+    "date": "2027-01-01",
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "days": 37,
+    "docNumber": "国令第848号"
+   },
+   {
+    "date": "2027-01-01",
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "days": 37,
+    "docNumber": "国令第850号"
+   }
+  ]
+ },
+ "overview": [
+  {
+   "label": "政策",
+   "text": "今天没有新增，最近一次是 15 天前的《基金会管理条例》，最近一个施行节点在 1月1日。"
+  },
+  {
+   "label": "科技",
+   "text": "Faisal Islam: Fears over the AI boom …（BBC Tech）"
+  },
+  {
+   "label": "合作",
+   "text": "“十五五”时期我国将持续深化“一带一路”经贸合作（要闻）"
+  },
+  {
+   "label": "产业",
+   "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+  }
+ ],
+ "impact": [
+  {
+   "title": "基金会管理条例",
+   "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+   "short": "最新政策",
+   "affects": "行业",
+   "horizon": "3 个月内",
+   "text": "1月1日 起施行，主要约束机构与企业，个人短期影响有限。"
+  },
+  {
+   "title": "“十五五”时期我国将持续深化“一带一路”经贸合作",
+   "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087254.htm",
+   "short": "要闻",
+   "affects": "行业",
+   "horizon": "1-3 个月",
+   "text": "规则与机制先动，价格和供给要过一段才传到终端。"
+  },
+  {
+   "title": "HBM、SSD、GPU、MLCC产能告急",
+   "url": "https://www.dramx.com/News/server/20261106-41404.html",
+   "short": "集邦",
+   "affects": "两者",
+   "horizon": "1-3 个月",
+   "text": "价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+  }
+ ],
+ "summary": {
+  "people": [
+   {
+    "label": "要不要动",
+    "text": "今天没有必须立刻处理的事，可以把注意力留给长期的事。"
+   },
+   {
+    "label": "与你最近",
+    "text": "HBM、SSD、GPU、MLCC产能告急——价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+   },
+   {
+    "label": "下一个节点",
+    "text": "1月1日（37 天后）起《基金会管理条例》施行。"
+   }
+  ],
+  "pro": [
+   {
+    "label": "产业面",
+    "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+   },
+   {
+    "label": "对外",
+    "text": "“十五五”时期我国将持续深化“一带一路”经贸合作｜机制类 · 一带一路"
+   },
+   {
+    "label": "技术面",
+    "text": "Faisal Islam: Fears over the AI…（AI）"
+   }
+  ]
+ },
+ "gov": {
+  "headline": "今天国务院层面无新增文件；最近一次文件是 15 天前（11月10日）",
+  "todayCount": 0,
+  "newsCount": 0,
+  "weekCount": 0,
+  "items": [
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "date": "2026-11-10",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第848号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。",
+    "org": "国务院令"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "date": "2026-11-09",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第850号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。",
+    "org": "国务院令"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国家统计局职能配置、内设机构和人员编制规定",
+    "url": "https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "date": "2026-11-06",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "2026-10-28",
+    "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。",
+    "org": "国家层面"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": [],
+    "docNumber": "​国函〔2026〕113号",
+    "effectiveAt": "",
+    "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
+    "org": "国务院"
+   }
+  ],
+  "recent": [
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "date": "2026-11-10",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第848号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "date": "2026-11-09",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第850号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国家统计局职能配置、内设机构和人员编制规定",
+    "url": "https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "date": "2026-11-06",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "2026-10-28",
+    "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": [],
+    "docNumber": "​国函〔2026〕113号",
+    "effectiveAt": "",
+    "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院办公厅关于2027年部分节假日安排的通知",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于修改和废止部分行政法规的决定",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "事业单位登记管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "date": "2026-10-26",
+    "summary": "",
+    "categories": []
+   }
+  ],
+  "latestDate": "2026-11-10",
+  "latestTitle": "基金会管理条例"
+ },
+ "tech": {
+  "items": [
+   {
+    "key": "bbc-tech:https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc-tech",
+    "sourceName": "BBC Technology",
+    "short": "BBC Tech",
+    "region": "intl",
+    "kind": "tech",
+    "weight": 78,
+    "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+    "url": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-24",
+    "summary": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
+    "categories": [],
+    "tag": "AI",
+    "raw": 89.9,
+    "score": 125.86
+   },
+   {
+    "key": "bbc-tech:https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc-tech",
+    "sourceName": "BBC Technology",
+    "short": "BBC Tech",
+    "region": "intl",
+    "kind": "tech",
+    "weight": 78,
+    "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
+    "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-24",
+    "summary": "Meta wants Muse to do for AI what WhatsApp did for messaging - here's what the BBC's technology editor found when she used it.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 89.9,
+    "score": 125.86
+   },
+   {
+    "key": "eetimes:https://www.eetimes.com/from-precision-to-autonomous-agriculture-the-role-of-edge-ai-and-robotics/",
+    "sourceId": "eetimes",
+    "sourceName": "EE Times",
+    "short": "EE Times",
+    "region": "intl",
+    "kind": "tech",
+    "weight": 74,
+    "title": "From Precision to Autonomous Agriculture: The Role of Edge AI and Robotics",
+    "url": "https://www.eetimes.com/from-precision-to-autonomous-agriculture-the-role-of-edge-ai-and-robotics/",
+    "date": "2026-11-24",
+    "summary": "Edge AI and robotics bring greater precision and autonomy to agricultural machinery, from targeted spraying to harvesting. The post From Precision to Autonomous Agriculture: The Role of Edge AI and Robotics appeared fir…",
+    "categories": [
+     "Blog",
+     "Opinion",
+     "automated driving",
+     "autonomous vehicles",
+     "edge AI",
+     "Farm autonomy",
+     "Robotics",
+     "sensor processing",
+     "smart agriculture"
+    ],
+    "tag": "AI",
+    "raw": 87.7,
+    "score": 122.78
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/Memory/20261124-41503.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "全球首次！量子计算机装上“高速内存”",
+    "url": "https://www.dramx.com/News/Memory/20261124-41503.html",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 88.30000000000001,
+    "score": 101.545
+   },
+   {
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143247",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "联合国有关管制“杀人机器人”谈判达成最低限度共识",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143247",
+    "date": "2026-11-21",
+    "summary": "联合国《特定常规武器公约》第七次审议大会经过数小时密集磋商，于周六凌晨在瑞士日内瓦闭幕。会议最终同意，在未来两年内继续推进制定一项关于致命性自主武器系统的国际文书，但未能就直接启动具有法律约束力的规则谈判达成一致。",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 74,
+    "score": 85.1
+   },
+   {
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "【世界进行时】2026年11月20日",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "date": "2026-11-20",
+    "summary": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 74,
+    "score": 85.1
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/IC/20261124-41498.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "艾为电子披露重组预案，拟收购钰泰半导体100%股份",
+    "url": "https://www.dramx.com/News/IC/20261124-41498.html",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "tag": "半导体",
+    "raw": 88.30000000000001,
+    "score": 83.885
+   }
+  ],
+  "counts": {
+   "total": 184,
+   "today": 25,
+   "semiconductor": 31,
+   "ai": 51
+  }
+ },
+ "coop": {
+  "items": [
+   {
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087254.htm",
+    "sourceId": "gov-yaowen",
+    "sourceName": "中国政府网 · 要闻",
+    "short": "要闻",
+    "region": "cn",
+    "kind": "机制",
+    "weight": 90,
+    "title": "“十五五”时期我国将持续深化“一带一路”经贸合作",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087254.htm",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "where": [
+     "一带一路"
+    ],
+    "firms": [],
+    "score": 53
+   },
+   {
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
+    "sourceId": "gov-yaowen",
+    "sourceName": "中国政府网 · 要闻",
+    "short": "要闻",
+    "region": "cn",
+    "kind": "机制",
+    "weight": 90,
+    "title": "丁薛祥访问新加坡并主持中新双边合作机制会议",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
+    "date": "2026-11-23",
+    "summary": "",
+    "categories": [],
+    "where": [
+     "新加坡"
+    ],
+    "firms": [],
+    "score": 53
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/Memory/20261124-41497.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "贸易",
+    "weight": 66,
+    "title": "三星存储长约订单持续饱满，同步推进西安 NAND 产线扩产",
+    "url": "https://www.dramx.com/News/Memory/20261124-41497.html",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "三星"
+    ],
+    "score": 43
+   }
+  ],
+  "total": 4,
+  "note": ""
+ },
+ "industry": {
+  "items": [
+   {
+    "key": "dramx:https://www.dramx.com/News/server/20261106-41404.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "HBM、SSD、GPU、MLCC产能告急",
+    "url": "https://www.dramx.com/News/server/20261106-41404.html",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "score": 57
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20260514-40422.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "CoWoS产能告急，英特尔EMIB搅动风",
+    "url": "https://www.dramx.com/News/made-sealing/20260514-40422.html",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "score": 57
+   },
+   {
+    "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261125-10052990?ref=today-news-section-card-2",
+    "sourceId": "zaobao",
+    "sourceName": "联合早报",
+    "short": "早报",
+    "region": "intl",
+    "kind": "media",
+    "weight": 64,
+    "title": "美国两党议员施压英伟达 要求加强对华晶片出口管制",
+    "url": "https://www.zaobao.com.sg/news/world/story20261125-10052990?ref=today-news-section-card-2",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "score": 56
+   },
+   {
+    "key": "huanqiu:https://world.huanqiu.com/article/4UABf9YLK7r",
+    "sourceId": "huanqiu",
+    "sourceName": "环球网",
+    "short": "环球",
+    "region": "cn",
+    "kind": "media",
+    "weight": 56,
+    "title": "财经观察：日本靠砸钱实现“稀土自由”？现实很骨感",
+    "url": "https://world.huanqiu.com/article/4UABf9YLK7r",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "score": 52
+   },
+   {
+    "key": "huanqiu:https://world.huanqiu.com/article/4U9IpLr1Fre",
+    "sourceId": "huanqiu",
+    "sourceName": "环球网",
+    "short": "环球",
+    "region": "cn",
+    "kind": "media",
+    "weight": 56,
+    "title": "发达市场增幅明显，竞争格局快速改写，中国汽车在39个市场“跑赢”日本",
+    "url": "https://world.huanqiu.com/article/4U9IpLr1Fre",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "score": 52
+   }
+  ],
+  "total": 10,
+  "note": ""
+ },
+ "consensus": {
+  "available": true,
+  "intlSourcesUp": 9,
+  "cnSourcesUp": 7,
+  "topics": [],
+  "note": "境外 9 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "cnOnly": []
+ },
+ "health": [
+  {
+   "id": "dramx",
+   "name": "TrendForce 集邦咨询",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 16,
+   "ms": 2886
+  },
+  {
+   "id": "gov-gwy",
+   "name": "中国政府网 · 国务院文件",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 1505
+  },
+  {
+   "id": "gov-yaowen",
+   "name": "中国政府网 · 要闻",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 1272
+  },
+  {
+   "id": "gov-zuixin",
+   "name": "中国政府网 · 最新政策",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 1495
+  },
+  {
+   "id": "guancha",
+   "name": "观察者网",
+   "region": "cn",
+   "kind": "media",
+   "ok": true,
+   "count": 30,
+   "ms": 3542
+  },
+  {
+   "id": "huanqiu",
+   "name": "环球网",
+   "region": "cn",
+   "kind": "media",
+   "ok": true,
+   "count": 30,
+   "ms": 2164
+  },
+  {
+   "id": "ithome",
+   "name": "IT之家",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 40,
+   "ms": 1497
+  },
+  {
+   "id": "qbitai",
+   "name": "量子位",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 3180
+  },
+  {
+   "id": "sspai",
+   "name": "少数派",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 1452
+  },
+  {
+   "id": "arxiv",
+   "name": "arXiv cs.AI",
+   "region": "intl",
+   "kind": "academic",
+   "ok": true,
+   "count": 15,
+   "ms": 213
+  },
+  {
+   "id": "bbc",
+   "name": "BBC World",
+   "region": "intl",
+   "kind": "media",
+   "ok": true,
+   "count": 31,
+   "ms": 278
+  },
+  {
+   "id": "bbc-tech",
+   "name": "BBC Technology",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 21,
+   "ms": 268
+  },
+  {
+   "id": "eetimes",
+   "name": "EE Times",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 832
+  },
+  {
+   "id": "hn",
+   "name": "Hacker News",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 72
+  },
+  {
+   "id": "reuters",
+   "name": "Reuters",
+   "region": "intl",
+   "kind": "media",
+   "ok": false,
+   "count": 0,
+   "ms": 2843,
+   "error": "HTTP 404"
+  },
+  {
+   "id": "techcrunch",
+   "name": "TechCrunch",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 66
+  },
+  {
+   "id": "theverge",
+   "name": "The Verge",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 54
+  },
+  {
+   "id": "un-news",
+   "name": "联合国新闻（中文）",
+   "region": "intl",
+   "kind": "official",
+   "ok": true,
+   "count": 30,
+   "ms": 666
+  },
+  {
+   "id": "zaobao",
+   "name": "联合早报",
+   "region": "intl",
+   "kind": "media",
+   "ok": true,
+   "count": 19,
+   "ms": 1131
+  }
+ ]
+}
