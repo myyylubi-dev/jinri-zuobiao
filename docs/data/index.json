@@ -4,9 +4,9 @@
   "weekday": "周二",
   "type": "正常一天",
   "dist": {
-   "normal": 52,
-   "possibility": 28,
-   "foresight": 20
+   "normal": 48,
+   "possibility": 33,
+   "foresight": 19
   },
   "headline": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。"
  },
@@ -15,9 +15,9 @@
   "weekday": "周一",
   "type": "正常一天",
   "dist": {
-   "normal": 75,
-   "possibility": 0,
-   "foresight": 25
+   "normal": 57,
+   "possibility": 22,
+   "foresight": 21
   },
   "headline": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。"
  }
