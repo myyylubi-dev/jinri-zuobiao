@@ -2,10 +2,10 @@
  "meta": {
   "date": "2026-11-24",
   "weekday": "周二",
-  "generatedAt": "2026-11-24T04:50:09.021Z",
+  "generatedAt": "2026-11-24T11:16:59.180Z",
   "mode": "ci",
-  "totalItems": 377,
-  "cnSources": 7,
+  "totalItems": 422,
+  "cnSources": 9,
   "cnSourceTotal": 9,
   "intlSources": 9,
   "intlSourceTotal": 10,
@@ -14,22 +14,28 @@
  "day": {
   "type": "正常一天",
   "dist": {
-   "normal": 48,
-   "possibility": 33,
-   "foresight": 19
+   "normal": 37,
+   "possibility": 30,
+   "foresight": 33
   },
   "score": {
-   "sF": 18,
+   "sF": 34,
    "sP": 30,
-   "sN": 43
+   "sN": 38
   },
   "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
   "signals": [
    {
     "bucket": "possibility",
     "w": 15,
-    "text": "市场异动 3 条：黄仁勋重掌帅印：英伟达创逾 23 年最大单日涨…",
+    "text": "市场异动 3 条：10 月欧洲纯电汽车销量同比大涨 56%，中国…",
     "tag": "market"
+   },
+   {
+    "bucket": "foresight",
+    "w": 8,
+    "text": "技术节点：全球首次！量子计算机装上“高速内存”",
+    "tag": "tech-anchor"
    },
    {
     "bucket": "foresight",
@@ -51,7 +57,7 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：US to blacklist Asian AI firm Meg…（BBC）。"
+    "text": "值得记一笔：Helpful but awkward: My week with…（BBC Tech）。"
    },
    {
     "label": "内外",
@@ -59,7 +65,7 @@
    }
   ],
   "actions": [
-   "科技面值得跟进：US to blacklist Asian AI fi…。"
+   "科技面值得跟进：Helpful but awkward: My wee…。"
   ],
   "upcoming": [
    {
@@ -85,33 +91,33 @@
   },
   {
    "label": "科技",
-   "text": "US to blacklist Asian AI firm Megaspe…（BBC）"
+   "text": "Helpful but awkward: My week with Met…（BBC Tech）"
   },
   {
    "label": "合作",
-   "text": "丁薛祥访问新加坡并主持中新双边合作机制会议（要闻）"
+   "text": "AI 热潮引爆封装基板需求，韩国 7 家中型厂商合计投资 2.8 万亿韩元…（IT之家）"
   },
   {
    "label": "产业",
-   "text": "曝荣耀首款阔折叠手机搭载 2nm 骁龙旗舰芯、2 亿影像 + 潜望长焦、同…（IT之家）"
+   "text": "大众旗下 Elli 推出双向充电桩，电动汽车能给电网供电赚钱（IT之家）"
   }
  ],
  "impact": [
   {
    "title": "基金会管理条例",
    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-   "short": "国务院文件",
+   "short": "最新政策",
    "affects": "行业",
    "horizon": "3 个月内",
    "text": "1月1日 起施行，主要约束机构与企业，个人短期影响有限。"
   },
   {
-   "title": "丁薛祥访问新加坡并主持中新双边合作机制会议",
-   "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
-   "short": "要闻",
+   "title": "AI 热潮引爆封装基板需求，韩国 7 家中型厂商合计投资 2.8 万亿韩元扩产",
+   "url": "https://www.ithome.com/1/031/715.htm",
+   "short": "IT之家",
    "affects": "行业",
    "horizon": "1-3 个月",
-   "text": "规则与机制先动，价格和供给要过一段才传到终端。"
+   "text": "产能与就业先动，价格和供给要过一段才传到终端。"
   },
   {
    "title": "HBM、SSD、GPU、MLCC产能告急",
@@ -140,15 +146,15 @@
   "pro": [
    {
     "label": "产业面",
-    "text": "曝荣耀首款阔折叠手机搭载 2nm 骁龙旗舰芯、2 亿影像 + …（IT之家）"
+    "text": "大众旗下 Elli 推出双向充电桩，电动汽车能给电网供电赚钱（IT之家）"
    },
    {
     "label": "对外",
-    "text": "丁薛祥访问新加坡并主持中新双边合作机制会议｜机制类 · 新加坡"
+    "text": "AI 热潮引爆封装基板需求，韩国 7 家中型厂商合计投资 2.…｜投资类 · 韩国、三星、LG"
    },
    {
     "label": "技术面",
-    "text": "US to blacklist Asian AI firm M…（AI）"
+    "text": "Helpful but awkward: My week wi…（AI）"
    }
   ]
  },
@@ -159,17 +165,17 @@
   "weekCount": 0,
   "items": [
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "基金会管理条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
@@ -177,17 +183,17 @@
     "org": "国务院令"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "中医药传统知识保护条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -213,22 +219,22 @@
     "org": "国家层面"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "summary": "",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
-    "org": "国务院文件"
+    "org": "国务院"
    },
    {
     "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087104.htm",
@@ -251,34 +257,34 @@
   ],
   "recent": [
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "基金会管理条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
     "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "中医药传统知识保护条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -302,62 +308,62 @@
     "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "summary": "",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
-    "region": "cn",
-    "kind": "official",
-    "weight": 100,
-    "title": "国务院关于修改和废止部分行政法规的决定",
-    "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
-    "date": "2026-11-05",
-    "summary": "国务院关于修改和废止部分行政法规的决定",
-    "categories": []
-   },
-   {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院办公厅关于2027年部分节假日安排的通知",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
     "date": "2026-11-05",
-    "summary": "国务院办公厅关于2027年部分节假日安排的通知",
+    "summary": "",
     "categories": []
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于修改和废止部分行政法规的决定",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "事业单位登记管理条例",
     "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
     "date": "2026-10-26",
-    "summary": "事业单位登记管理条例",
+    "summary": "",
     "categories": []
    }
   ],
@@ -367,21 +373,40 @@
  "tech": {
   "items": [
    {
-    "key": "bbc:https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-    "sourceId": "bbc",
-    "sourceName": "BBC World",
-    "short": "BBC",
+    "key": "bbc-tech:https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc-tech",
+    "sourceName": "BBC Technology",
+    "short": "BBC Tech",
     "region": "intl",
-    "kind": "media",
-    "weight": 82,
-    "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-    "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-11-23",
-    "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
+    "kind": "tech",
+    "weight": 78,
+    "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
+    "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-24",
+    "summary": "Meta wants Muse to do for AI what WhatsApp did for messaging - here's what the BBC's technology editor found when she used it.",
     "categories": [],
     "tag": "AI",
-    "raw": 92.1,
-    "score": 128.94
+    "raw": 98.9,
+    "score": 138.46
+   },
+   {
+    "key": "eetimes:https://www.eetimes.com/nsing-featured-cra-ai-robotics-motor-control-and-digital-energy-at-electronica-2026/",
+    "sourceId": "eetimes",
+    "sourceName": "EE Times",
+    "short": "EE Times",
+    "region": "intl",
+    "kind": "tech",
+    "weight": 74,
+    "title": "NSING Featured CRA, AI Robotics, Motor Control and Digital Energy at electronica 2026",
+    "url": "https://www.eetimes.com/nsing-featured-cra-ai-robotics-motor-control-and-digital-energy-at-electronica-2026/",
+    "date": "2026-11-24",
+    "summary": "At electronica 2026 in Munich, NSING exhibited 35 solutions built on N32‑series MCUs, N32WB BLE SoCs and NS350 TPM, covering AI robotics, motor control and digital energy, and presented its CRA compliance offerings. The…",
+    "categories": [
+     "Sponsored content"
+    ],
+    "tag": "AI",
+    "raw": 96.7,
+    "score": 135.38
    },
    {
     "key": "bbc:https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
@@ -401,38 +426,44 @@
     "score": 128.94
    },
    {
-    "key": "dramx:https://www.dramx.com/News/igbt/20261123-41494.html",
+    "key": "dramx:https://www.dramx.com/News/Memory/20261124-41503.html",
     "sourceId": "dramx",
     "sourceName": "TrendForce 集邦咨询",
     "short": "集邦",
     "region": "cn",
     "kind": "tech",
     "weight": 66,
-    "title": "英飞凌与麦格米特合作推动800 VDC AI数据中心电源架构发展",
-    "url": "https://www.dramx.com/News/igbt/20261123-41494.html",
+    "title": "全球首次！量子计算机装上“高速内存”",
+    "url": "https://www.dramx.com/News/Memory/20261124-41503.html",
     "date": "2026-11-24",
     "summary": "",
     "categories": [],
-    "tag": "AI",
+    "tag": "前沿",
     "raw": 88.30000000000001,
-    "score": 123.62
+    "score": 101.545
    },
    {
-    "key": "ithome:https://www.ithome.com/1/031/317.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
+    "key": "qbitai:https://www.qbitai.com/2026/11/512362.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
     "region": "cn",
     "kind": "tech",
-    "weight": 58,
-    "title": "我国 400 米“庐州塔”封顶，用于大气环境气象梯度观测",
-    "url": "https://www.ithome.com/1/031/317.htm",
+    "weight": 72,
+    "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+    "url": "https://www.qbitai.com/2026/11/512362.html",
     "date": "2026-11-24",
-    "summary": "IT之家 11 月 24 日消息，据央视新闻报道，今天（24 日），坐落于安徽合肥未来大科学城的 400 米大气环境气象梯度观测塔（庐州塔）项目主塔钢结构完成第 42 节吊装作业，主塔结构顺利封顶 。 庐州塔是一座集大气污染梯度、温室气体通量、气象全要素精细化连续观测为一体的大型科研设施 ，总高 410 米，在稳定边界层、逆温层、低空急流、城市热岛环流等过程研究中具有明显优势。 该塔配备 23 个固定观测平台和 1 个可连续升降观测舱…",
-    "categories": [],
-    "tag": "前沿",
-    "raw": 81.9,
-    "score": 94.185
+    "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路",
+    "categories": [
+     "资讯",
+     "首页轮播",
+     "端侧AI",
+     "端侧超节点",
+     "辛米尔科技"
+    ],
+    "tag": "半导体",
+    "raw": 91.6,
+    "score": 87.02
    },
    {
     "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143247",
@@ -467,34 +498,61 @@
     "tag": "前沿",
     "raw": 74,
     "score": 85.1
-   },
-   {
-    "key": "dramx:https://www.dramx.com/News/IC/20261124-41498.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 66,
-    "title": "艾为电子披露重组预案，拟收购钰泰半导体100%股份",
-    "url": "https://www.dramx.com/News/IC/20261124-41498.html",
-    "date": "2026-11-24",
-    "summary": "",
-    "categories": [],
-    "tag": "半导体",
-    "raw": 88.30000000000001,
-    "score": 83.885
    }
   ],
   "counts": {
-   "total": 165,
-   "today": 70,
-   "semiconductor": 23,
-   "ai": 40
+   "total": 180,
+   "today": 83,
+   "semiconductor": 22,
+   "ai": 42
   }
  },
  "coop": {
   "items": [
+   {
+    "key": "ithome:https://www.ithome.com/1/031/715.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "投资",
+    "weight": 58,
+    "title": "AI 热潮引爆封装基板需求，韩国 7 家中型厂商合计投资 2.8 万亿韩元扩产",
+    "url": "https://www.ithome.com/1/031/715.htm",
+    "date": "2026-11-24",
+    "summary": "IT之家 11 月 24 日消息，据韩媒 The Elec 报道，受人工智能（AI）产业快速发展带动，全球半导体需求持续增长，封装基板供应紧张问题日益突出。继三星电机、LG Innotek 等大型厂商之后，韩国中型封装基板供应商也开始大规模扩产。 其中，韩国大德电子（Daeduck Electronics）、Isu Petasys、Simmtech、TLB、Korea Circuit、Haesung DS 和 BH 7 家企业今年相继…",
+    "categories": [],
+    "where": [
+     "韩国"
+    ],
+    "firms": [
+     "三星",
+     "LG"
+    ],
+    "score": 57
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/031/656.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "贸易",
+    "weight": 58,
+    "title": "大众平价电动汽车订单突破 15 万辆，ID. Polo 等交付周期最长接近两年",
+    "url": "https://www.ithome.com/1/031/656.htm",
+    "date": "2026-11-24",
+    "summary": "IT之家 11 月 24 日消息，大众汽车集团旗下大众、斯柯达和西雅特等品牌的小型电动汽车正迎来远超预期的市场需求，但产能扩张速度跟不上订单增长，部分车型在德国的等待时间已接近两年。 据西班牙媒体 Motor.es 报道称，大众 ID. Polo 两厢电动车目前已累计获得超过 5 万份订单，是大众集团全新“电动城市车家族”（Electric Urban Car Family）中最畅销的车型之一。其中，最入门版本在德国的交付等待时间最长…",
+    "categories": [],
+    "where": [
+     "德国",
+     "西班牙"
+    ],
+    "firms": [
+     "大众"
+    ],
+    "score": 55
+   },
    {
     "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
     "sourceId": "gov-yaowen",
@@ -534,55 +592,40 @@
     "score": 43
    }
   ],
-  "total": 3,
+  "total": 5,
   "note": ""
  },
  "industry": {
   "items": [
    {
-    "key": "ithome:https://www.ithome.com/1/031/457.htm",
+    "key": "ithome:https://www.ithome.com/1/031/795.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
     "kind": "tech",
     "weight": 58,
-    "title": "曝荣耀首款阔折叠手机搭载 2nm 骁龙旗舰芯、2 亿影像 + 潜望长焦、同档最大电池",
-    "url": "https://www.ithome.com/1/031/457.htm",
+    "title": "大众旗下 Elli 推出双向充电桩，电动汽车能给电网供电赚钱",
+    "url": "https://www.ithome.com/1/031/795.htm",
     "date": "2026-11-24",
-    "summary": "IT之家 11 月 24 日消息，阔比例折叠屏手机热卖后，更多手机厂商有望开始跟进相关品类产品。 据博主 @数码闲聊站 今日爆料了 荣耀首款阔折叠手机 ，有望在 2027 年 3 月前后发布。 爆料称新机主打无感折痕铰链，搭载 7.6 英寸左右阔屏、2nm 骁龙旗舰芯，以及 2 亿影像 + 潜望长焦， 还有同档最大电池 。 IT之家注意到，在 11 月 23 日的 荣耀 700 系列追光之旅暨全场景新品发布会后，荣耀 CEO 李健宣布…",
+    "summary": "IT之家 11 月 24 日消息，大众集团旗下子公司 Elli 让欧洲用户停放的电动汽车变成创收工具，该公司新款双向充电桩可以让适配的电动汽车向电网回输电力，车辆每保持接入状态一小时，车主就能获得相应报酬。 Elli 是大众内部负责能源与充电业务的部门，正准备面向德国私人用户推出车到电网业务，目前已经在部分家庭开展实测。这套方案搭配全新硬件、两种电价套餐以及一款可以自动安排充放电计划的应用程序。 Elli 双向充电桩是一款紧凑型直流设…",
     "categories": [],
     "score": 59
    },
    {
-    "key": "ithome:https://www.ithome.com/1/031/424.htm",
+    "key": "ithome:https://www.ithome.com/1/031/708.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
     "kind": "tech",
     "weight": 58,
-    "title": "特斯拉拟斥资 31 亿美元在得州建设光伏多晶硅工厂，目标 2030 年投运",
-    "url": "https://www.ithome.com/1/031/424.htm",
+    "title": "中国“小跑车”SC01 将闯欧洲：意大利工厂拟明年 5 月投产",
+    "url": "https://www.ithome.com/1/031/708.htm",
     "date": "2026-11-24",
-    "summary": "IT之家 11 月 24 日消息，Tesla（特斯拉）上周向美国得克萨斯州有关部门递交申请，希望其拟议的光伏级多晶硅工厂能得到该州的税收优惠支持。 IT之家获悉，这一项目 计划投资规模达 31 亿美元 （IT之家注：现汇率约合 207.06 亿元人民币） ，考虑落地南得州的 Nueces。该工厂 预计 2030 年投入运营 ，到 2032 年员工总数达到 515 人。 特斯拉首席执行官 Elon Musk（埃隆 · 马斯克）今年初曾表…",
+    "summary": "IT之家 11 月 24 日消息，当地时间 23 日，据外媒 insideevs 报道，中国“小跑车”SC01 准备进军欧洲市场。为此，SC01 将在意大利建立专属生产基地 ，计划于 2027 年 5 月投产。 这款双门跑车由天津工匠派汽车科技开发，将在意大利中部由 FIPA Europe 负责组装。FIPA Europe 目前从事中国微型汽车的生产，作为 SC01 的进口商，该公司已在意大利马尔凯大区敲定一处现有工业厂区，预计明年年…",
     "categories": [],
     "score": 59
-   },
-   {
-    "key": "dramx:https://www.dramx.com/News/server/20261123-41492.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 66,
-    "title": "天孚通信落地南昌高速光器件制造项目",
-    "url": "https://www.dramx.com/News/server/20261123-41492.html",
-    "date": "2026-11-24",
-    "summary": "",
-    "categories": [],
-    "score": 57
    },
    {
     "key": "dramx:https://www.dramx.com/News/server/20261106-41404.html",
@@ -600,30 +643,45 @@
     "score": 57
    },
    {
-    "key": "huanqiu:https://world.huanqiu.com/article/4U9IpLr1Fre",
-    "sourceId": "huanqiu",
-    "sourceName": "环球网",
-    "short": "环球",
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20260514-40422.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
     "region": "cn",
-    "kind": "media",
-    "weight": 56,
-    "title": "发达市场增幅明显，竞争格局快速改写，中国汽车在39个市场“跑赢”日本",
-    "url": "https://world.huanqiu.com/article/4U9IpLr1Fre",
+    "kind": "tech",
+    "weight": 66,
+    "title": "CoWoS产能告急，英特尔EMIB搅动风",
+    "url": "https://www.dramx.com/News/made-sealing/20260514-40422.html",
     "date": "2026-11-24",
     "summary": "",
     "categories": [],
-    "score": 52
+    "score": 57
+   },
+   {
+    "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261124-10049833",
+    "sourceId": "zaobao",
+    "sourceName": "联合早报",
+    "short": "早报",
+    "region": "intl",
+    "kind": "media",
+    "weight": 64,
+    "title": "美国航空业故障频发 感恩节出行高峰考验航空系统",
+    "url": "https://www.zaobao.com.sg/news/world/story20261124-10049833",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "score": 56
    }
   ],
-  "total": 10,
+  "total": 17,
   "note": ""
  },
  "consensus": {
   "available": true,
   "intlSourcesUp": 9,
-  "cnSourcesUp": 5,
+  "cnSourcesUp": 7,
   "topics": [],
-  "note": "境外 9 个源、境内 5 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "note": "境外 9 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
   "cnOnly": []
  },
  "health": [
@@ -634,7 +692,7 @@
    "kind": "tech",
    "ok": true,
    "count": 16,
-   "ms": 4648
+   "ms": 2964
   },
   {
    "id": "gov-gwy",
@@ -643,7 +701,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 776
+   "ms": 993
   },
   {
    "id": "gov-yaowen",
@@ -652,7 +710,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 826
+   "ms": 759
   },
   {
    "id": "gov-zuixin",
@@ -661,17 +719,16 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 905
+   "ms": 675
   },
   {
    "id": "guancha",
    "name": "观察者网",
    "region": "cn",
    "kind": "media",
-   "ok": false,
-   "count": 0,
-   "ms": 20714,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 30,
+   "ms": 2655
   },
   {
    "id": "huanqiu",
@@ -680,7 +737,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 1442
+   "ms": 720
   },
   {
    "id": "ithome",
@@ -689,17 +746,16 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 969
+   "ms": 968
   },
   {
    "id": "qbitai",
    "name": "量子位",
    "region": "cn",
    "kind": "tech",
-   "ok": false,
-   "count": 0,
-   "ms": 30000,
-   "error": "硬超时 30s"
+   "ok": true,
+   "count": 10,
+   "ms": 2792
   },
   {
    "id": "sspai",
@@ -708,7 +764,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1186
+   "ms": 1627
   },
   {
    "id": "arxiv",
@@ -717,7 +773,7 @@
    "kind": "academic",
    "ok": true,
    "count": 15,
-   "ms": 98
+   "ms": 191
   },
   {
    "id": "bbc",
@@ -725,8 +781,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 22,
-   "ms": 290
+   "count": 24,
+   "ms": 354
   },
   {
    "id": "bbc-tech",
@@ -735,7 +791,7 @@
    "kind": "tech",
    "ok": true,
    "count": 21,
-   "ms": 48
+   "ms": 87
   },
   {
    "id": "eetimes",
@@ -744,7 +800,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 162
+   "ms": 148
   },
   {
    "id": "hn",
@@ -753,7 +809,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 4346
+   "ms": 2286
   },
   {
    "id": "reuters",
@@ -762,7 +818,7 @@
    "kind": "media",
    "ok": false,
    "count": 0,
-   "ms": 3361,
+   "ms": 2535,
    "error": "HTTP 404"
   },
   {
@@ -772,7 +828,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 84
+   "ms": 73
   },
   {
    "id": "theverge",
@@ -781,7 +837,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 126
+   "ms": 48
   },
   {
    "id": "un-news",
@@ -790,7 +846,7 @@
    "kind": "official",
    "ok": true,
    "count": 30,
-   "ms": 84
+   "ms": 205
   },
   {
    "id": "zaobao",
@@ -798,8 +854,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 13,
-   "ms": 362
+   "count": 16,
+   "ms": 115
   }
  ]
 }
