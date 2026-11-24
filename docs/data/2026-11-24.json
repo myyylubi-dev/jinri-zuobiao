@@ -2,9 +2,9 @@
  "meta": {
   "date": "2026-11-24",
   "weekday": "周二",
-  "generatedAt": "2026-11-23T23:51:43.843Z",
+  "generatedAt": "2026-11-24T04:33:14.875Z",
   "mode": "ci",
-  "totalItems": 434,
+  "totalItems": 417,
   "cnSources": 9,
   "cnSourceTotal": 9,
   "intlSources": 9,
@@ -28,7 +28,7 @@
    {
     "bucket": "possibility",
     "w": 12,
-    "text": "市场异动 2 条：黄仁勋恢复 CEO 职务：英伟达美股开盘大涨 …",
+    "text": "市场异动 2 条：知乎宣布间接投资 DeepSeek，股价应声大…",
     "tag": "market"
    },
    {
@@ -51,7 +51,7 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：US to blacklist Asian AI firm Meg…（BBC）。"
+    "text": "值得记一笔：释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业…（量子位）。"
    },
    {
     "label": "内外",
@@ -59,7 +59,7 @@
    }
   ],
   "actions": [
-   "科技面值得跟进：US to blacklist Asian AI fi…。"
+   "科技面值得跟进：释放AI与出海强预期，近1500人参与亿邦产业互联网年…。"
   ],
   "upcoming": [
    {
@@ -79,23 +79,23 @@
   ]
  },
  "gov": {
-  "headline": "今天国务院层面无新增文件；最近一次文件是 14 天前（11月10日）",
+  "headline": "今天国务院层面无新增文件，政府网要闻 4 条；最近一次文件是 14 天前（11月10日）",
   "todayCount": 0,
-  "newsCount": 0,
+  "newsCount": 4,
   "weekCount": 0,
   "items": [
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "",
+    "summary": "基金会管理条例",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
@@ -103,17 +103,17 @@
     "org": "国务院令"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "",
+    "summary": "中医药传统知识保护条例",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -139,54 +139,72 @@
     "org": "国家层面"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "",
+    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
-    "org": "国务院"
+    "org": "国务院文件"
+   },
+   {
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087104.htm",
+    "sourceId": "gov-yaowen",
+    "sourceName": "中国政府网 · 要闻",
+    "short": "要闻",
+    "region": "cn",
+    "kind": "official",
+    "weight": 90,
+    "title": "习近平向“声援巴勒斯坦人民国际日”纪念大会致贺电",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087104.htm",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "",
+    "excerpt": "11月23日，联合国举行“声援巴勒斯坦人民国际日”纪念大会，国家主席习近平向大会致贺电。",
+    "org": "要闻"
    }
   ],
   "recent": [
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "",
+    "summary": "基金会管理条例",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
     "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "",
+    "summary": "中医药传统知识保护条例",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -210,62 +228,62 @@
     "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "",
+    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
-    "region": "cn",
-    "kind": "official",
-    "weight": 100,
-    "title": "国务院办公厅关于2027年部分节假日安排的通知",
-    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
-    "date": "2026-11-05",
-    "summary": "",
-    "categories": []
-   },
-   {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于修改和废止部分行政法规的决定",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
     "date": "2026-11-05",
-    "summary": "",
+    "summary": "国务院关于修改和废止部分行政法规的决定",
     "categories": []
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院办公厅关于2027年部分节假日安排的通知",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "date": "2026-11-05",
+    "summary": "国务院办公厅关于2027年部分节假日安排的通知",
+    "categories": []
+   },
+   {
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "事业单位登记管理条例",
     "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
     "date": "2026-10-26",
-    "summary": "",
+    "summary": "事业单位登记管理条例",
     "categories": []
    }
   ],
@@ -274,6 +292,46 @@
  },
  "tech": {
   "items": [
+   {
+    "key": "qbitai:https://www.qbitai.com/2026/11/512305.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 72,
+    "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+    "url": "https://www.qbitai.com/2026/11/512305.html",
+    "date": "2026-11-24",
+    "summary": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+    "categories": [
+     "资讯",
+     "亿邦动力"
+    ],
+    "tag": "AI",
+    "raw": 95.6,
+    "score": 133.83999999999997
+   },
+   {
+    "key": "qbitai:https://www.qbitai.com/2026/11/512297.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 72,
+    "title": "“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！",
+    "url": "https://www.qbitai.com/2026/11/512297.html",
+    "date": "2026-11-24",
+    "summary": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
+    "categories": [
+     "资讯",
+     "csdn"
+    ],
+    "tag": "AI",
+    "raw": 95.6,
+    "score": 133.83999999999997
+   },
    {
     "key": "bbc:https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
     "sourceId": "bbc",
@@ -292,60 +350,21 @@
     "score": 128.94
    },
    {
-    "key": "bbc:https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-    "sourceId": "bbc",
-    "sourceName": "BBC World",
-    "short": "BBC",
-    "region": "intl",
-    "kind": "media",
-    "weight": 82,
-    "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-    "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-11-23",
-    "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
-    "categories": [],
-    "tag": "AI",
-    "raw": 92.1,
-    "score": 128.94
-   },
-   {
-    "key": "dramx:https://www.dramx.com/News/igbt/20261123-41494.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
+    "key": "ithome:https://www.ithome.com/1/031/317.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
     "region": "cn",
     "kind": "tech",
-    "weight": 66,
-    "title": "英飞凌与麦格米特合作推动800 VDC AI数据中心电源架构发展",
-    "url": "https://www.dramx.com/News/igbt/20261123-41494.html",
+    "weight": 58,
+    "title": "我国 400 米“庐州塔”封顶，用于大气环境气象梯度观测",
+    "url": "https://www.ithome.com/1/031/317.htm",
     "date": "2026-11-24",
-    "summary": "",
+    "summary": "IT之家 11 月 24 日消息，据央视新闻报道，今天（24 日），坐落于安徽合肥未来大科学城的 400 米大气环境气象梯度观测塔（庐州塔）项目主塔钢结构完成第 42 节吊装作业，主塔结构顺利封顶 。 庐州塔是一座集大气污染梯度、温室气体通量、气象全要素精细化连续观测为一体的大型科研设施 ，总高 410 米，在稳定边界层、逆温层、低空急流、城市热岛环流等过程研究中具有明显优势。 该塔配备 23 个固定观测平台和 1 个可连续升降观测舱…",
     "categories": [],
-    "tag": "AI",
-    "raw": 88.30000000000001,
-    "score": 123.62
-   },
-   {
-    "key": "qbitai:https://www.qbitai.com/2026/11/512179.html",
-    "sourceId": "qbitai",
-    "sourceName": "量子位",
-    "short": "量子位",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 72,
-    "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
-    "url": "https://www.qbitai.com/2026/11/512179.html",
-    "date": "2026-11-23",
-    "summary": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
-    "categories": [
-     "资讯",
-     "XROBO",
-     "具身智能",
-     "机器人"
-    ],
     "tag": "前沿",
-    "raw": 82.6,
-    "score": 94.98999999999998
+    "raw": 81.9,
+    "score": 94.185
    },
    {
     "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143247",
@@ -382,15 +401,15 @@
     "score": 85.1
    },
    {
-    "key": "dramx:https://www.dramx.com/News/Memory/20261123-41496.html",
+    "key": "dramx:https://www.dramx.com/News/IC/20261124-41498.html",
     "sourceId": "dramx",
     "sourceName": "TrendForce 集邦咨询",
     "short": "集邦",
     "region": "cn",
     "kind": "tech",
     "weight": 66,
-    "title": "晋达半导体即将亮相MTS2027，全面展现AI及工业领域硬实力",
-    "url": "https://www.dramx.com/News/Memory/20261123-41496.html",
+    "title": "艾为电子披露重组预案，拟收购钰泰半导体100%股份",
+    "url": "https://www.dramx.com/News/IC/20261124-41498.html",
     "date": "2026-11-24",
     "summary": "",
     "categories": [],
@@ -400,18 +419,18 @@
    }
   ],
   "counts": {
-   "total": 183,
-   "today": 20,
-   "semiconductor": 28,
-   "ai": 49
+   "total": 177,
+   "today": 74,
+   "semiconductor": 23,
+   "ai": 48
   }
  },
  "consensus": {
   "available": true,
-  "intlSourcesUp": 8,
+  "intlSourcesUp": 9,
   "cnSourcesUp": 7,
   "topics": [],
-  "note": "境外 8 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "note": "境外 9 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
   "cnOnly": []
  },
  "health": [
@@ -422,7 +441,7 @@
    "kind": "tech",
    "ok": true,
    "count": 16,
-   "ms": 2609
+   "ms": 2674
   },
   {
    "id": "gov-gwy",
@@ -431,7 +450,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1514
+   "ms": 554
   },
   {
    "id": "gov-yaowen",
@@ -440,7 +459,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1282
+   "ms": 617
   },
   {
    "id": "gov-zuixin",
@@ -449,7 +468,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1366
+   "ms": 700
   },
   {
    "id": "guancha",
@@ -458,7 +477,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 1878
+   "ms": 1887
   },
   {
    "id": "huanqiu",
@@ -467,7 +486,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 1719
+   "ms": 640
   },
   {
    "id": "ithome",
@@ -476,7 +495,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 1507
+   "ms": 795
   },
   {
    "id": "qbitai",
@@ -485,7 +504,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 2565
+   "ms": 1868
   },
   {
    "id": "sspai",
@@ -494,7 +513,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1220
+   "ms": 1984
   },
   {
    "id": "arxiv",
@@ -503,7 +522,7 @@
    "kind": "academic",
    "ok": true,
    "count": 15,
-   "ms": 197
+   "ms": 180
   },
   {
    "id": "bbc",
@@ -511,8 +530,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 34,
-   "ms": 115
+   "count": 22,
+   "ms": 171
   },
   {
    "id": "bbc-tech",
@@ -521,7 +540,7 @@
    "kind": "tech",
    "ok": true,
    "count": 21,
-   "ms": 23
+   "ms": 36
   },
   {
    "id": "eetimes",
@@ -530,7 +549,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1132
+   "ms": 246
   },
   {
    "id": "hn",
@@ -539,7 +558,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 319
+   "ms": 1267
   },
   {
    "id": "reuters",
@@ -548,7 +567,7 @@
    "kind": "media",
    "ok": false,
    "count": 0,
-   "ms": 2856,
+   "ms": 3388,
    "error": "HTTP 404"
   },
   {
@@ -558,7 +577,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 135
+   "ms": 137
   },
   {
    "id": "theverge",
@@ -567,7 +586,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 145
+   "ms": 104
   },
   {
    "id": "un-news",
@@ -576,7 +595,7 @@
    "kind": "official",
    "ok": true,
    "count": 30,
-   "ms": 224
+   "ms": 92
   },
   {
    "id": "zaobao",
@@ -584,8 +603,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 18,
-   "ms": 353
+   "count": 13,
+   "ms": 245
   }
  ]
 }
