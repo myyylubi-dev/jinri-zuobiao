@@ -2,29 +2,35 @@
  "meta": {
   "date": "2026-11-23",
   "weekday": "周一",
-  "generatedAt": "2026-11-23T11:24:13.489Z",
-  "mode": "ci",
-  "totalItems": 437,
+  "generatedAt": "2026-11-23T02:50:55.912Z",
+  "mode": "local",
+  "totalItems": 286,
   "cnSources": 9,
   "cnSourceTotal": 9,
-  "intlSources": 9,
-  "intlSourceTotal": 10,
+  "intlSources": 1,
+  "intlSourceTotal": 1,
   "schema": 1
  },
  "day": {
   "type": "正常一天",
   "dist": {
-   "normal": 75,
-   "possibility": 0,
-   "foresight": 25
+   "normal": 57,
+   "possibility": 22,
+   "foresight": 21
   },
   "score": {
    "sF": 18,
-   "sP": 0,
-   "sN": 54
+   "sP": 18,
+   "sN": 48
   },
   "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
   "signals": [
+   {
+    "bucket": "possibility",
+    "w": 9,
+    "text": "市场异动 1 条：台股暴跌 卓荣泰据报召集金融业及产业代表商讨救市",
+    "tag": "market"
+   },
    {
     "bucket": "foresight",
     "w": 4.4,
@@ -45,15 +51,15 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：San Francisco is enjoying an AI b…（BBC）。"
+    "text": "值得记一笔：韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 年重新收缴手机（IT之家）。"
    },
    {
     "label": "内外",
-    "text": "今天没有一个议题被两侧同时提及，属于信息上比较「各说各话」的一天。"
+    "text": "同一件事两边都在说：亚太与 APEC。境内 8 条、境外 1 条，语气基本同向。"
    }
   ],
   "actions": [
-   "科技面值得跟进：San Francisco is enjoying a…。"
+   "科技面值得跟进：韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 …。"
   ],
   "upcoming": [
    {
@@ -73,23 +79,23 @@
   ]
  },
  "gov": {
-  "headline": "今天国务院层面无新增文件，政府网要闻 6 条；最近一次文件是 13 天前（11月10日）",
+  "headline": "今天国务院层面无新增文件，政府网要闻 2 条；最近一次文件是 13 天前（11月10日）",
   "todayCount": 0,
-  "newsCount": 6,
+  "newsCount": 2,
   "weekCount": 0,
   "items": [
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "",
+    "summary": "基金会管理条例",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
@@ -97,17 +103,17 @@
     "org": "国务院令"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "",
+    "summary": "中医药传统知识保护条例",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -133,72 +139,72 @@
     "org": "国家层面"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "",
+    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
-    "org": "国务院"
+    "org": "国务院文件"
    },
    {
-    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087041.htm",
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087015.htm",
     "sourceId": "gov-yaowen",
     "sourceName": "中国政府网 · 要闻",
     "short": "要闻",
     "region": "cn",
     "kind": "official",
     "weight": 90,
-    "title": "丁薛祥会见新加坡副总理颜金勇并共同主持中新双边合作机制会议",
-    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087041.htm",
+    "title": "吴政隆：增强干部干事创业本领",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087015.htm",
     "date": "2026-11-23",
     "summary": "",
     "categories": [],
     "docNumber": "",
     "effectiveAt": "",
-    "excerpt": "国务院副总理丁薛祥在新加坡会见新加坡副总理颜金勇，并共同主持中新双边合作联委会第二十二次会议、中新苏州工业园区联合协调理事会第二十七次会议、中新天津生态城联合协调理事会第十八次会议和中新（重庆）战略性互联互通示范项目联合协调理事会第十次会议。",
+    "excerpt": "现中华民族伟大复兴，坚持和发展中国特色社会主义，关键在党，关键在人，关键在于建设一支高素质专业化干部队伍。党的十八大以来，习近平总书记对锻造堪当民族复兴重任的高素质干部队伍作出一系列重要论述，对增强干部能力本领作出一系列重要指示。党的二十届五中全会通过的《中…",
     "org": "要闻"
    }
   ],
   "recent": [
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "",
+    "summary": "基金会管理条例",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
     "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "",
+    "summary": "中医药传统知识保护条例",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -222,62 +228,62 @@
     "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "",
+    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。"
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
-    "region": "cn",
-    "kind": "official",
-    "weight": 100,
-    "title": "国务院办公厅关于2027年部分节假日安排的通知",
-    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
-    "date": "2026-11-05",
-    "summary": "",
-    "categories": []
-   },
-   {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于修改和废止部分行政法规的决定",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
     "date": "2026-11-05",
-    "summary": "",
+    "summary": "国务院关于修改和废止部分行政法规的决定",
     "categories": []
    },
    {
-    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
-    "sourceId": "gov-zuixin",
-    "sourceName": "中国政府网 · 最新政策",
-    "short": "最新政策",
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院办公厅关于2027年部分节假日安排的通知",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "date": "2026-11-05",
+    "summary": "国务院办公厅关于2027年部分节假日安排的通知",
+    "categories": []
+   },
+   {
+    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "sourceId": "gov-gwy",
+    "sourceName": "中国政府网 · 国务院文件",
+    "short": "国务院文件",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "事业单位登记管理条例",
     "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
     "date": "2026-10-26",
-    "summary": "",
+    "summary": "事业单位登记管理条例",
     "categories": []
    }
   ],
@@ -287,155 +293,180 @@
  "tech": {
   "items": [
    {
-    "key": "bbc:https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-    "sourceId": "bbc",
-    "sourceName": "BBC World",
-    "short": "BBC",
+    "key": "ithome:https://www.ithome.com/1/030/770.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 年重新收缴手机",
+    "url": "https://www.ithome.com/1/030/770.htm",
+    "date": "2026-11-23",
+    "summary": "IT之家 11 月 23 日消息，据韩媒报道，韩国第 28 届警卫指导师考试前日开考。据考生所述，本次考试加强了作弊防范力度，去年只要求将手机和手表放在包里，今年全部收走。 考场还要求考生穿上餐馆使用的一次性围裙 ，各处都悬挂着禁止作弊的标语。 受韩国一税务师榜首考生自曝使用 AI 作弊影响，韩国 753 种国家资格考试开始加强反作弊措施。尽管此前已宣布严格监考，但警卫指导师考试仍有 6 人因作弊行为被查处，违规情况包括让平板电脑或手…",
+    "categories": [],
+    "tag": "AI",
+    "raw": 87.9,
+    "score": 123.06
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/030/769.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "四部门：鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品",
+    "url": "https://www.ithome.com/1/030/769.htm",
+    "date": "2026-11-23",
+    "summary": "IT之家 11 月 23 日消息，今日，发改委等四部门印发《“一老一小”服务体系建设实施方案》。 其中提到，支持养老、托育机构应用智能管理服务、智慧消防安防等系统，提升管理水平。推动养老机构配置智能健康监测、辅助器具等设备。 鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品 ，支持在养老机构、社区等场景应用或设置体验区。鼓励有条件的地方利用电子政务服务平台等汇总各类信息，为家庭获取上门服务提供便利渠道。 IT…",
+    "categories": [],
+    "tag": "AI",
+    "raw": 87.9,
+    "score": 123.06
+   },
+   {
+    "key": "zaobao:https://www.zaobao.com.sg/news/china/story20261122-10037617?ref=home-top-news",
+    "sourceId": "zaobao",
+    "sourceName": "联合早报",
+    "short": "早报",
     "region": "intl",
     "kind": "media",
-    "weight": 82,
-    "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-    "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+    "weight": 64,
+    "title": "中国消费者AI算力服务需求快增 官方将健全AI词元标准规范",
+    "url": "https://www.zaobao.com.sg/news/china/story20261122-10037617?ref=home-top-news",
     "date": "2026-11-23",
-    "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
+    "summary": "",
     "categories": [],
     "tag": "AI",
-    "raw": 101.1,
-    "score": 141.54
+    "raw": 87.2,
+    "score": 122.08
    },
    {
-    "key": "eetimes:https://www.eetimes.com/the-enigma-of-softbanks-1-trillion-sk-hynix-buyout-attempt/",
-    "sourceId": "eetimes",
-    "sourceName": "EE Times",
-    "short": "EE Times",
+    "key": "dramx:https://www.dramx.com/News/IC/20261123-41493.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "星思半导体港股IPO获证监会备案",
+    "url": "https://www.dramx.com/News/IC/20261123-41493.html",
+    "date": "2026-11-23",
+    "summary": "",
+    "categories": [],
+    "tag": "半导体",
+    "raw": 88.30000000000001,
+    "score": 83.885
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20261123-41491.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "思特威拟15亿元增资CIS晶圆代工厂",
+    "url": "https://www.dramx.com/News/made-sealing/20261123-41491.html",
+    "date": "2026-11-23",
+    "summary": "",
+    "categories": [],
+    "tag": "半导体",
+    "raw": 88.30000000000001,
+    "score": 83.885
+   },
+   {
+    "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261123-10040889?ref=home-top-news",
+    "sourceId": "zaobao",
+    "sourceName": "联合早报",
+    "short": "早报",
     "region": "intl",
-    "kind": "tech",
-    "weight": 74,
-    "title": "The Enigma of SoftBank’s $1 Trillion SK Hynix Buyout Attempt",
-    "url": "https://www.eetimes.com/the-enigma-of-softbanks-1-trillion-sk-hynix-buyout-attempt/",
+    "kind": "media",
+    "weight": 64,
+    "title": "贝森特：美国正就英伟达对华出售晶片寻求解释",
+    "url": "https://www.zaobao.com.sg/news/world/story20261123-10040889?ref=home-top-news",
     "date": "2026-11-23",
-    "summary": "Here is why it was a non-starter and what the story reveals about memory’s strategic appeal in the AI buildup. The post The Enigma of SoftBank’s $1 Trillion SK Hynix Buyout Attempt appeared first on EE Times .",
-    "categories": [
-     "News",
-     "Supply Chain & Distribution",
-     "AI accelerator",
-     "AI infrastructure",
-     "High-Bandwidth Memory",
-     "mergers and acquisitions",
-     "Semiconductors",
-     "supply chain"
-    ],
-    "tag": "AI",
-    "raw": 96.7,
-    "score": 135.38
-   },
-   {
-    "key": "qbitai:https://www.qbitai.com/2026/11/511978.html",
-    "sourceId": "qbitai",
-    "sourceName": "量子位",
-    "short": "量子位",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 72,
-    "title": "当大模型接上真实机器人：RoboChallenge Zero首期评测发布",
-    "url": "https://www.qbitai.com/2026/11/511978.html",
-    "date": "2026-11-23",
-    "summary": "RoboChallenge正式发布全新评测基准RoboChallenge Zero",
-    "categories": [
-     "资讯",
-     "RoboChallenge Zero"
-    ],
-    "tag": "AI",
-    "raw": 95.6,
-    "score": 133.83999999999997
-   },
-   {
-    "key": "qbitai:https://www.qbitai.com/2026/11/512179.html",
-    "sourceId": "qbitai",
-    "sourceName": "量子位",
-    "short": "量子位",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 72,
-    "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
-    "url": "https://www.qbitai.com/2026/11/512179.html",
-    "date": "2026-11-23",
-    "summary": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
-    "categories": [
-     "资讯",
-     "XROBO",
-     "具身智能",
-     "机器人"
-    ],
-    "tag": "前沿",
-    "raw": 91.6,
-    "score": 105.33999999999999
-   },
-   {
-    "key": "ithome:https://www.ithome.com/1/031/160.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 58,
-    "title": "联想推出来酷外骨骼机器人行者 ONE 穿戴式助行设备，6999 元",
-    "url": "https://www.ithome.com/1/031/160.htm",
-    "date": "2026-11-23",
-    "summary": "IT之家 11 月 23 日消息，联想现已在京东上架来酷外骨骼机器人行者 ONE 穿戴式助行设备，将于 11 月 28 日发售， 定价为 7999 元，首发价 6999 元 。 京东 来酷行者 ONE 外骨骼机器人 6999 元 直达链接 该产品净重 1.8kg，提供 IP54 防护等级，机身采用 3 点承托分散局部压力，配合 3 点 1 扣锁紧，15s 可完成穿脱。其具备通透与智能运动模式，双髋峰值扭矩至高 38N·m，峰值功率 9…",
+    "summary": "",
     "categories": [],
-    "tag": "前沿",
-    "raw": 87.9,
-    "score": 101.085
+    "tag": "半导体",
+    "raw": 87.2,
+    "score": 82.84
    },
    {
-    "key": "ithome:https://www.ithome.com/1/031/015.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
+    "key": "sspai:https://sspai.com/post/119291",
+    "sourceId": "sspai",
+    "sourceName": "少数派",
+    "short": "少数派",
     "region": "cn",
     "kind": "tech",
-    "weight": 58,
-    "title": "《GTA6》里“特斯拉”自带防盗系统，初次偷车会被自动驾驶送到警察局",
-    "url": "https://www.ithome.com/1/031/015.htm",
-    "date": "2026-11-23",
-    "summary": "IT之家 11 月 23 日消息，电动汽车在《GTA 6》中成为主流交通工具之一，游戏中的罪恶城街头随处可见电动汽车和充电站。事实上，如果玩家尝试在游戏中偷窃电动汽车，可能会遇到意想不到的“惊喜”。 据外媒 4Gamers 报道，玩家在解锁钥匙复制器后，如果使用露西娅角色偷窃一款外观明显致敬特斯拉 Model S 的“旋风雷电（Cyclone Thunder）”汽车，上车后汽车便会激活防盗系统，随即锁闭车门开启自动驾驶，把玩家送到警察…",
+    "weight": 42,
+    "title": "这群在鸿蒙写应用的年轻人，只想做点「用得上」的",
+    "url": "https://sspai.com/post/119291",
+    "date": "2026-11-21",
+    "summary": "上周末，今年正式被列入「全国普通高校学科竞赛排行榜」的2026鸿蒙高校创新赛在南京大学迎来全国总决赛颁奖典礼。华为董事、终端BGCEO何刚出席现场致辞并为获奖选手颁奖。他在现场表示，HarmonyOS ... 查看全文",
     "categories": [],
-    "tag": "前沿",
-    "raw": 87.9,
-    "score": 101.085
-   },
-   {
-    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143245",
-    "sourceId": "un-news",
-    "sourceName": "联合国新闻（中文）",
-    "short": "联合国",
-    "region": "intl",
-    "kind": "official",
-    "weight": 80,
-    "title": "【世界进行时】2026年11月20日",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
-    "date": "2026-11-20",
-    "summary": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
-    "categories": [],
-    "tag": "前沿",
-    "raw": 74,
-    "score": 85.1
+    "tag": "产品",
+    "raw": 61.1,
+    "score": 51.935
    }
   ],
   "counts": {
-   "total": 178,
-   "today": 85,
-   "semiconductor": 17,
-   "ai": 50
+   "total": 86,
+   "today": 61,
+   "semiconductor": 18,
+   "ai": 19
   }
  },
  "consensus": {
   "available": true,
-  "intlSourcesUp": 7,
+  "intlSourcesUp": 1,
   "cnSourcesUp": 7,
-  "topics": [],
-  "note": "境外 7 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "topics": [
+   {
+    "id": "apec",
+    "label": "亚太与 APEC",
+    "zhCount": 8,
+    "enCount": 1,
+    "zh": {
+     "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7086992.htm",
+     "sourceId": "gov-yaowen",
+     "sourceName": "中国政府网 · 要闻",
+     "short": "要闻",
+     "region": "cn",
+     "kind": "official",
+     "weight": 90,
+     "title": "为共创亚太美好未来汇聚信心与力量——习近平主席APEC深圳会议期间系列重要讲话引发全球热烈反响",
+     "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086992.htm",
+     "date": "2026-11-21",
+     "summary": "",
+     "categories": []
+    },
+    "intl": {
+     "key": "zaobao:https://www.zaobao.com.sg/news/china/story20261123-10038949?ref=home-top-news",
+     "sourceId": "zaobao",
+     "sourceName": "联合早报",
+     "short": "早报",
+     "region": "intl",
+     "kind": "media",
+     "weight": 64,
+     "title": "戴庆成：深圳APEC峰会，香港错过了什么？",
+     "url": "https://www.zaobao.com.sg/news/china/story20261123-10038949?ref=home-top-news",
+     "date": "2026-11-23",
+     "summary": "",
+     "categories": []
+    },
+    "shared": [
+     "APEC"
+    ],
+    "zt": 0,
+    "et": 0,
+    "agree": true,
+    "strength": 76
+   }
+  ],
+  "note": "境外 1 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
   "cnOnly": []
  },
  "health": [
@@ -446,7 +477,7 @@
    "kind": "tech",
    "ok": true,
    "count": 16,
-   "ms": 4920
+   "ms": 1528
   },
   {
    "id": "gov-gwy",
@@ -455,7 +486,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1390
+   "ms": 4097
   },
   {
    "id": "gov-yaowen",
@@ -464,7 +495,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1171
+   "ms": 4747
   },
   {
    "id": "gov-zuixin",
@@ -473,7 +504,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1255
+   "ms": 4944
   },
   {
    "id": "guancha",
@@ -482,7 +513,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 1556
+   "ms": 414
   },
   {
    "id": "huanqiu",
@@ -491,7 +522,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 574
+   "ms": 1428
   },
   {
    "id": "ithome",
@@ -500,7 +531,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 1723
+   "ms": 2914
   },
   {
    "id": "qbitai",
@@ -509,7 +540,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 2548
+   "ms": 1173
   },
   {
    "id": "sspai",
@@ -518,89 +549,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1490
-  },
-  {
-   "id": "arxiv",
-   "name": "arXiv cs.AI",
-   "region": "intl",
-   "kind": "academic",
-   "ok": true,
-   "count": 15,
-   "ms": 104
-  },
-  {
-   "id": "bbc",
-   "name": "BBC World",
-   "region": "intl",
-   "kind": "media",
-   "ok": true,
-   "count": 35,
-   "ms": 94
-  },
-  {
-   "id": "bbc-tech",
-   "name": "BBC Technology",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 21,
-   "ms": 114
-  },
-  {
-   "id": "eetimes",
-   "name": "EE Times",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 10,
-   "ms": 214
-  },
-  {
-   "id": "hn",
-   "name": "Hacker News",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 20,
-   "ms": 22931
-  },
-  {
-   "id": "reuters",
-   "name": "Reuters",
-   "region": "intl",
-   "kind": "media",
-   "ok": false,
-   "count": 0,
-   "ms": 3506,
-   "error": "HTTP 404"
-  },
-  {
-   "id": "techcrunch",
-   "name": "TechCrunch",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 20,
-   "ms": 77
-  },
-  {
-   "id": "theverge",
-   "name": "The Verge",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 10,
-   "ms": 99
-  },
-  {
-   "id": "un-news",
-   "name": "联合国新闻（中文）",
-   "region": "intl",
-   "kind": "official",
-   "ok": true,
-   "count": 30,
-   "ms": 122
+   "ms": 691
   },
   {
    "id": "zaobao",
@@ -608,8 +557,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 20,
-   "ms": 213
+   "count": 30,
+   "ms": 2252
   }
  ]
 }
