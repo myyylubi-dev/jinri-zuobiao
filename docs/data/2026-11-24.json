@@ -2,33 +2,33 @@
  "meta": {
   "date": "2026-11-24",
   "weekday": "周二",
-  "generatedAt": "2026-11-24T04:33:14.875Z",
-  "mode": "ci",
-  "totalItems": 417,
+  "generatedAt": "2026-11-24T04:45:15.287Z",
+  "mode": "local",
+  "totalItems": 286,
   "cnSources": 9,
   "cnSourceTotal": 9,
-  "intlSources": 9,
-  "intlSourceTotal": 10,
+  "intlSources": 1,
+  "intlSourceTotal": 1,
   "schema": 1
  },
  "day": {
   "type": "正常一天",
   "dist": {
-   "normal": 52,
-   "possibility": 28,
-   "foresight": 20
+   "normal": 48,
+   "possibility": 33,
+   "foresight": 19
   },
   "score": {
    "sF": 18,
-   "sP": 24,
-   "sN": 45
+   "sP": 30,
+   "sN": 43
   },
   "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
   "signals": [
    {
     "bucket": "possibility",
-    "w": 12,
-    "text": "市场异动 2 条：知乎宣布间接投资 DeepSeek，股价应声大…",
+    "w": 15,
+    "text": "市场异动 3 条：黄仁勋重掌帅印：英伟达创逾 23 年最大单日涨…",
     "tag": "market"
    },
    {
@@ -51,7 +51,7 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业…（量子位）。"
+    "text": "值得记一笔：蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，…（量子位）。"
    },
    {
     "label": "内外",
@@ -59,7 +59,7 @@
    }
   ],
   "actions": [
-   "科技面值得跟进：释放AI与出海强预期，近1500人参与亿邦产业互联网年…。"
+   "科技面值得跟进：蚂蚁OceanBase发布湖库一体AI数据平台Ocea…。"
   ],
   "upcoming": [
    {
@@ -78,6 +78,80 @@
    }
   ]
  },
+ "overview": [
+  {
+   "label": "政策",
+   "text": "今天没有新增，最近一次是 14 天前的《基金会管理条例》，最近一个施行节点在 1月1日。"
+  },
+  {
+   "label": "科技",
+   "text": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎…（量子位）"
+  },
+  {
+   "label": "合作",
+   "text": "丁薛祥访问新加坡并主持中新双边合作机制会议（要闻）"
+  },
+  {
+   "label": "产业",
+   "text": "曝荣耀首款阔折叠手机搭载 2nm 骁龙旗舰芯、2 亿影像 + 潜望长焦、同…（IT之家）"
+  }
+ ],
+ "impact": [
+  {
+   "title": "基金会管理条例",
+   "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+   "short": "最新政策",
+   "affects": "行业",
+   "horizon": "3 个月内",
+   "text": "1月1日 起施行，主要约束机构与企业，个人短期影响有限。"
+  },
+  {
+   "title": "丁薛祥访问新加坡并主持中新双边合作机制会议",
+   "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
+   "short": "要闻",
+   "affects": "行业",
+   "horizon": "1-3 个月",
+   "text": "规则与机制先动，价格和供给要过一段才传到终端。"
+  },
+  {
+   "title": "HBM、SSD、GPU、MLCC产能告急",
+   "url": "https://www.dramx.com/News/server/20261106-41404.html",
+   "short": "集邦",
+   "affects": "两者",
+   "horizon": "1-3 个月",
+   "text": "价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+  }
+ ],
+ "summary": {
+  "people": [
+   {
+    "label": "要不要动",
+    "text": "今天没有必须立刻处理的事，可以把注意力留给长期的事。"
+   },
+   {
+    "label": "与你最近",
+    "text": "HBM、SSD、GPU、MLCC产能告急——价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+   },
+   {
+    "label": "下一个节点",
+    "text": "1月1日（38 天后）起《基金会管理条例》施行。"
+   }
+  ],
+  "pro": [
+   {
+    "label": "产业面",
+    "text": "曝荣耀首款阔折叠手机搭载 2nm 骁龙旗舰芯、2 亿影像 + …（IT之家）"
+   },
+   {
+    "label": "对外",
+    "text": "丁薛祥访问新加坡并主持中新双边合作机制会议｜机制类 · 新加坡"
+   },
+   {
+    "label": "技术面",
+    "text": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLak…（AI）"
+   }
+  ]
+ },
  "gov": {
   "headline": "今天国务院层面无新增文件，政府网要闻 4 条；最近一次文件是 14 天前（11月10日）",
   "todayCount": 0,
@@ -85,17 +159,17 @@
   "weekCount": 0,
   "items": [
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "基金会管理条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
@@ -103,17 +177,17 @@
     "org": "国务院令"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "中医药传统知识保护条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -139,22 +213,22 @@
     "org": "国家层面"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "summary": "",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
-    "org": "国务院文件"
+    "org": "国务院"
    },
    {
     "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087104.htm",
@@ -177,34 +251,34 @@
   ],
   "recent": [
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "基金会管理条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
     "date": "2026-11-10",
-    "summary": "基金会管理条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第848号",
     "effectiveAt": "2027-01-01",
     "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "中医药传统知识保护条例",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
     "date": "2026-11-09",
-    "summary": "中医药传统知识保护条例",
+    "summary": "",
     "categories": [],
     "docNumber": "国令第850号",
     "effectiveAt": "2027-01-01",
@@ -228,62 +302,62 @@
     "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
     "date": "2026-11-05",
-    "summary": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "summary": "",
     "categories": [],
     "docNumber": "​国函〔2026〕113号",
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。"
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
-    "region": "cn",
-    "kind": "official",
-    "weight": 100,
-    "title": "国务院关于修改和废止部分行政法规的决定",
-    "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
-    "date": "2026-11-05",
-    "summary": "国务院关于修改和废止部分行政法规的决定",
-    "categories": []
-   },
-   {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "国务院办公厅关于2027年部分节假日安排的通知",
     "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
     "date": "2026-11-05",
-    "summary": "国务院办公厅关于2027年部分节假日安排的通知",
+    "summary": "",
     "categories": []
    },
    {
-    "key": "gov-gwy:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
-    "sourceId": "gov-gwy",
-    "sourceName": "中国政府网 · 国务院文件",
-    "short": "国务院文件",
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于修改和废止部分行政法规的决定",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
     "region": "cn",
     "kind": "official",
     "weight": 100,
     "title": "事业单位登记管理条例",
     "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
     "date": "2026-10-26",
-    "summary": "事业单位登记管理条例",
+    "summary": "",
     "categories": []
    }
   ],
@@ -293,61 +367,61 @@
  "tech": {
   "items": [
    {
-    "key": "qbitai:https://www.qbitai.com/2026/11/512305.html",
+    "key": "qbitai:https://www.qbitai.com/2026/11/512330.html",
     "sourceId": "qbitai",
     "sourceName": "量子位",
     "short": "量子位",
     "region": "cn",
     "kind": "tech",
     "weight": 72,
-    "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
-    "url": "https://www.qbitai.com/2026/11/512305.html",
+    "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+    "url": "https://www.qbitai.com/2026/11/512330.html",
     "date": "2026-11-24",
-    "summary": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+    "summary": "中国AI数据平台加速崛起",
     "categories": [
      "资讯",
-     "亿邦动力"
+     "AI数据库"
     ],
     "tag": "AI",
-    "raw": 95.6,
-    "score": 133.83999999999997
+    "raw": 91.6,
+    "score": 128.23999999999998
    },
    {
-    "key": "qbitai:https://www.qbitai.com/2026/11/512297.html",
+    "key": "qbitai:https://www.qbitai.com/2026/11/512264.html",
     "sourceId": "qbitai",
     "sourceName": "量子位",
     "short": "量子位",
     "region": "cn",
     "kind": "tech",
     "weight": 72,
-    "title": "“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！",
-    "url": "https://www.qbitai.com/2026/11/512297.html",
+    "title": "具身行业，终于等来了自己的通用智能时刻",
+    "url": "https://www.qbitai.com/2026/11/512264.html",
     "date": "2026-11-24",
-    "summary": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
+    "summary": "行业苦等多年的预训练通用智能，终于有了答案",
     "categories": [
      "资讯",
-     "csdn"
+     "具身智能"
     ],
     "tag": "AI",
-    "raw": 95.6,
-    "score": 133.83999999999997
+    "raw": 91.6,
+    "score": 128.23999999999998
    },
    {
-    "key": "bbc:https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-    "sourceId": "bbc",
-    "sourceName": "BBC World",
-    "short": "BBC",
-    "region": "intl",
-    "kind": "media",
-    "weight": 82,
-    "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-    "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-11-23",
-    "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
+    "key": "dramx:https://www.dramx.com/News/igbt/20261123-41494.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "英飞凌与麦格米特合作推动800 VDC AI数据中心电源架构发展",
+    "url": "https://www.dramx.com/News/igbt/20261123-41494.html",
+    "date": "2026-11-24",
+    "summary": "",
     "categories": [],
     "tag": "AI",
-    "raw": 92.1,
-    "score": 128.94
+    "raw": 88.30000000000001,
+    "score": 123.62
    },
    {
     "key": "ithome:https://www.ithome.com/1/031/317.htm",
@@ -367,40 +441,6 @@
     "score": 94.185
    },
    {
-    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143247",
-    "sourceId": "un-news",
-    "sourceName": "联合国新闻（中文）",
-    "short": "联合国",
-    "region": "intl",
-    "kind": "official",
-    "weight": 80,
-    "title": "联合国有关管制“杀人机器人”谈判达成最低限度共识",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143247",
-    "date": "2026-11-21",
-    "summary": "联合国《特定常规武器公约》第七次审议大会经过数小时密集磋商，于周六凌晨在瑞士日内瓦闭幕。会议最终同意，在未来两年内继续推进制定一项关于致命性自主武器系统的国际文书，但未能就直接启动具有法律约束力的规则谈判达成一致。",
-    "categories": [],
-    "tag": "前沿",
-    "raw": 74,
-    "score": 85.1
-   },
-   {
-    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143245",
-    "sourceId": "un-news",
-    "sourceName": "联合国新闻（中文）",
-    "short": "联合国",
-    "region": "intl",
-    "kind": "official",
-    "weight": 80,
-    "title": "【世界进行时】2026年11月20日",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
-    "date": "2026-11-20",
-    "summary": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
-    "categories": [],
-    "tag": "前沿",
-    "raw": 74,
-    "score": 85.1
-   },
-   {
     "key": "dramx:https://www.dramx.com/News/IC/20261124-41498.html",
     "sourceId": "dramx",
     "sourceName": "TrendForce 集邦咨询",
@@ -416,21 +456,180 @@
     "tag": "半导体",
     "raw": 88.30000000000001,
     "score": 83.885
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/031/458.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "黄仁勋重掌帅印：英伟达创逾 23 年最大单日涨幅，助推美股科技股集体大涨",
+    "url": "https://www.ithome.com/1/031/458.htm",
+    "date": "2026-11-24",
+    "summary": "IT之家 11 月 24 日消息，科技媒体 The Information 今天（11 月 24 日）发布博文，报道称受黄仁勋复职英伟达 CEO 利好消息影响， 推动美股科技股集体大涨，提振了投资者对人工智能行业的信心，推动纳斯达克 100 指数上涨 6.8%。 英伟达宣布黄仁勋重新出任首席执行官，公司股价当天收涨 31.48%，市值回升近 1 万亿美元，创下自 2003 年 5 月以来的最佳单日表现，创逾 23 年最大单日涨幅。单日…",
+    "categories": [],
+    "tag": "半导体",
+    "raw": 87.9,
+    "score": 83.505
+   },
+   {
+    "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261124-10044970?ref=home-top-news",
+    "sourceId": "zaobao",
+    "sourceName": "联合早报",
+    "short": "早报",
+    "region": "intl",
+    "kind": "media",
+    "weight": 64,
+    "title": "特朗普称黄仁勋复职是正确决定 促英伟达继续内部调查",
+    "url": "https://www.zaobao.com.sg/news/world/story20261124-10044970?ref=home-top-news",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "tag": "半导体",
+    "raw": 87.2,
+    "score": 82.84
    }
   ],
   "counts": {
-   "total": 177,
-   "today": 74,
+   "total": 81,
+   "today": 65,
    "semiconductor": 23,
-   "ai": 48
+   "ai": 20
   }
+ },
+ "coop": {
+  "items": [
+   {
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
+    "sourceId": "gov-yaowen",
+    "sourceName": "中国政府网 · 要闻",
+    "short": "要闻",
+    "region": "cn",
+    "kind": "机制",
+    "weight": 90,
+    "title": "丁薛祥访问新加坡并主持中新双边合作机制会议",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
+    "date": "2026-11-23",
+    "summary": "",
+    "categories": [],
+    "where": [
+     "新加坡"
+    ],
+    "firms": [],
+    "score": 53
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/Memory/20261124-41497.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "贸易",
+    "weight": 66,
+    "title": "三星存储长约订单持续饱满，同步推进西安 NAND 产线扩产",
+    "url": "https://www.dramx.com/News/Memory/20261124-41497.html",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "三星"
+    ],
+    "score": 43
+   }
+  ],
+  "total": 3,
+  "note": ""
+ },
+ "industry": {
+  "items": [
+   {
+    "key": "ithome:https://www.ithome.com/1/031/457.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "曝荣耀首款阔折叠手机搭载 2nm 骁龙旗舰芯、2 亿影像 + 潜望长焦、同档最大电池",
+    "url": "https://www.ithome.com/1/031/457.htm",
+    "date": "2026-11-24",
+    "summary": "IT之家 11 月 24 日消息，阔比例折叠屏手机热卖后，更多手机厂商有望开始跟进相关品类产品。 据博主 @数码闲聊站 今日爆料了 荣耀首款阔折叠手机 ，有望在 2027 年 3 月前后发布。 爆料称新机主打无感折痕铰链，搭载 7.6 英寸左右阔屏、2nm 骁龙旗舰芯，以及 2 亿影像 + 潜望长焦， 还有同档最大电池 。 IT之家注意到，在 11 月 23 日的 荣耀 700 系列追光之旅暨全场景新品发布会后，荣耀 CEO 李健宣布…",
+    "categories": [],
+    "score": 59
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/031/424.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "特斯拉拟斥资 31 亿美元在得州建设光伏多晶硅工厂，目标 2030 年投运",
+    "url": "https://www.ithome.com/1/031/424.htm",
+    "date": "2026-11-24",
+    "summary": "IT之家 11 月 24 日消息，Tesla（特斯拉）上周向美国得克萨斯州有关部门递交申请，希望其拟议的光伏级多晶硅工厂能得到该州的税收优惠支持。 IT之家获悉，这一项目 计划投资规模达 31 亿美元 （IT之家注：现汇率约合 207.06 亿元人民币） ，考虑落地南得州的 Nueces。该工厂 预计 2030 年投入运营 ，到 2032 年员工总数达到 515 人。 特斯拉首席执行官 Elon Musk（埃隆 · 马斯克）今年初曾表…",
+    "categories": [],
+    "score": 59
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/server/20261123-41492.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "天孚通信落地南昌高速光器件制造项目",
+    "url": "https://www.dramx.com/News/server/20261123-41492.html",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "score": 57
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/server/20261106-41404.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "HBM、SSD、GPU、MLCC产能告急",
+    "url": "https://www.dramx.com/News/server/20261106-41404.html",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "score": 57
+   },
+   {
+    "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261124-10046706?ref=home-top-news",
+    "sourceId": "zaobao",
+    "sourceName": "联合早报",
+    "short": "早报",
+    "region": "intl",
+    "kind": "media",
+    "weight": 64,
+    "title": "美国两党议员批黄仁勋复职 呼吁收紧对华晶片出口",
+    "url": "https://www.zaobao.com.sg/news/world/story20261124-10046706?ref=home-top-news",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "score": 56
+   }
+  ],
+  "total": 13,
+  "note": ""
  },
  "consensus": {
   "available": true,
-  "intlSourcesUp": 9,
+  "intlSourcesUp": 1,
   "cnSourcesUp": 7,
   "topics": [],
-  "note": "境外 9 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "note": "境外 1 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
   "cnOnly": []
  },
  "health": [
@@ -441,7 +640,7 @@
    "kind": "tech",
    "ok": true,
    "count": 16,
-   "ms": 2674
+   "ms": 1241
   },
   {
    "id": "gov-gwy",
@@ -450,7 +649,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 554
+   "ms": 10427
   },
   {
    "id": "gov-yaowen",
@@ -459,7 +658,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 617
+   "ms": 4948
   },
   {
    "id": "gov-zuixin",
@@ -468,7 +667,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 700
+   "ms": 7028
   },
   {
    "id": "guancha",
@@ -477,7 +676,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 1887
+   "ms": 2640
   },
   {
    "id": "huanqiu",
@@ -486,7 +685,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 640
+   "ms": 1763
   },
   {
    "id": "ithome",
@@ -495,7 +694,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 795
+   "ms": 4418
   },
   {
    "id": "qbitai",
@@ -504,7 +703,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1868
+   "ms": 1829
   },
   {
    "id": "sspai",
@@ -513,89 +712,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1984
-  },
-  {
-   "id": "arxiv",
-   "name": "arXiv cs.AI",
-   "region": "intl",
-   "kind": "academic",
-   "ok": true,
-   "count": 15,
-   "ms": 180
-  },
-  {
-   "id": "bbc",
-   "name": "BBC World",
-   "region": "intl",
-   "kind": "media",
-   "ok": true,
-   "count": 22,
-   "ms": 171
-  },
-  {
-   "id": "bbc-tech",
-   "name": "BBC Technology",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 21,
-   "ms": 36
-  },
-  {
-   "id": "eetimes",
-   "name": "EE Times",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 10,
-   "ms": 246
-  },
-  {
-   "id": "hn",
-   "name": "Hacker News",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 20,
-   "ms": 1267
-  },
-  {
-   "id": "reuters",
-   "name": "Reuters",
-   "region": "intl",
-   "kind": "media",
-   "ok": false,
-   "count": 0,
-   "ms": 3388,
-   "error": "HTTP 404"
-  },
-  {
-   "id": "techcrunch",
-   "name": "TechCrunch",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 20,
-   "ms": 137
-  },
-  {
-   "id": "theverge",
-   "name": "The Verge",
-   "region": "intl",
-   "kind": "tech",
-   "ok": true,
-   "count": 10,
-   "ms": 104
-  },
-  {
-   "id": "un-news",
-   "name": "联合国新闻（中文）",
-   "region": "intl",
-   "kind": "official",
-   "ok": true,
-   "count": 30,
-   "ms": 92
+   "ms": 690
   },
   {
    "id": "zaobao",
@@ -603,8 +720,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 13,
-   "ms": 245
+   "count": 30,
+   "ms": 4081
   }
  ]
 }
