@@ -181,7 +181,10 @@ async function govPanel(items, today) {
 /* ------------------------------------------------------ 面板二：科技 */
 
 function techPanel(items, today) {
-  const base = items.filter((i) => i.kind === 'tech' || i.kind === 'academic' || TECH_ANY.test(i.title + i.summary));
+  const adRe = /(报名|从速|扫码|限时|免费领|招募|预约直播|直播预告|促销|开售提醒)/;
+  const base = items
+    .filter((i) => i.kind === 'tech' || i.kind === 'academic' || TECH_ANY.test(i.title + i.summary))
+    .filter((i) => !adRe.test(i.title));
   const fresh = (n) => base.filter((i) => daysBetween(i.date, today) <= n);
   let pool = fresh(7);
   if (pool.length < 12) pool = fresh(14);
@@ -193,8 +196,10 @@ function techPanel(items, today) {
     const hits = (hay.match(TECH_ANY) || []).length;
     const age = Math.max(0, daysBetween(it.date, today));
     const raw = it.weight * 0.55 + (rule ? 20 : 0) + Math.min(hits, 4) * 3 + Math.max(0, 26 - age * 9) + (it.summary.length > 40 ? 4 : 0);
+    // 活动通稿类（年会/论坛/峰会/圆满举行）降权，它们信息密度低
+    const promo = /(年会|论坛|峰会|沙龙|圆桌|大讲堂|开幕式|圆满|隆重|举行|召开|参会)/.test(it.title) ? 0.6 : 1;
     // focus 来自 config.json：AI 应用层优先，硬件权重压低
-    const score = raw * (CONFIG.focus[tag] ?? 1);
+    const score = raw * promo * (CONFIG.focus[tag] ?? 1);
     return { ...it, tag, raw, score };
   });
   scored.sort((a, b) => b.score - a.score);
@@ -312,7 +317,113 @@ function consensusPanel(items, today) {
   };
 }
 
-/* -------------------------------------------------- 面板四：普通人 */
+/* ------------------------------------------------- 面板三：中外合作 */
+
+const COOP_NEG = /(限制|管制|制裁|禁令|收紧|调查|诉讼|反倾销|加税|加征|封锁|脱钩|批评|抨击|指责|抗议|起诉|禁售|暂停|叫停|否决|游戏|电竞|CS2|赛事|联赛|娱乐|综艺|代言)/;
+const COOP_VERB = /(签署|签订|达成|合作|联手|携手|共建|合资|并购|投资|中标|订单|采购|出口|进口|开通|互免|免签|对接|落地|揭牌|联合声明|谅解备忘录|合作协议|战略合作|经贸|双边|峰会成果|交付)/;
+const COUNTRIES = [
+  '美国', '欧盟', '欧洲', '日本', '韩国', '德国', '法国', '英国', '俄罗斯', '东盟', '新加坡', '越南',
+  '印度', '沙特', '阿联酋', '卡塔尔', '巴西', '阿根廷', '非洲', '埃及', '南非', '澳大利亚', '新西兰',
+  '加拿大', '荷兰', '瑞士', '意大利', '西班牙', '土耳其', '墨西哥', '印尼', '马来西亚', '泰国',
+  '哈萨克斯坦', '中亚', '中东', '拉美', '一带一路', '匈牙利', '塞尔维亚', '波兰',
+];
+const FOREIGN_FIRMS = [
+  '特斯拉', '苹果', '英伟达', '高通', '三星', '西门子', '宝马', '奔驰', '大众', '丰田', '本田', '日产',
+  '空客', '波音', '阿斯利康', '辉瑞', '诺和诺德', '壳牌', '道达尔', '巴斯夫', '博世', 'SK', 'LG', '现代',
+  '淡水河谷', '力拓', '必和必拓', '微软', '谷歌', '亚马逊', 'Meta', '软银', '台积电', '联发科',
+];
+
+function cooperationPanel(items, today, techItems) {
+  const recent = items.filter((i) => {
+    const d = daysBetween(i.date, today);
+    return d >= 0 && d <= 3;
+  });
+  const techKeys = new Set((techItems || []).map((t) => titleKey(t.title)));
+
+  const rows = [];
+  for (const it of recent) {
+    const hay = `${it.title} ${it.summary}`;
+    if (!COOP_VERB.test(it.title)) continue;
+    if (COOP_NEG.test(it.title)) continue;
+    const where = COUNTRIES.filter((c) => hay.includes(c));
+    const firms = FOREIGN_FIRMS.filter((f) => hay.includes(f));
+    if (!where.length && !firms.length) continue;
+    if (/^中共中央|^国务院/.test(it.title)) continue;
+
+    const kind = /(签署|签订|协议|备忘录|联合声明|战略合作|合作)/.test(it.title)
+      ? '机制'
+      : /(投资|并购|合资|建厂|增资)/.test(it.title)
+      ? '投资'
+      : /(出口|订单|中标|采购|交付)/.test(it.title)
+      ? '贸易'
+      : /(免签|互免|开通|复航)/.test(it.title)
+      ? '往来'
+      : '合作';
+
+    const score = it.weight * 0.5 + where.length * 8 + firms.length * 10 + (techKeys.has(titleKey(it.title)) ? -15 : 0);
+    rows.push({ ...it, kind, where, firms, score });
+  }
+  rows.sort((a, b) => b.score - a.score);
+
+  // 同一国家/公司最多两条，避免刷屏又不至于只剩一条
+  const picked = [];
+  const used = new Map();
+  for (const r of rows) {
+    const tag = [...r.where, ...r.firms].join('|') || '其他';
+    if ((used.get(tag) || 0) >= 2) continue;
+    // 同一人物/机构的连续报道只留一条（如「丁薛祥访问…」与「丁薛祥会见…」）
+    if (picked.some((p) => p.title.slice(0, 3) === r.title.slice(0, 3))) continue;
+    used.set(tag, (used.get(tag) || 0) + 1);
+    picked.push(r);
+    if (picked.length >= 5) break;
+  }
+
+  return {
+    items: picked,
+    total: rows.length,
+    note: picked.length ? '' : '今天没有抓到明确的中外合作类条目。',
+  };
+}
+
+/* ----------------------------------------------- 面板四：产业与其他 */
+
+const IND_KW =
+  /(汽车|新能源车|光伏|储能|锂|电池|钢铁|化工|有色|稀土|机械|制造|产能|涨价|降价|价格|订单|出口|进口|物流|航运|港口|电力|煤炭|油气|天然气|农业|粮食|消费|零售|楼市|地产|航空|医药|集采|家电|纺织|服装|旅游|餐饮|票房|制造业|工业|产量|库存|开工|投产|扩产|减产)/;
+const IND_NEG = /(游戏|电竞|CS2|赛事|联赛|电影|综艺|明星|娱乐|手游|主机游戏|抽奖|优惠券)/;
+
+function industryPanel(items, today, techItems, coopItems) {
+  const skip = new Set([...(techItems || []), ...(coopItems || [])].map((t) => titleKey(t.title)));
+  const pool = items.filter((i) => {
+    const d = daysBetween(i.date, today);
+    if (d < 0 || d > 3) return false;
+    if (i.kind === 'official') return false;
+    if (skip.has(titleKey(i.title))) return false;
+    if (!IND_KW.test(i.title)) return false;
+    if (IND_NEG.test(`${i.title} ${i.summary}`)) return false;
+    // 纯 AI / 半导体 的技术条目归 02，不在这里重复
+    if (/(大模型|人工智能|芯片|半导体|光刻|晶圆|HBM|GPU)/.test(i.title) && !/(汽车|光伏|电力|能源|制造|产能|价格|订单)/.test(i.title)) return false;
+    return true;
+  });
+
+  const scored = dedupe(pool).map((it) => {
+    const age = Math.max(0, daysBetween(it.date, today));
+    return { ...it, score: it.weight * 0.5 + Math.max(0, 24 - age * 8) + (it.summary.length > 40 ? 6 : 0) };
+  });
+  scored.sort((a, b) => b.score - a.score);
+
+  const picked = [];
+  const per = new Map();
+  for (const it of scored) {
+    if ((per.get(it.sourceId) || 0) >= 2) continue;
+    per.set(it.sourceId, (per.get(it.sourceId) || 0) + 1);
+    picked.push(it);
+    if (picked.length >= 5) break;
+  }
+
+  return { items: picked, total: scored.length, note: picked.length ? '' : '今天没有抓到产业侧的独立条目。' };
+}
+
+/* -------------------------------------------------- 面板五：普通人 */
 
 function dayPanel({ gov, tech, consensus, items, today }) {
   const signals = [];
@@ -422,13 +533,132 @@ function dayPanel({ gov, tech, consensus, items, today }) {
   };
 }
 
+/* ----------------------------------------------- 面板六：影响分析 */
+
+function impactPanel({ gov, tech, coop, industry, consensus, today }) {
+  const rows = [];
+  const seen = new Set();
+  const add = (it, affects, horizon, text) => {
+    const k = titleKey(it.title || text);
+    if (seen.has(k)) return;
+    seen.add(k);
+    rows.push({ title: it.title, url: it.url, short: it.short || it.sourceName, affects, horizon, text });
+  };
+
+  // 1. 即将施行的政策（最有确定性的一条）
+  const policyHit = (gov.recent || []).find((g) => g.effectiveAt && daysBetween(today, g.effectiveAt) >= 0 && daysBetween(today, g.effectiveAt) <= 120);
+  if (policyHit) {
+    const d = daysBetween(today, policyHit.effectiveAt);
+    const life = LIFELINE.test(policyHit.title);
+    add(
+      policyHit,
+      life ? '个人' : '行业',
+      d <= 30 ? '1 个月内' : d <= 90 ? '3 个月内' : '年内',
+      life
+        ? `${humanDate(policyHit.effectiveAt)} 起施行，规则变了；具体到你的那一条，建议点原文看。`
+        : `${humanDate(policyHit.effectiveAt)} 起施行，主要约束机构与企业，个人短期影响有限。`
+    );
+  }
+
+  // 2. 中外合作
+  if (coop.items[0]) {
+    const c = coop.items[0];
+    add(
+      c,
+      '行业',
+      '1-3 个月',
+      `${{ 机制: '规则与机制', 投资: '产能与就业', 贸易: '订单与出货', 往来: '人员流动', 合作: '合作框架' }[c.kind] || '合作'}先动，价格和供给要过一段才传到终端。`
+    );
+  }
+
+  // 3. 产业价格与产能
+  const priceItem = (industry.items || []).find((i) => /(涨价|降价|价格|产能|库存|订单|出口)/.test(i.title));
+  if (priceItem) add(priceItem, '两者', '1-3 个月', '价格与产能会先出现在企业报表里，再传到货架和你的账单上。');
+
+  // 4. 科技
+  if (tech.items[0]) {
+    const t = tech.items[0];
+    add(
+      t,
+      t.tag === '产品' ? '个人' : '行业',
+      t.tag === '产品' ? '本周' : '明年',
+      t.tag === '产品' ? '直接关系到你买不买、用不用。' : '技术侧的变化不会立刻改变你的选择，但会影响明年的价格与供给。'
+    );
+  }
+
+  return rows.slice(0, 3);
+}
+
+/* ------------------------------------------------------ 今日概览 */
+
+function buildOverview({ tech, coop, industry, consensus, day }) {
+  const out = [];
+  const seen = new Set();
+  const add = (label, text, key) => {
+    const k = titleKey(key || text);
+    if (!text || seen.has(k)) return;
+    seen.add(k);
+    out.push({ label, text });
+  };
+
+  const policy = (day.takeaways || []).find((t) => t.label === '政策');
+  if (policy) add('政策', policy.text, 'policy');
+  if (tech.items[0]) add('科技', `${clip(tech.items[0].title, 38)}（${tech.items[0].short}）`, tech.items[0].title);
+  if (coop.items[0]) add('合作', `${clip(coop.items[0].title, 38)}（${coop.items[0].short}）`, coop.items[0].title);
+  if (industry.items[0]) add('产业', `${clip(industry.items[0].title, 38)}（${industry.items[0].short}）`, industry.items[0].title);
+  if (consensus.topics[0]) {
+    const c = consensus.topics[0];
+    add('内外', `${c.label}：境内 ${c.zhCount} 条 / 境外 ${c.enCount} 条，${c.agree ? '语气同向' : '有明显温差'}`, c.zh.title);
+  }
+  return out.slice(0, 5);
+}
+
+/* --------------------------------------------- 面板七：今日总结（双线） */
+
+function buildSummary({ gov, tech, coop, industry, impact, day, today }) {
+  const people = [];
+  const pro = [];
+
+  // —— 普通人线：要不要动 → 与你最近 → 下一个节点
+  const realAction = (day.actions || []).find((a) => !a.startsWith('科技面'));
+  people.push({ label: '要不要动', text: realAction || '今天没有必须立刻处理的事，可以把注意力留给长期的事。' });
+  const personal = (impact || []).find((r) => r.affects === '个人' || r.affects === '两者');
+  if (personal) people.push({ label: '与你最近', text: `${clip(personal.title, 30)}——${personal.text}` });
+  else {
+    const lifeGov = (gov.recent || []).find((g) => LIFELINE.test(g.title));
+    if (lifeGov) people.push({ label: '政策', text: `《${clip(lifeGov.title, 26)}》${lifeGov.effectiveAt ? `，${humanDate(lifeGov.effectiveAt)} 起施行` : ''}。` });
+  }
+  if (day.upcoming && day.upcoming[0]) {
+    people.push({ label: '下一个节点', text: `${humanDate(day.upcoming[0].date)}（${relText(today, day.upcoming[0].date)}）起《${clip(day.upcoming[0].title, 22)}》施行。` });
+  }
+
+  // —— 从业者线：产业面 → 对外 → 技术面 → 要盯的数
+  if (industry.items[0]) pro.push({ label: '产业面', text: `${clip(industry.items[0].title, 32)}（${industry.items[0].short}）` });
+  if (coop.items[0]) {
+    const c = coop.items[0];
+    const who = [...c.where, ...c.firms].slice(0, 3).join('、') || '跨境';
+    pro.push({ label: '对外', text: `${clip(c.title, 32)}｜${c.kind}类 · ${who}` });
+  }
+  if (tech.items[0]) pro.push({ label: '技术面', text: `${clip(tech.items[0].title, 32)}（${tech.items[0].tag}）` });
+  const signal = (day.signals || []).find((s) => s.tag === 'market' || s.tag === 'macro');
+  if (signal) pro.push({ label: '要盯的数', text: signal.text });
+  if (!pro.length) pro.push({ label: '从业者', text: '今天没有出现值得单独标注的产业信号。' });
+
+  return { people: people.slice(0, 3), pro: pro.slice(0, 3) };
+}
+
 /* ------------------------------------------------------------------ 出口 */
 
 export async function analyze({ items, health, today, mode }) {
   const gov = await govPanel(items, today);
   const tech = techPanel(items, today);
+  const coop = cooperationPanel(items, today, tech.items);
+  const industry = industryPanel(items, today, tech.items, coop.items);
   const consensus = consensusPanel(items, today);
   const day = dayPanel({ gov, tech, consensus, items, today });
+  const impact = impactPanel({ gov, tech, coop, industry, consensus, today });
+  const overview = buildOverview({ tech, coop, industry, consensus, day });
+  const summary = buildSummary({ gov, tech, coop, industry, impact, day, today });
 
   const cnH = health.filter((h) => h.region === 'cn');
   const intlH = health.filter((h) => h.region === 'intl');
@@ -446,8 +676,13 @@ export async function analyze({ items, health, today, mode }) {
       intlSourceTotal: intlH.length,
     },
     day,
+    overview,
+    impact,
+    summary,
     gov,
     tech,
+    coop,
+    industry,
     consensus,
     health,
   };
