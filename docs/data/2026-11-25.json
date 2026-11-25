@@ -2,9 +2,9 @@
  "meta": {
   "date": "2026-11-25",
   "weekday": "周三",
-  "generatedAt": "2026-11-24T23:50:42.694Z",
+  "generatedAt": "2026-11-25T04:38:02.919Z",
   "mode": "ci",
-  "totalItems": 432,
+  "totalItems": 440,
   "cnSources": 9,
   "cnSourceTotal": 9,
   "intlSources": 9,
@@ -14,21 +14,21 @@
  "day": {
   "type": "正常一天",
   "dist": {
-   "normal": 37,
-   "possibility": 30,
-   "foresight": 33
+   "normal": 41,
+   "possibility": 25,
+   "foresight": 34
   },
   "score": {
    "sF": 34,
-   "sP": 30,
-   "sN": 38
+   "sP": 24,
+   "sN": 40
   },
   "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
   "signals": [
    {
     "bucket": "possibility",
-    "w": 15,
-    "text": "市场异动 3 条：英伟达股价盘前跌超 5%，黄仁勋回归带来的暴涨…",
+    "w": 12,
+    "text": "市场异动 2 条：实力“圈粉” 环境“留人” 上海入境外国人数创…",
     "tag": "market"
    },
    {
@@ -57,15 +57,15 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：Faisal Islam: Fears over the AI b…（BBC Tech）。"
+    "text": "值得记一笔：China-linked network using AI fak…（BBC）。"
    },
    {
     "label": "内外",
-    "text": "今天没有一个议题被两侧同时提及，属于信息上比较「各说各话」的一天。"
+    "text": "同一件事两边都在说：地缘冲突。境内 1 条、境外 2 条，语气基本同向。"
    }
   ],
   "actions": [
-   "科技面值得跟进：Faisal Islam: Fears over th…。"
+   "科技面值得跟进：China-linked network using …。"
   ],
   "upcoming": [
    {
@@ -91,7 +91,7 @@
   },
   {
    "label": "科技",
-   "text": "Faisal Islam: Fears over the AI boom …（BBC Tech）"
+   "text": "China-linked network using AI fakes t…（BBC）"
   },
   {
    "label": "合作",
@@ -99,7 +99,11 @@
   },
   {
    "label": "产业",
-   "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+   "text": "现代汽车集团发布全球慢速充电器：覆盖三大品牌，7kW / 11kW 双版本（IT之家）"
+  },
+  {
+   "label": "内外",
+   "text": "地缘冲突：境内 1 条 / 境外 2 条，语气同向"
   }
  ],
  "impact": [
@@ -120,9 +124,9 @@
    "text": "规则与机制先动，价格和供给要过一段才传到终端。"
   },
   {
-   "title": "HBM、SSD、GPU、MLCC产能告急",
-   "url": "https://www.dramx.com/News/server/20261106-41404.html",
-   "short": "集邦",
+   "title": "波音时隔九年再获中国客运航司大单：厦航 50 架 737-8 订单敲定，目录价 74 亿美元",
+   "url": "https://www.ithome.com/1/031/976.htm",
+   "short": "IT之家",
    "affects": "两者",
    "horizon": "1-3 个月",
    "text": "价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
@@ -136,7 +140,7 @@
    },
    {
     "label": "与你最近",
-    "text": "HBM、SSD、GPU、MLCC产能告急——价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+    "text": "波音时隔九年再获中国客运航司大单：厦航 50 架 737-…——价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
    },
    {
     "label": "下一个节点",
@@ -146,7 +150,7 @@
   "pro": [
    {
     "label": "产业面",
-    "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+    "text": "现代汽车集团发布全球慢速充电器：覆盖三大品牌，7kW / 11…（IT之家）"
    },
    {
     "label": "对外",
@@ -154,14 +158,14 @@
    },
    {
     "label": "技术面",
-    "text": "Faisal Islam: Fears over the AI…（AI）"
+    "text": "China-linked network using AI f…（AI）"
    }
   ]
  },
  "gov": {
-  "headline": "今天国务院层面无新增文件；最近一次文件是 15 天前（11月10日）",
+  "headline": "今天国务院层面无新增文件，政府网要闻 2 条；最近一次文件是 15 天前（11月10日）",
   "todayCount": 0,
-  "newsCount": 0,
+  "newsCount": 2,
   "weekCount": 0,
   "items": [
    {
@@ -235,6 +239,24 @@
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
     "org": "国务院"
+   },
+   {
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087269.htm",
+    "sourceId": "gov-yaowen",
+    "sourceName": "中国政府网 · 要闻",
+    "short": "要闻",
+    "region": "cn",
+    "kind": "official",
+    "weight": 90,
+    "title": "治理欠薪冬季行动动员部署视频会召开",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087269.htm",
+    "date": "2026-11-25",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "",
+    "excerpt": "国务院就业促进和劳动保护工作领导小组办公室近日召开2026年治理欠薪冬季行动动员部署视频会，会议强调，要按照重点攻坚清存量、源头预防控增量、宽严相济强震慑、守牢底线防风险的工作思路，用心用情用力化解各类欠薪问题，以更强决心、更大力度、更实举措推动落实治理欠薪…",
+    "org": "要闻"
    }
   ],
   "recent": [
@@ -355,6 +377,40 @@
  "tech": {
   "items": [
    {
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc",
+    "sourceName": "BBC World",
+    "short": "BBC",
+    "region": "intl",
+    "kind": "media",
+    "weight": 82,
+    "title": "China-linked network using AI fakes to smear Taiwan election candidates, BBC Verify finds",
+    "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-24",
+    "summary": "The network attacked key figures in the ruling DPP, including President Lai and mayoral candidate Shen.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 92.1,
+    "score": 128.94
+   },
+   {
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143258",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "安理会聚焦人工智能军事应用 古特雷斯和红十字国际委员会呼吁加强国际规范",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143258",
+    "date": "2026-11-24",
+    "summary": "联合国秘书长古特雷斯周二在安理会关于“技术快速变革时代下的冲突解决”高级别公开辩论会上警告称，人工智能正在进入战场，并带来自主武器、虚假信息和技术竞争等一系列和平与安全风险。他强调，人类必须始终掌握涉及生死的决策权，不能允许人工智能成为规避问责的借口，并呼吁紧急启动谈判，制定关于致命自主武器系统的具有法律约束力的文书。",
+    "categories": [],
+    "tag": "AI",
+    "raw": 91,
+    "score": 127.39999999999999
+   },
+   {
     "key": "bbc-tech:https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
     "sourceId": "bbc-tech",
     "sourceName": "BBC Technology",
@@ -370,50 +426,6 @@
     "tag": "AI",
     "raw": 89.9,
     "score": 125.86
-   },
-   {
-    "key": "bbc-tech:https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-    "sourceId": "bbc-tech",
-    "sourceName": "BBC Technology",
-    "short": "BBC Tech",
-    "region": "intl",
-    "kind": "tech",
-    "weight": 78,
-    "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
-    "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-11-24",
-    "summary": "Meta wants Muse to do for AI what WhatsApp did for messaging - here's what the BBC's technology editor found when she used it.",
-    "categories": [],
-    "tag": "AI",
-    "raw": 89.9,
-    "score": 125.86
-   },
-   {
-    "key": "eetimes:https://www.eetimes.com/from-precision-to-autonomous-agriculture-the-role-of-edge-ai-and-robotics/",
-    "sourceId": "eetimes",
-    "sourceName": "EE Times",
-    "short": "EE Times",
-    "region": "intl",
-    "kind": "tech",
-    "weight": 74,
-    "title": "From Precision to Autonomous Agriculture: The Role of Edge AI and Robotics",
-    "url": "https://www.eetimes.com/from-precision-to-autonomous-agriculture-the-role-of-edge-ai-and-robotics/",
-    "date": "2026-11-24",
-    "summary": "Edge AI and robotics bring greater precision and autonomy to agricultural machinery, from targeted spraying to harvesting. The post From Precision to Autonomous Agriculture: The Role of Edge AI and Robotics appeared fir…",
-    "categories": [
-     "Blog",
-     "Opinion",
-     "automated driving",
-     "autonomous vehicles",
-     "edge AI",
-     "Farm autonomy",
-     "Robotics",
-     "sensor processing",
-     "smart agriculture"
-    ],
-    "tag": "AI",
-    "raw": 87.7,
-    "score": 122.78
    },
    {
     "key": "dramx:https://www.dramx.com/News/Memory/20261124-41503.html",
@@ -433,6 +445,23 @@
     "score": 101.545
    },
    {
+    "key": "ithome:https://www.ithome.com/1/032/062.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "众擎 CEO 赵同阳：人形机器人进入商业化关键阶段，下一阶段比拼的是工程能力",
+    "url": "https://www.ithome.com/1/032/062.htm",
+    "date": "2026-11-25",
+    "summary": "IT之家 11 月 25 日消息，据新浪科技报道，众擎机器人创始人兼 CEO 赵同阳今日在众擎机器人全球开发者大会表示，人形机器人正处在从整机量产走向商业化应用的关键阶段，下一阶段的竞争不再只是能不能造出来，而是考验多方面的工程能力。 赵同阳表示， 机器人不是为了取代人的岗位 ，而是走进影响人类健康和安全的场景；行业需求庞大而分散，靠一家公司很难一一满足，生态协同是必然选择，企业应选对一行、锁定客户、穿透场景、集中突破。 他谈到，十年…",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 87.9,
+    "score": 101.085
+   },
+   {
     "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143247",
     "sourceId": "un-news",
     "sourceName": "联合国新闻（中文）",
@@ -450,32 +479,15 @@
     "score": 85.1
    },
    {
-    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143245",
-    "sourceId": "un-news",
-    "sourceName": "联合国新闻（中文）",
-    "short": "联合国",
-    "region": "intl",
-    "kind": "official",
-    "weight": 80,
-    "title": "【世界进行时】2026年11月20日",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
-    "date": "2026-11-20",
-    "summary": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
-    "categories": [],
-    "tag": "前沿",
-    "raw": 74,
-    "score": 85.1
-   },
-   {
-    "key": "dramx:https://www.dramx.com/News/IC/20261124-41498.html",
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20261125-41504.html",
     "sourceId": "dramx",
     "sourceName": "TrendForce 集邦咨询",
     "short": "集邦",
     "region": "cn",
     "kind": "tech",
     "weight": 66,
-    "title": "艾为电子披露重组预案，拟收购钰泰半导体100%股份",
-    "url": "https://www.dramx.com/News/IC/20261124-41498.html",
+    "title": "拟投资22.5亿元！木林森半导体芯片封测项目落地江西",
+    "url": "https://www.dramx.com/News/made-sealing/20261125-41504.html",
     "date": "2026-11-25",
     "summary": "",
     "categories": [],
@@ -485,10 +497,10 @@
    }
   ],
   "counts": {
-   "total": 184,
-   "today": 25,
-   "semiconductor": 31,
-   "ai": 51
+   "total": 177,
+   "today": 81,
+   "semiconductor": 21,
+   "ai": 49
   }
  },
  "coop": {
@@ -513,6 +525,25 @@
     "score": 53
    },
    {
+    "key": "gov-yaowen:https://tv.cctv.com/2026/11/24/VIDEPixTS6Q8OfuKqv2Oz2nI261124.shtml",
+    "sourceId": "gov-yaowen",
+    "sourceName": "中国政府网 · 要闻",
+    "short": "要闻",
+    "region": "cn",
+    "kind": "机制",
+    "weight": 90,
+    "title": "【视频】丁薛祥访问新加坡并主持中新双边合作机制会议",
+    "url": "https://tv.cctv.com/2026/11/24/VIDEPixTS6Q8OfuKqv2Oz2nI261124.shtml",
+    "date": "2026-11-24",
+    "summary": "",
+    "categories": [],
+    "where": [
+     "新加坡"
+    ],
+    "firms": [],
+    "score": 53
+   },
+   {
     "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087084.htm",
     "sourceId": "gov-yaowen",
     "sourceName": "中国政府网 · 要闻",
@@ -530,6 +561,26 @@
     ],
     "firms": [],
     "score": 53
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/031/950.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "合作",
+    "weight": 58,
+    "title": "曝 2027 年苹果、三星、小米、OPPO、vivo、华为等手机厂商出货目标落地，多数厂家下调预期",
+    "url": "https://www.ithome.com/1/031/950.htm",
+    "date": "2026-11-25",
+    "summary": "IT之家 11 月 25 日消息，界面新闻今日援引供应链消息称，2027 年主要手机厂商出货目标近期陆续落定。受上游存储芯片成本持续高企影响， 多数厂商选择下调明年预期 。 小米将 2026 年智能手机出货目标定为约 1.2 亿台，2027 年下调至约 9,000 万台，同比减少 25%。 联想（以摩托罗拉为主）2026 年出货目标约为 5,000 万台，2027 年下调至约 4,000 万台，同比减少 20%。 苹果 2026 年出…",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "苹果",
+     "三星"
+    ],
+    "score": 49
    },
    {
     "key": "dramx:https://www.dramx.com/News/Memory/20261124-41497.html",
@@ -551,11 +602,41 @@
     "score": 43
    }
   ],
-  "total": 4,
+  "total": 9,
   "note": ""
  },
  "industry": {
   "items": [
+   {
+    "key": "ithome:https://www.ithome.com/1/031/979.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "现代汽车集团发布全球慢速充电器：覆盖三大品牌，7kW / 11kW 双版本",
+    "url": "https://www.ithome.com/1/031/979.htm",
+    "date": "2026-11-25",
+    "summary": "IT之家 11 月 25 日消息，现代汽车集团 (HMG) 韩国当地时间今日发布 HMG 全球慢速（交流）充电器。 这一电动汽车充电设备 支持覆盖 HMG 旗下现代、起亚、捷尼赛思 3 大品牌 ，由现代与起亚主导产品设计规划、技术开发，现代凯菲科参与产品开发并负责未来量产工作。 HMG 全球慢速充电器采用韩国广泛使用的 Type 1 (J1772) 慢充标准， 提供 7kW / 11kW 双版本 ，支持壁挂或立式安装；整体造型圆润，底…",
+    "categories": [],
+    "score": 59
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/031/976.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "波音时隔九年再获中国客运航司大单：厦航 50 架 737-8 订单敲定，目录价 74 亿美元",
+    "url": "https://www.ithome.com/1/031/976.htm",
+    "date": "2026-11-25",
+    "summary": "IT之家 11 月 25 日消息，南方航空 11 月 24 日晚间发布公告，子公司厦门航空于当日与波音签署协议，购买 50 架 B737-8 飞机，目录价格约 74 亿美元 （IT之家注：现汇率约合 494.19 亿元人民币） 。这是波音自 2017 年之后，时隔九年再次获得中国客运航司的大规模干线客机订单。 波音 B737-8 即 737 MAX 8，是 737 MAX 家族中载客 160 至 180 人、航程 3500 海里的主力…",
+    "categories": [],
+    "score": 59
+   },
    {
     "key": "dramx:https://www.dramx.com/News/server/20261106-41404.html",
     "sourceId": "dramx",
@@ -587,59 +668,71 @@
     "score": 57
    },
    {
-    "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261125-10052990?ref=today-news-section-card-2",
+    "key": "zaobao:https://www.zaobao.com.sg/news/singapore/story20261125-10053417?ref=today-news-section-card-6",
     "sourceId": "zaobao",
     "sourceName": "联合早报",
     "short": "早报",
     "region": "intl",
     "kind": "media",
     "weight": 64,
-    "title": "美国两党议员施压英伟达 要求加强对华晶片出口管制",
-    "url": "https://www.zaobao.com.sg/news/world/story20261125-10052990?ref=today-news-section-card-2",
+    "title": "马里士他巴刹将迎新面貌 结合餐饮零售与现代湿巴刹",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20261125-10053417?ref=today-news-section-card-6",
     "date": "2026-11-25",
     "summary": "",
     "categories": [],
     "score": 56
-   },
-   {
-    "key": "huanqiu:https://world.huanqiu.com/article/4UABf9YLK7r",
-    "sourceId": "huanqiu",
-    "sourceName": "环球网",
-    "short": "环球",
-    "region": "cn",
-    "kind": "media",
-    "weight": 56,
-    "title": "财经观察：日本靠砸钱实现“稀土自由”？现实很骨感",
-    "url": "https://world.huanqiu.com/article/4UABf9YLK7r",
-    "date": "2026-11-25",
-    "summary": "",
-    "categories": [],
-    "score": 52
-   },
-   {
-    "key": "huanqiu:https://world.huanqiu.com/article/4U9IpLr1Fre",
-    "sourceId": "huanqiu",
-    "sourceName": "环球网",
-    "short": "环球",
-    "region": "cn",
-    "kind": "media",
-    "weight": 56,
-    "title": "发达市场增幅明显，竞争格局快速改写，中国汽车在39个市场“跑赢”日本",
-    "url": "https://world.huanqiu.com/article/4U9IpLr1Fre",
-    "date": "2026-11-25",
-    "summary": "",
-    "categories": [],
-    "score": 52
    }
   ],
-  "total": 10,
+  "total": 14,
   "note": ""
  },
  "consensus": {
   "available": true,
   "intlSourcesUp": 9,
   "cnSourcesUp": 7,
-  "topics": [],
+  "topics": [
+   {
+    "id": "geopol",
+    "label": "地缘冲突",
+    "zhCount": 1,
+    "enCount": 2,
+    "zh": {
+     "key": "huanqiu:https://world.huanqiu.com/article/4UALYxXayjk",
+     "sourceId": "huanqiu",
+     "sourceName": "环球网",
+     "short": "环球",
+     "region": "cn",
+     "kind": "media",
+     "weight": 56,
+     "title": "以正直党与\"以色列是我们的家园\"党签署双边组阁协议",
+     "url": "https://world.huanqiu.com/article/4UALYxXayjk",
+     "date": "2026-11-25",
+     "summary": "",
+     "categories": []
+    },
+    "intl": {
+     "key": "zaobao:https://www.zaobao.com.sg/news/world/story20261125-10054115",
+     "sourceId": "zaobao",
+     "sourceName": "联合早报",
+     "short": "早报",
+     "region": "intl",
+     "kind": "media",
+     "weight": 64,
+     "title": "国际特赦组织：以色列行动严重影响加沙妇女生育健康",
+     "url": "https://www.zaobao.com.sg/news/world/story20261125-10054115",
+     "date": "2026-11-25",
+     "summary": "",
+     "categories": []
+    },
+    "shared": [
+     "以色列"
+    ],
+    "zt": 1,
+    "et": 0,
+    "agree": true,
+    "strength": 70
+   }
+  ],
   "note": "境外 9 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
   "cnOnly": []
  },
@@ -651,7 +744,7 @@
    "kind": "tech",
    "ok": true,
    "count": 16,
-   "ms": 2886
+   "ms": 4696
   },
   {
    "id": "gov-gwy",
@@ -660,7 +753,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1505
+   "ms": 406
   },
   {
    "id": "gov-yaowen",
@@ -669,7 +762,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1272
+   "ms": 402
   },
   {
    "id": "gov-zuixin",
@@ -678,7 +771,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1495
+   "ms": 436
   },
   {
    "id": "guancha",
@@ -687,7 +780,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 3542
+   "ms": 2614
   },
   {
    "id": "huanqiu",
@@ -696,7 +789,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 2164
+   "ms": 594
   },
   {
    "id": "ithome",
@@ -705,7 +798,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 1497
+   "ms": 896
   },
   {
    "id": "qbitai",
@@ -714,7 +807,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 3180
+   "ms": 1699
   },
   {
    "id": "sspai",
@@ -723,7 +816,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1452
+   "ms": 1750
   },
   {
    "id": "arxiv",
@@ -732,7 +825,7 @@
    "kind": "academic",
    "ok": true,
    "count": 15,
-   "ms": 213
+   "ms": 62
   },
   {
    "id": "bbc",
@@ -740,8 +833,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 31,
-   "ms": 278
+   "count": 37,
+   "ms": 65
   },
   {
    "id": "bbc-tech",
@@ -750,7 +843,7 @@
    "kind": "tech",
    "ok": true,
    "count": 21,
-   "ms": 268
+   "ms": 9
   },
   {
    "id": "eetimes",
@@ -759,7 +852,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 832
+   "ms": 616
   },
   {
    "id": "hn",
@@ -768,7 +861,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 72
+   "ms": 1439
   },
   {
    "id": "reuters",
@@ -777,7 +870,7 @@
    "kind": "media",
    "ok": false,
    "count": 0,
-   "ms": 2843,
+   "ms": 2592,
    "error": "HTTP 404"
   },
   {
@@ -787,7 +880,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 66
+   "ms": 68
   },
   {
    "id": "theverge",
@@ -796,7 +889,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 54
+   "ms": 71
   },
   {
    "id": "un-news",
@@ -805,7 +898,7 @@
    "kind": "official",
    "ok": true,
    "count": 30,
-   "ms": 666
+   "ms": 42
   },
   {
    "id": "zaobao",
@@ -813,8 +906,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 19,
-   "ms": 1131
+   "count": 21,
+   "ms": 368
   }
  ]
 }
