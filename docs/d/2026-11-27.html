@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fbfaf7">
+<meta name="description" content="2026-11-27 国务院发布、科技与 AI 与半导体、中外合作、产业、内外共识、影响分析，以及普通人/从业者双线总结。">
+<title>今日坐标 · 11月27日 周五</title>
+<style>
+:root{--paper:#fbfaf7;--card:#fff;--ink:#15171b;--muted:#6d7178;--line:#e8e4dd;--soft:#f4f1ec;
+--c-normal:#5b7c99;--c-poss:#b4442f;--c-fore:#9a6b16;--c-teal:#0f6b62;--c-semi:#3f5b8a;
+--c-coop:#6d4b8f;--c-ind:#4a6b3c;--c-pro:#2f5d8a}
+@media (prefers-color-scheme:dark){:root{--paper:#121316;--card:#191b1f;--ink:#ecebe7;--muted:#9a9ea6;--line:#2a2c31;--soft:#202227;
+--c-normal:#7c9cbb;--c-poss:#e0705a;--c-fore:#cf9d3e;--c-teal:#5fb8ab;--c-semi:#8aa6d6;
+--c-coop:#b18fd0;--c-ind:#8fb87a;--c-pro:#7aa8d8}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:16px/1.75 -apple-system,BlinkMacSystemFont,"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:22px 16px 72px}
+a{color:inherit;text-decoration:none}
+.mast{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding-bottom:14px;border-bottom:2px solid var(--ink)}
+.brand{font-size:15px;font-weight:700;letter-spacing:.18em}
+.brand .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--c-poss);margin-right:8px;vertical-align:2px}
+.date{text-align:right;line-height:1.1}
+.date b{display:block;font-size:30px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.date span{font-size:12px;color:var(--muted);letter-spacing:.06em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px}
+.verdict{margin-top:18px;padding:20px 18px 18px;position:relative;overflow:hidden}
+.verdict::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--c-normal)}
+.verdict.t-poss::before{background:var(--c-poss)}
+.verdict.t-fore::before{background:var(--c-fore)}
+.vlabel{font-size:11px;letter-spacing:.2em;color:var(--muted);text-transform:uppercase}
+.vtype{font-size:34px;line-height:1.2;margin:6px 0 10px;font-weight:800;letter-spacing:-.01em}
+.t-poss .vtype{color:var(--c-poss)}.t-fore .vtype{color:var(--c-fore)}
+.vone{margin:0 0 16px;font-size:15.5px;opacity:.9}
+.meter{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--soft);gap:2px}
+.seg{display:block;height:100%}
+.seg--normal{background:var(--c-normal)}.seg--poss{background:var(--c-poss)}.seg--fore{background:var(--c-fore)}
+.legend{display:flex;gap:14px;margin-top:8px;font-size:11.5px;color:var(--muted);flex-wrap:wrap}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:4px;vertical-align:1px}
+.dot--normal{background:var(--c-normal)}.dot--poss{background:var(--c-poss)}.dot--fore{background:var(--c-fore)}
+.overview{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px dashed var(--line);display:grid;gap:10px}
+.overview li{display:flex;gap:10px;font-size:14.5px;line-height:1.65}
+.tk{flex:0 0 auto;font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:1px 6px;height:fit-content;margin-top:3px;white-space:nowrap}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin:20px 0 6px;padding-bottom:4px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{flex:0 0 auto;font-size:13px;padding:7px 12px;border:1px solid var(--line);border-radius:99px;color:var(--muted);background:var(--card)}
+.sec{margin:30px 0 12px;display:flex;align-items:baseline;gap:10px;font-size:17px;font-weight:800}
+.sec .num{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.16em;font-variant-numeric:tabular-nums}
+.sec .hint{margin-left:auto;font-size:12px;font-weight:400;color:var(--muted)}
+.sec+.card{padding:6px 16px}
+.list>.item{padding:16px 0;border-bottom:1px solid var(--line)}
+.list>.item:last-child{border-bottom:0}
+.item--tight{padding:14px 0}
+.meta{display:flex;align-items:center;gap:8px;font-size:11.5px;color:var(--muted);margin-bottom:6px;flex-wrap:wrap}
+.meta time{margin-left:auto;font-variant-numeric:tabular-nums}
+.chip{font-size:11px;padding:1px 7px;border-radius:5px;border:1px solid var(--line);background:var(--soft);color:var(--muted)}
+.chip--org{background:color-mix(in srgb,var(--c-poss) 10%,transparent);color:var(--c-poss);border-color:transparent}
+.chip--semi{background:color-mix(in srgb,var(--c-semi) 12%,transparent);color:var(--c-semi);border-color:transparent}
+.chip--ai{background:color-mix(in srgb,var(--c-teal) 12%,transparent);color:var(--c-teal);border-color:transparent}
+.chip--topic{background:color-mix(in srgb,var(--c-fore) 12%,transparent);color:var(--c-fore);border-color:transparent}
+.chip--coop{background:color-mix(in srgb,var(--c-coop) 13%,transparent);color:var(--c-coop);border-color:transparent}
+.chip--ind{background:color-mix(in srgb,var(--c-ind) 13%,transparent);color:var(--c-ind);border-color:transparent}
+.chip--aff{background:color-mix(in srgb,var(--c-pro) 13%,transparent);color:var(--c-pro);border-color:transparent}
+.chip--people{background:color-mix(in srgb,var(--c-poss) 13%,transparent);color:var(--c-poss);border-color:transparent}
+.chip--pro{background:color-mix(in srgb,var(--c-pro) 13%,transparent);color:var(--c-pro);border-color:transparent}
+.chip--poss{background:color-mix(in srgb,var(--c-poss) 12%,transparent);color:var(--c-poss);border-color:transparent}
+.chip--fore{background:color-mix(in srgb,var(--c-fore) 12%,transparent);color:var(--c-fore);border-color:transparent}
+.badge{font-size:11px;padding:1px 7px;border-radius:99px;font-weight:600}
+.badge--same{background:color-mix(in srgb,var(--c-teal) 14%,transparent);color:var(--c-teal)}
+.badge--diff{background:color-mix(in srgb,var(--c-poss) 14%,transparent);color:var(--c-poss)}
+.src{font-size:11.5px;color:var(--muted)}
+.title{display:block;font-size:16px;line-height:1.55;font-weight:600}
+.title:active{opacity:.6}
+.doc{margin-top:5px;font-size:12px;color:var(--c-poss);font-variant-numeric:tabular-nums}
+.excerpt{margin:6px 0 0;font-size:13.5px;line-height:1.65;color:var(--muted)}
+.note{margin:0 0 4px;padding:12px 0;font-size:13px;color:var(--muted);border-bottom:1px solid var(--line)}
+.empty{padding:18px 0;color:var(--muted);font-size:14px;margin:0}
+.degrade{margin:12px 0;padding:12px 14px;background:var(--soft);border-radius:10px;font-size:13px;color:var(--muted);line-height:1.6}
+.pair{display:grid;gap:10px;margin:8px 0 6px}
+.side{display:flex;gap:9px;align-items:flex-start}
+.side>div{flex:1;min-width:0}
+.flag{flex:0 0 auto;width:18px;height:18px;border-radius:5px;font-size:11px;font-weight:700;display:grid;place-items:center;background:color-mix(in srgb,var(--c-poss) 14%,transparent);color:var(--c-poss);margin-top:4px}
+.flag--intl{background:color-mix(in srgb,var(--c-normal) 16%,transparent);color:var(--c-normal)}
+.side .title{font-size:14.5px;font-weight:500}
+.side .src{display:block;margin-top:2px}
+.shared{margin-top:6px;font-size:11.5px;color:var(--muted)}
+.shared b{font-weight:600;color:var(--ink);opacity:.75}
+.tracks{padding:6px 16px}
+.track{padding:16px 0 16px 14px;position:relative}
+.track+.track{border-top:1px solid var(--line)}
+.track::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:3px;border-radius:2px;background:var(--c-poss);opacity:.35}
+.track--pro::before{background:var(--c-pro)}
+.track-h{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.track-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.track-list li{display:block;font-size:14.5px;line-height:1.65}
+.track-list b{display:block;font-size:11.5px;font-weight:600;color:var(--muted);margin-bottom:1px}
+h3{font-size:12px;letter-spacing:.12em;color:var(--muted);margin:20px 0 8px;font-weight:600}
+.nodes{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:13.5px}
+.nodes li{display:flex;gap:10px;color:var(--muted)}
+.nodes time{font-variant-numeric:tabular-nums;color:var(--c-fore);font-weight:600;flex:0 0 44px}
+details{margin-top:22px;border-top:1px dashed var(--line);padding-top:14px}
+summary{font-size:13px;color:var(--muted);cursor:pointer;outline:none}
+details ul{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:8px}
+details li{display:flex;gap:8px;font-size:13px;color:var(--muted);line-height:1.6}
+footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.8}
+.srcgrid{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 14px}
+.src-chip{display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border:1px solid var(--line);border-radius:99px;font-size:11px}
+.src-chip b{font-weight:600;font-variant-numeric:tabular-nums;opacity:.7}
+.src-chip--down{opacity:.45;text-decoration:line-through}
+.arch{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.arch-item{display:flex;align-items:center;gap:6px;padding:4px 9px;border:1px solid var(--line);border-radius:8px;font-size:11.5px}
+.arch-date{font-variant-numeric:tabular-nums}
+.arch-type--normal{color:var(--c-normal)}.arch-type--poss{color:var(--c-poss)}.arch-type--fore{color:var(--c-fore)}
+@media (max-width:420px){.vtype{font-size:29px}.wrap{padding:18px 14px 64px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="mast">
+    <div class="brand"><span class="dot"></span>今日坐标</div>
+    <div class="date"><b>11.27</b><span>2026 · 周五</span></div>
+  </header>
+
+  <section class="card verdict t-fore">
+    <div class="vlabel">判定</div>
+    <h1 class="vtype">前瞻性一天</h1>
+    <p class="vone">今天的关键词是「倒计时」：有明确的未来时间点，现在就把日程往前排更划算。</p>
+    
+    <div class="meter" role="img" aria-label="正常 46%、可能性 0%、前瞻性 54%">
+      <i class="seg seg--normal" style="width:46%"></i>
+      <i class="seg seg--poss" style="width:0%"></i>
+      <i class="seg seg--fore" style="width:54%"></i>
+    </div>
+    <div class="legend">
+      <span><b class="dot dot--normal"></b>正常 46%</span>
+      <span><b class="dot dot--poss"></b>可能性 0%</span>
+      <span><b class="dot dot--fore"></b>前瞻性 54%</span>
+    </div>
+    <ul class="overview"><li><span class="tk">政策</span><span>今天没有新增，最近一次是 17 天前的《基金会管理条例》，最近一个施行节点在 1月1日。</span></li><li><span class="tk">科技</span><span>Musk&#39;s plan to send a million SpaceX …（BBC）</span></li><li><span class="tk">合作</span><span>“十五五”时期我国将持续深化“一带一路”经贸合作（要闻）</span></li><li><span class="tk">产业</span><span>HBM、SSD、GPU、MLCC产能告急（集邦）</span></li></ul>
+  </section>
+
+  <nav class="tabs">
+    <a href="#gov">国务院</a>
+    <a href="#tech">科技</a>
+    <a href="#coop">中外合作</a>
+    <a href="#industry">产业</a>
+    <a href="#consensus">共识</a>
+    <a href="#impact">影响</a>
+    <a href="#summary">总结</a>
+  </nav>
+
+  <h2 class="sec" id="gov"><span class="num">01</span>国务院 · 今日发布<span class="hint">原文为准</span></h2>
+  <div class="card list"><p class="note">今日无新增文件。下面列出最近 4 条。</p><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国务院令</span>
+          <time>11/10</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085661.htm" target="_blank" rel="noopener">基金会管理条例</a>
+        <div class="doc">国令第848号 · 2027-01-01 起施行</div>
+        <p class="excerpt">国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国务院令</span>
+          <time>11/9</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085591.htm" target="_blank" rel="noopener">中医药传统知识保护条例</a>
+        <div class="doc">国令第850号 · 2027-01-01 起施行</div>
+        <p class="excerpt">国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国家层面</span>
+          <time>11/6</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/202611/content_7085350.htm" target="_blank" rel="noopener">国家统计局职能配置、内设机构和人员编制规定</a>
+        <div class="doc">2026-10-28 起施行</div>
+        <p class="excerpt">为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国务院</span>
+          <time>11/5</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085109.htm" target="_blank" rel="noopener">国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复</a>
+        <div class="doc">​国函〔2026〕113号</div>
+        <p class="excerpt">《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。</p>
+      </article></div>
+
+  <h2 class="sec" id="tech"><span class="num">02</span>科技 · AI · 半导体<span class="hint">今日 16 / 共 173</span></h2>
+  <div class="card list"><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ai">AI</span>
+          <span class="src">BBC</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Musk&#39;s plan to send a million SpaceX data satellites into space approved</a>
+        <p class="excerpt">The Starmind constellation aims to be the most cost and energy-efficient way to meet the g</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ai">AI</span>
+          <span class="src">联合国</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://news.un.org/feed/view/zh/story/2026/11/1143270" target="_blank" rel="noopener">联合国大学澳门人工智能大会探讨以人为本的人工智能教育</a>
+        <p class="excerpt">第三届联合国大学澳门人工智能大会11月25日至26日在澳门举行，来自全球的400多名政策制定者、教育工作者、学者和青年创新者齐聚一堂，探讨如何利用人工智能促进教育发展，同时确保技术</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ai">AI</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/AI/20261125-41508.html" target="_blank" rel="noopener">摩尔线程携手Sand.ai：AI视频模型MAGI-2，跑在国产算力上</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--tag">前沿</span>
+          <span class="src">量子位</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.qbitai.com/2026/11/512972.html" target="_blank" rel="noopener">90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守</a>
+        <p class="excerpt">全栈方案破解工业机器人连续作业难题</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--tag">前沿</span>
+          <span class="src">联合国</span>
+          <time>6 天前</time>
+        </div>
+        <a class="title" href="https://news.un.org/feed/view/zh/story/2026/11/1143247" target="_blank" rel="noopener">联合国有关管制“杀人机器人”谈判达成最低限度共识</a>
+        <p class="excerpt">联合国《特定常规武器公约》第七次审议大会经过数小时密集磋商，于周六凌晨在瑞士日内瓦闭幕。会议最终同意，在未来两年内继续推进制定一项关于致命性自主武器系统的国际文书，但未能就直接启动</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--semi">半导体</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/Memory/20261126-41515.html" target="_blank" rel="noopener">首台设备搬入！存储巨头HBM厂规划2027年初投产</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--tag">前沿</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/101.htm" target="_blank" rel="noopener">让渐冻症患者“开口说话”，我国首例无线侵入式汉语脑机接口临床试验成功开展</a>
+        <p class="excerpt">IT之家 11 月 26 日消息，复旦大学今日发文，介绍了脑机接口的里程碑新突破：成功开展了 我国首例无线侵入式汉语脑机接口临床试验 ，让渐冻症患者实现了“靠意念就能交流”。 身患</p>
+      </article></div>
+
+  <h2 class="sec" id="coop"><span class="num">03</span>中外合作<span class="hint">签约 · 投资 · 订单 · 往来</span></h2>
+  <div class="card list"><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">机制</span>
+          <span class="src">一带一路</span>
+          <span class="src">要闻</span>
+          <time>3 天前</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/yaowen/liebiao/202611/content_7087254.htm" target="_blank" rel="noopener">“十五五”时期我国将持续深化“一带一路”经贸合作</a>
+        
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">机制</span>
+          <span class="src">新加坡</span>
+          <span class="src">要闻</span>
+          <time>3 天前</time>
+        </div>
+        <a class="title" href="https://tv.cctv.com/2026/11/24/VIDEPixTS6Q8OfuKqv2Oz2nI261124.shtml" target="_blank" rel="noopener">【视频】丁薛祥访问新加坡并主持中新双边合作机制会议</a>
+        
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">贸易</span>
+          <span class="src">特斯拉 · 三星</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/116.htm" target="_blank" rel="noopener">消息称马斯克为采购存储芯片曾主动提出为三星工厂提供融资担保，被李在镕拒绝</a>
+        <p class="excerpt">IT之家 11 月 26 日消息，据华尔街日报于当地时间 11 月 25 日报道，资本集团（Capital Group）投资组合经理卡尔 · 卡瓦贾（Carl Kawaja）回忆了他与马斯克就特斯拉存</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">合作</span>
+          <span class="src">欧盟</span>
+          <span class="src">观察者</span>
+          <time>2 天前</time>
+        </div>
+        <a class="title" href="https://www.guancha.cn/ShenYi/2026_11_25_909887.shtml" target="_blank" rel="noopener">欧盟公布混动车进口临时配额，中国拿到了什么？先看三个数字</a>
+        
+      </article></div>
+
+  <h2 class="sec" id="industry"><span class="num">04</span>产业与其他<span class="hint">价格 · 产能 · 订单</span></h2>
+  <div class="card list"><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/server/20261106-41404.html" target="_blank" rel="noopener">HBM、SSD、GPU、MLCC产能告急</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/made-sealing/20260514-40422.html" target="_blank" rel="noopener">CoWoS产能告急，英特尔EMIB搅动风</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/131.htm" target="_blank" rel="noopener">瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵</a>
+        <p class="excerpt">IT之家 11 月 26 日消息，据路透社报道，瑞士联邦网络安全局（BACS）周四通报，过去几天瑞士发生五起网络攻击，攻击者使用 AI 智能体针对企业以及关键基础设施运营方发起入侵</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/129.htm" target="_blank" rel="noopener">宁德时代预告 30#巧克力电池：首发 100kWh 版本，支持实现 3s 级零百加速</a>
+        <p class="excerpt">IT之家 11 月 26 日现场消息，在今晚的 2026 华为乾崑生态大会上，华为智能汽车解决方案 BU CEO 靳玉志正式官宣华为乾崑智驾 × 宁德时代巧克力换电达成合作，并发布</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">观察者</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.guancha.cn/nanjituzhu/2026_11_26_909977.shtml" target="_blank" rel="noopener">美国对华“产能过剩”301关税留了两手</a>
+        
+      </article></div>
+
+  <h2 class="sec" id="consensus"><span class="num">05</span>内外共识<span class="hint">同题 + 同实体</span></h2>
+  <div class="card list"><div class="degrade">境外 9 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。</div></div>
+
+  <h2 class="sec" id="impact"><span class="num">06</span>影响分析<span class="hint">对象 · 时间尺度</span></h2>
+  <div class="card list"><article class="item">
+      <div class="meta">
+        <span class="chip chip--aff">影响 · 行业</span>
+        <span class="chip">3 个月内</span>
+        <span class="src">最新政策</span>
+      </div>
+      <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085661.htm" target="_blank" rel="noopener">基金会管理条例</a>
+      <p class="excerpt">1月1日 起施行，主要约束机构与企业，个人短期影响有限。</p>
+    </article><article class="item">
+      <div class="meta">
+        <span class="chip chip--aff">影响 · 行业</span>
+        <span class="chip">1-3 个月</span>
+        <span class="src">要闻</span>
+      </div>
+      <a class="title" href="https://www.gov.cn/yaowen/liebiao/202611/content_7087254.htm" target="_blank" rel="noopener">“十五五”时期我国将持续深化“一带一路”经贸合作</a>
+      <p class="excerpt">规则与机制先动，价格和供给要过一段才传到终端。</p>
+    </article><article class="item">
+      <div class="meta">
+        <span class="chip chip--aff">影响 · 两者</span>
+        <span class="chip">1-3 个月</span>
+        <span class="src">集邦</span>
+      </div>
+      <a class="title" href="https://www.dramx.com/News/server/20261106-41404.html" target="_blank" rel="noopener">HBM、SSD、GPU、MLCC产能告急</a>
+      <p class="excerpt">价格与产能会先出现在企业报表里，再传到货架和你的账单上。</p>
+    </article></div>
+
+  <h2 class="sec" id="summary"><span class="num">07</span>今日总结<span class="hint">两条线</span></h2>
+  <div class="card tracks"><div class="track track--people">
+      <div class="track-h"><span class="chip chip--people">普通人</span><span class="src">今天要不要动、离你多远</span></div>
+      <ul class="track-list"><li><b>要不要动</b><span>今天没有必须立刻处理的事，可以把注意力留给长期的事。</span></li><li><b>与你最近</b><span>HBM、SSD、GPU、MLCC产能告急——价格与产能会先出现在企业报表里，再传到货架和你的账单上。</span></li><li><b>下一个节点</b><span>1月1日（35 天后）起《基金会管理条例》施行。</span></li></ul>
+    </div><div class="track track--pro">
+      <div class="track-h"><span class="chip chip--pro">从业者</span><span class="src">产业、对外与技术信号</span></div>
+      <ul class="track-list"><li><b>产业面</b><span>HBM、SSD、GPU、MLCC产能告急（集邦）</span></li><li><b>对外</b><span>“十五五”时期我国将持续深化“一带一路”经贸合作｜机制类 · 一带一路</span></li><li><b>技术面</b><span>Musk&#39;s plan to send a million S…（AI）</span></li></ul>
+    </div></div>
+
+  <div class="card" style="padding:18px;margin-top:12px">
+    <h3>未来 30 天的节点</h3><ul class="nodes"><li><time>01-01</time><span>《基金会管理条例》施行</span></li><li><time>01-01</time><span>《中医药传统知识保护条例》施行</span></li></ul>
+    <details>
+      <summary>判定依据：这个结论是怎么算出来的</summary>
+      <ul><li><span class="chip chip--fore">前瞻</span>技术节点：首台设备搬入！存储巨头HBM厂规划2027年初投产</li><li><span class="chip chip--fore">前瞻</span>技术节点：让渐冻症患者“开口说话”，我国首例无线侵入式汉语脑机接口临床试…</li><li><span class="chip chip--fore">前瞻</span>1月1日（35 天后）起施行：基金会管理条例</li><li><span class="chip chip--fore">前瞻</span>1月1日（35 天后）起施行：中医药传统知识保护条例</li></ul>
+    </details>
+  </div>
+
+  <footer>
+    <div>数据来自 18 个可用来源，抓取 427 条；生成于 2026-11-27 03:43:35（北京时间）。</div>
+    <div class="srcgrid"><span class="src-chip " title="">TrendForce 集邦咨询<b>16</b></span><span class="src-chip " title="">中国政府网 · 国务院文件<b>40</b></span><span class="src-chip " title="">中国政府网 · 要闻<b>40</b></span><span class="src-chip " title="">中国政府网 · 最新政策<b>40</b></span><span class="src-chip " title="">观察者网<b>30</b></span><span class="src-chip " title="">环球网<b>30</b></span><span class="src-chip " title="">IT之家<b>40</b></span><span class="src-chip " title="">量子位<b>10</b></span><span class="src-chip " title="">少数派<b>10</b></span><span class="src-chip " title="">arXiv cs.AI<b>15</b></span><span class="src-chip " title="">BBC World<b>28</b></span><span class="src-chip " title="">BBC Technology<b>21</b></span><span class="src-chip " title="">EE Times<b>10</b></span><span class="src-chip " title="">Hacker News<b>20</b></span><span class="src-chip src-chip--down" title="HTTP 404">Reuters<b>×</b></span><span class="src-chip " title="">TechCrunch<b>20</b></span><span class="src-chip " title="">The Verge<b>10</b></span><span class="src-chip " title="">联合国新闻（中文）<b>30</b></span><span class="src-chip " title="">联合早报<b>17</b></span></div>
+    <div>今日不可达：Reuters。</div>
+    <div style="margin-top:14px">归档</div>
+    <div class="arch"><a class="arch-item" href="./"><span class="arch-date">11-27</span><span class="arch-type arch-type--fore">前瞻性一天</span></a><a class="arch-item" href="d/2026-11-26.html"><span class="arch-date">11-26</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-25.html"><span class="arch-date">11-25</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-24.html"><span class="arch-date">11-24</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-23.html"><span class="arch-date">11-23</span><span class="arch-type arch-type--normal">正常一天</span></a></div>
+    <div style="margin-top:16px;opacity:.75">
+      自动聚合：原文链接均指向来源站点，摘要为机器截取，可能有误差；政策类请以 gov.cn 原文为准。
+      「中外合作」按标题动词 + 国家/外企实体匹配，「影响分析」是规则推断，都不是预测，也不构成建议。
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
