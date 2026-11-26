@@ -2,9 +2,9 @@
  "meta": {
   "date": "2026-11-26",
   "weekday": "周四",
-  "generatedAt": "2026-11-26T04:56:21.278Z",
+  "generatedAt": "2026-11-26T12:59:54.151Z",
   "mode": "ci",
-  "totalItems": 428,
+  "totalItems": 434,
   "cnSources": 9,
   "cnSourceTotal": 9,
   "intlSources": 9,
@@ -14,17 +14,23 @@
  "day": {
   "type": "正常一天",
   "dist": {
-   "normal": 75,
+   "normal": 59,
    "possibility": 0,
-   "foresight": 25
+   "foresight": 41
   },
   "score": {
-   "sF": 18,
+   "sF": 34,
    "sP": 0,
-   "sN": 54
+   "sN": 48
   },
   "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
   "signals": [
+   {
+    "bucket": "foresight",
+    "w": 8,
+    "text": "技术节点：顶尖商用级AI视频每秒只要5毛！中国开源新势力拿下全球第一",
+    "tag": "tech-anchor"
+   },
    {
     "bucket": "foresight",
     "w": 4.4,
@@ -45,7 +51,7 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：US stocks fall further as fears o…（BBC）。"
+    "text": "值得记一笔：Musk's plan to send a million Spa…（BBC）。"
    },
    {
     "label": "内外",
@@ -53,7 +59,7 @@
    }
   ],
   "actions": [
-   "科技面值得跟进：US stocks fall further as f…。"
+   "科技面值得跟进：Musk's plan to send a milli…。"
   ],
   "upcoming": [
    {
@@ -79,7 +85,7 @@
   },
   {
    "label": "科技",
-   "text": "US stocks fall further as fears over …（BBC）"
+   "text": "Musk's plan to send a million SpaceX …（BBC）"
   },
   {
    "label": "合作",
@@ -87,7 +93,7 @@
   },
   {
    "label": "产业",
-   "text": "降幅约 20%~35%：报告称马斯克 SpaceX 降价出租 AI 算力（IT之家）"
+   "text": "华为乾崑 × 奕境汽车 × 宁德时代：全球首款智能换电车型官宣落地奕境品牌（IT之家）"
   }
  ],
  "impact": [
@@ -108,9 +114,9 @@
    "text": "规则与机制先动，价格和供给要过一段才传到终端。"
   },
   {
-   "title": "降幅约 20%~35%：报告称马斯克 SpaceX 降价出租 AI 算力",
-   "url": "https://www.ithome.com/1/032/716.htm",
-   "short": "IT之家",
+   "title": "HBM、SSD、GPU、MLCC产能告急",
+   "url": "https://www.dramx.com/News/server/20261106-41404.html",
+   "short": "集邦",
    "affects": "两者",
    "horizon": "1-3 个月",
    "text": "价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
@@ -124,7 +130,7 @@
    },
    {
     "label": "与你最近",
-    "text": "降幅约 20%~35%：报告称马斯克 SpaceX 降价出…——价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+    "text": "HBM、SSD、GPU、MLCC产能告急——价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
    },
    {
     "label": "下一个节点",
@@ -134,7 +140,7 @@
   "pro": [
    {
     "label": "产业面",
-    "text": "降幅约 20%~35%：报告称马斯克 SpaceX 降价出租 …（IT之家）"
+    "text": "华为乾崑 × 奕境汽车 × 宁德时代：全球首款智能换电车型官宣…（IT之家）"
    },
    {
     "label": "对外",
@@ -142,14 +148,14 @@
    },
    {
     "label": "技术面",
-    "text": "US stocks fall further as fears…（AI）"
+    "text": "Musk's plan to send a million S…（AI）"
    }
   ]
  },
  "gov": {
-  "headline": "今天国务院层面无新增文件，政府网要闻 2 条；最近一次文件是 16 天前（11月10日）",
+  "headline": "今天国务院层面无新增文件，政府网要闻 4 条；最近一次文件是 16 天前（11月10日）",
   "todayCount": 0,
-  "newsCount": 2,
+  "newsCount": 4,
   "weekCount": 0,
   "items": [
    {
@@ -225,21 +231,21 @@
     "org": "国务院"
    },
    {
-    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087328.htm",
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087406.htm",
     "sourceId": "gov-yaowen",
     "sourceName": "中国政府网 · 要闻",
     "short": "要闻",
     "region": "cn",
     "kind": "official",
     "weight": 90,
-    "title": "中荷外长共识声明",
-    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087328.htm",
+    "title": "牢固树立大抓基层的鲜明导向 着力夯实中国式现代化的基层基础——各级党组织和广大党员干部认真学习贯彻习近平关于基层工作方法的重要论述情况综述",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087406.htm",
     "date": "2026-11-26",
     "summary": "",
     "categories": [],
     "docNumber": "",
     "effectiveAt": "",
-    "excerpt": "2026年11月25日，中共中央政治局委员、外交部长王毅在北京同荷兰外交大臣贝伦德森举行会谈，就中荷关系等共同关心的问题深入交流。",
+    "excerpt": "基层是党的执政之基、力量之源，是一切工作的落脚点。无论是在地方工作期间还是到中央工作以后，习近平总书记始终重视基层、关心基层、深入基层、支持基层，坚持把抓基层打基础作为长远之计和固本之策，在长期实践中探索形成了内涵丰富、科学系统的基层工作方法。",
     "org": "要闻"
    }
   ],
@@ -347,73 +353,106 @@
  "tech": {
   "items": [
    {
-    "key": "bbc:https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
     "sourceId": "bbc",
     "sourceName": "BBC World",
     "short": "BBC",
     "region": "intl",
     "kind": "media",
     "weight": 82,
-    "title": "US stocks fall further as fears over AI intensify",
-    "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-11-25",
-    "summary": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+    "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+    "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-26",
+    "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
     "categories": [],
     "tag": "AI",
-    "raw": 92.1,
-    "score": 128.94
+    "raw": 101.1,
+    "score": 141.54
    },
    {
-    "key": "qbitai:https://www.qbitai.com/2026/11/512828.html",
+    "key": "eetimes:https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
+    "sourceId": "eetimes",
+    "sourceName": "EE Times",
+    "short": "EE Times",
+    "region": "intl",
+    "kind": "tech",
+    "weight": 74,
+    "title": "EU Rules Bring New Safety Requirements for Farm Robots",
+    "url": "https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
+    "date": "2026-11-26",
+    "summary": "New EU regulations will tighten safety and compliance requirements for farms deploying AI-powered robots and autonomous machinery. The post EU Rules Bring New Safety Requirements for Farm Robots appeared first on EE Tim…",
+    "categories": [
+     "News",
+     "autonomous driving",
+     "autonomous vehicles",
+     "Compliance",
+     "EU AI Act",
+     "Robotics",
+     "Safety critical",
+     "Sensors",
+     "smart agriculture"
+    ],
+    "tag": "AI",
+    "raw": 96.7,
+    "score": 135.38
+   },
+   {
+    "key": "qbitai:https://www.qbitai.com/2026/11/512916.html",
     "sourceId": "qbitai",
     "sourceName": "量子位",
     "short": "量子位",
     "region": "cn",
     "kind": "tech",
     "weight": 72,
-    "title": "AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了",
-    "url": "https://www.qbitai.com/2026/11/512828.html",
+    "title": "顶尖商用级AI视频每秒只要5毛！中国开源新势力拿下全球第一",
+    "url": "https://www.qbitai.com/2026/11/512916.html",
     "date": "2026-11-26",
-    "summary": "叠满海淀最强AI Buff。",
+    "summary": "30秒一镜到底，可自动编排镜头",
     "categories": [
      "资讯",
-     "AI影视",
-     "AI短剧",
-     "海淀"
+     "首页轮播",
+     "Sand.ai",
+     "开源",
+     "视频模型"
     ],
     "tag": "AI",
     "raw": 91.6,
     "score": 128.23999999999998
    },
    {
-    "key": "theverge:https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-    "sourceId": "theverge",
-    "sourceName": "The Verge",
-    "short": "Verge",
-    "region": "intl",
+    "key": "qbitai:https://www.qbitai.com/2026/11/512972.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
+    "region": "cn",
     "kind": "tech",
-    "weight": 64,
-    "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-    "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+    "weight": 72,
+    "title": "90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守",
+    "url": "https://www.qbitai.com/2026/11/512972.html",
     "date": "2026-11-26",
-    "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to t…",
-    "categories": [],
-    "tag": "AI",
-    "raw": 91.2,
-    "score": 127.67999999999999
+    "summary": "全栈方案破解工业机器人连续作业难题",
+    "categories": [
+     "资讯",
+     "具微科技",
+     "具身智能",
+     "工业机器人"
+    ],
+    "tag": "前沿",
+    "raw": 91.6,
+    "score": 105.33999999999999
    },
    {
-    "key": "ithome:https://www.ithome.com/1/032/603.htm",
+    "key": "ithome:https://www.ithome.com/1/033/057.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
     "kind": "tech",
     "weight": 58,
-    "title": "Remedy 回应玩家请求开发《量子破碎 2》：最终决定权在微软",
-    "url": "https://www.ithome.com/1/032/603.htm",
+    "title": "横跨 L2、L3、L4：华为靳玉志重申乾崑智驾 HUAWEI ADS 5 为自动驾驶而来",
+    "url": "https://www.ithome.com/1/033/057.htm",
     "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日消息，微软曾与游戏开发商 Remedy 展开过广泛合作，共同开发《心灵杀手》《量子破碎》等游戏。 IT之家了解到，《量子破碎》是一款以时间操纵为核心玩法的射击游戏，也是最早尝试 Xbox Play Anywhere 功能的游戏之一。它在多个方面都走在了时代前面，大胆采用了如今许多开发商正在追逐的跨媒体叙事模式，将游戏与影视内容结合起来， 游戏中还出现大量 Windows Phone 广告 。 这款游戏 20…",
+    "summary": "IT之家 11 月 26 日现场消息，在今晚的 2026 华为乾崑生态大会上，华为智能汽车解决方案 BU CEO 靳玉志登台发表主题演讲。他重申， 华为乾崑智驾 HUAWEI ADS 5 为自动驾驶而来 。 据IT之家此前报道，去年 11 月，在华为乾崑生态大会上，靳玉志宣布：华为乾崑智驾 ADS 高速 L3 解决方案的商用之路即将启程， 并公开了华为乾崑智驾 ADS 的 L3 专属人机交互页面 。 今年 4 月 23 日晚，华为乾崑…",
     "categories": [],
     "tag": "前沿",
     "raw": 87.9,
@@ -452,30 +491,13 @@
     "tag": "前沿",
     "raw": 74,
     "score": 85.1
-   },
-   {
-    "key": "dramx:https://www.dramx.com/News/Memory/20261126-41511.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 66,
-    "title": "存储芯片厂商晶存科技通过港交所聆讯",
-    "url": "https://www.dramx.com/News/Memory/20261126-41511.html",
-    "date": "2026-11-26",
-    "summary": "",
-    "categories": [],
-    "tag": "半导体",
-    "raw": 88.30000000000001,
-    "score": 83.885
    }
   ],
   "counts": {
    "total": 175,
-   "today": 66,
-   "semiconductor": 16,
-   "ai": 53
+   "today": 88,
+   "semiconductor": 14,
+   "ai": 51
   }
  },
  "coop": {
@@ -538,25 +560,6 @@
     "score": 53
    },
    {
-    "key": "ithome:https://www.ithome.com/1/032/722.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "机制",
-    "weight": 58,
-    "title": "铠侠与英伟达合作，探索如何将 GPU 有效显存扩展至 PB 级",
-    "url": "https://www.ithome.com/1/032/722.htm",
-    "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日消息，铠侠今日宣布与英伟达展开合作，启动面向 AI 应用的概念验证。该项目将利用英伟达 SCADA 软件，结合铠侠 SSD 的性能， 探索如何将 GPU 的有效显存扩展至 PB 级 。 IT之家了解到，此次合作将在一套英伟达 GB200 NVL72 机架级系统上展开验证。该系统搭载 144 块容量为 7.68TB 的 KIOXIA XD8 系列 E1.S NVMe SSD， 总容量约 1.106PB ，双方…",
-    "categories": [],
-    "where": [],
-    "firms": [
-     "英伟达"
-    ],
-    "score": 39
-   },
-   {
     "key": "guancha:https://www.guancha.cn/ShenYi/2026_11_25_909887.shtml",
     "sourceId": "guancha",
     "sourceName": "观察者网",
@@ -576,38 +579,38 @@
     "score": 38
    }
   ],
-  "total": 8,
+  "total": 5,
   "note": ""
  },
  "industry": {
   "items": [
    {
-    "key": "ithome:https://www.ithome.com/1/032/716.htm",
+    "key": "ithome:https://www.ithome.com/1/033/081.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
     "kind": "tech",
     "weight": 58,
-    "title": "降幅约 20%~35%：报告称马斯克 SpaceX 降价出租 AI 算力",
-    "url": "https://www.ithome.com/1/032/716.htm",
+    "title": "华为乾崑 × 奕境汽车 × 宁德时代：全球首款智能换电车型官宣落地奕境品牌",
+    "url": "https://www.ithome.com/1/033/081.htm",
     "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日消息，行业研究机构 SemiAnalysis 昨日（11 月 25 日）发布报告， 称全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司正在下调其 AI 计算资源的租赁价格，其重要客户 Anthropic 是否续签约 5 万台 H200 GPU 的计算合同，也出现新的不确定性。 报道称，SpaceX 已将面向小型计算集群的 Blackwell GPU 现货租赁报价， 从每 GPU 小时约…",
+    "summary": "IT之家 11 月 26 日现场消息，在今晚的 2026 华为乾崑生态大会上，奕境汽车董事长汪俊君宣布， 华为乾崑 × 奕境汽车 × 宁德时代将共建新一代智能换电生态 。 汪俊君还宣布， 全球首款智能换电车型官宣落地奕境品牌 。 据IT之家此前报道，10 月 19 日， 华为乾崑智能汽车解决方案宣布 ，引望与宁德时代、时代电服开展智能换电合作，打造乾崑智驾完整智能充换电生态，引望智能技术有限公司与宁德时代新能源科技股份有限公司、时代电…",
     "categories": [],
     "score": 59
    },
    {
-    "key": "ithome:https://www.ithome.com/1/032/619.htm",
+    "key": "ithome:https://www.ithome.com/1/033/074.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
     "kind": "tech",
     "weight": 58,
-    "title": "魏建军称长城汽车与格力电器特别相似，董明珠建议做个性化产品",
-    "url": "https://www.ithome.com/1/032/619.htm",
+    "title": "未来汽车可以自己去换电池！华为乾崑智驾与宁德时代巧克力换电打通，智能补能解决方案发布",
+    "url": "https://www.ithome.com/1/033/074.htm",
     "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日消息，长城汽车董事长魏建军今日（11 月 26 日）到访格力电器参观交流。 据新浪科技报道，魏建军在交流中表示， 长城汽车跟格力特别相似 —— 做汽车，以前也是做大单品，做 SUV。“这个 SUV，我们七八年前一直保持第一。”他总结，做企业，还是要在做专做精上做出优势。 格力电器董事长董明珠则给了魏建军一个建议：长城对汽车技术的掌控已经比较可控， 其实应该在做个性化的产品上，做一些思考 。 据IT之家此前报…",
+    "summary": "IT之家 11 月 26 日现场消息，在今晚的 2026 华为乾崑生态大会上，华为智能汽车解决方案 BU CEO 靳玉志正式官宣华为乾崑智驾 × 宁德时代巧克力换电达成合作， 并发布了智能补能解决方案 。 IT之家从大会现场了解到，智能补能解决方案支持智能补能体系，可提供电池安全服务。 智能补能体系 补能预约，一键直达 园区内 / 跨园区代客补能 智能补能规划 电池安全服务 共建电池安全标准 双重 BMS 检验 + 四层安全防护 实时…",
     "categories": [],
     "score": 59
    },
@@ -642,22 +645,22 @@
     "score": 57
    },
    {
-    "key": "zaobao:https://www.zaobao.com.sg/news/china/story20261126-10059938",
-    "sourceId": "zaobao",
-    "sourceName": "联合早报",
-    "short": "早报",
-    "region": "intl",
+    "key": "guancha:https://www.guancha.cn/nanjituzhu/2026_11_26_909977.shtml",
+    "sourceId": "guancha",
+    "sourceName": "观察者网",
+    "short": "观察者",
+    "region": "cn",
     "kind": "media",
-    "weight": 64,
-    "title": "库存减少及原料成本攀升 中国塑料出口热潮降温",
-    "url": "https://www.zaobao.com.sg/news/china/story20261126-10059938",
+    "weight": 60,
+    "title": "美国对华“产能过剩”301关税留了两手",
+    "url": "https://www.guancha.cn/nanjituzhu/2026_11_26_909977.shtml",
     "date": "2026-11-26",
     "summary": "",
     "categories": [],
-    "score": 56
+    "score": 54
    }
   ],
-  "total": 13,
+  "total": 10,
   "note": ""
  },
  "consensus": {
@@ -675,8 +678,8 @@
    "region": "cn",
    "kind": "tech",
    "ok": true,
-   "count": 15,
-   "ms": 3040
+   "count": 16,
+   "ms": 2744
   },
   {
    "id": "gov-gwy",
@@ -685,7 +688,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1757
+   "ms": 921
   },
   {
    "id": "gov-yaowen",
@@ -694,7 +697,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1581
+   "ms": 505
   },
   {
    "id": "gov-zuixin",
@@ -703,7 +706,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1647
+   "ms": 573
   },
   {
    "id": "guancha",
@@ -712,7 +715,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 2103
+   "ms": 2035
   },
   {
    "id": "huanqiu",
@@ -721,7 +724,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 764
+   "ms": 584
   },
   {
    "id": "ithome",
@@ -730,7 +733,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 1999
+   "ms": 930
   },
   {
    "id": "qbitai",
@@ -739,7 +742,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 3255
+   "ms": 2116
   },
   {
    "id": "sspai",
@@ -748,7 +751,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1619
+   "ms": 4883
   },
   {
    "id": "arxiv",
@@ -757,7 +760,7 @@
    "kind": "academic",
    "ok": true,
    "count": 15,
-   "ms": 174
+   "ms": 90
   },
   {
    "id": "bbc",
@@ -765,8 +768,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 30,
-   "ms": 186
+   "count": 35,
+   "ms": 138
   },
   {
    "id": "bbc-tech",
@@ -775,7 +778,7 @@
    "kind": "tech",
    "ok": true,
    "count": 21,
-   "ms": 122
+   "ms": 153
   },
   {
    "id": "eetimes",
@@ -784,7 +787,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 180
+   "ms": 161
   },
   {
    "id": "hn",
@@ -793,7 +796,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 218
+   "ms": 5393
   },
   {
    "id": "reuters",
@@ -802,7 +805,7 @@
    "kind": "media",
    "ok": false,
    "count": 0,
-   "ms": 2600,
+   "ms": 2596,
    "error": "HTTP 404"
   },
   {
@@ -812,7 +815,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 82
+   "ms": 63
   },
   {
    "id": "theverge",
@@ -821,7 +824,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 120
+   "ms": 77
   },
   {
    "id": "un-news",
@@ -830,7 +833,7 @@
    "kind": "official",
    "ok": true,
    "count": 30,
-   "ms": 101
+   "ms": 116
   },
   {
    "id": "zaobao",
@@ -839,7 +842,7 @@
    "kind": "media",
    "ok": true,
    "count": 17,
-   "ms": 185
+   "ms": 315
   }
  ]
 }
