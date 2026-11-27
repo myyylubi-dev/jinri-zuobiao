@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fbfaf7">
+<meta name="description" content="2026-11-28 国务院发布、科技与 AI 与半导体、中外合作、产业、内外共识、影响分析，以及普通人/从业者双线总结。">
+<title>今日坐标 · 11月28日 周六</title>
+<style>
+:root{--paper:#fbfaf7;--card:#fff;--ink:#15171b;--muted:#6d7178;--line:#e8e4dd;--soft:#f4f1ec;
+--c-normal:#5b7c99;--c-poss:#b4442f;--c-fore:#9a6b16;--c-teal:#0f6b62;--c-semi:#3f5b8a;
+--c-coop:#6d4b8f;--c-ind:#4a6b3c;--c-pro:#2f5d8a}
+@media (prefers-color-scheme:dark){:root{--paper:#121316;--card:#191b1f;--ink:#ecebe7;--muted:#9a9ea6;--line:#2a2c31;--soft:#202227;
+--c-normal:#7c9cbb;--c-poss:#e0705a;--c-fore:#cf9d3e;--c-teal:#5fb8ab;--c-semi:#8aa6d6;
+--c-coop:#b18fd0;--c-ind:#8fb87a;--c-pro:#7aa8d8}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:16px/1.75 -apple-system,BlinkMacSystemFont,"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:22px 16px 72px}
+a{color:inherit;text-decoration:none}
+.mast{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding-bottom:14px;border-bottom:2px solid var(--ink)}
+.brand{font-size:15px;font-weight:700;letter-spacing:.18em}
+.brand .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--c-poss);margin-right:8px;vertical-align:2px}
+.date{text-align:right;line-height:1.1}
+.date b{display:block;font-size:30px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.date span{font-size:12px;color:var(--muted);letter-spacing:.06em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px}
+.verdict{margin-top:18px;padding:20px 18px 18px;position:relative;overflow:hidden}
+.verdict::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--c-normal)}
+.verdict.t-poss::before{background:var(--c-poss)}
+.verdict.t-fore::before{background:var(--c-fore)}
+.vlabel{font-size:11px;letter-spacing:.2em;color:var(--muted);text-transform:uppercase}
+.vtype{font-size:34px;line-height:1.2;margin:6px 0 10px;font-weight:800;letter-spacing:-.01em}
+.t-poss .vtype{color:var(--c-poss)}.t-fore .vtype{color:var(--c-fore)}
+.vone{margin:0 0 16px;font-size:15.5px;opacity:.9}
+.meter{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--soft);gap:2px}
+.seg{display:block;height:100%}
+.seg--normal{background:var(--c-normal)}.seg--poss{background:var(--c-poss)}.seg--fore{background:var(--c-fore)}
+.legend{display:flex;gap:14px;margin-top:8px;font-size:11.5px;color:var(--muted);flex-wrap:wrap}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:4px;vertical-align:1px}
+.dot--normal{background:var(--c-normal)}.dot--poss{background:var(--c-poss)}.dot--fore{background:var(--c-fore)}
+.overview{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px dashed var(--line);display:grid;gap:10px}
+.overview li{display:flex;gap:10px;font-size:14.5px;line-height:1.65}
+.tk{flex:0 0 auto;font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:1px 6px;height:fit-content;margin-top:3px;white-space:nowrap}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin:20px 0 6px;padding-bottom:4px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{flex:0 0 auto;font-size:13px;padding:7px 12px;border:1px solid var(--line);border-radius:99px;color:var(--muted);background:var(--card)}
+.sec{margin:30px 0 12px;display:flex;align-items:baseline;gap:10px;font-size:17px;font-weight:800}
+.sec .num{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.16em;font-variant-numeric:tabular-nums}
+.sec .hint{margin-left:auto;font-size:12px;font-weight:400;color:var(--muted)}
+.sec+.card{padding:6px 16px}
+.list>.item{padding:16px 0;border-bottom:1px solid var(--line)}
+.list>.item:last-child{border-bottom:0}
+.item--tight{padding:14px 0}
+.meta{display:flex;align-items:center;gap:8px;font-size:11.5px;color:var(--muted);margin-bottom:6px;flex-wrap:wrap}
+.meta time{margin-left:auto;font-variant-numeric:tabular-nums}
+.chip{font-size:11px;padding:1px 7px;border-radius:5px;border:1px solid var(--line);background:var(--soft);color:var(--muted)}
+.chip--org{background:color-mix(in srgb,var(--c-poss) 10%,transparent);color:var(--c-poss);border-color:transparent}
+.chip--semi{background:color-mix(in srgb,var(--c-semi) 12%,transparent);color:var(--c-semi);border-color:transparent}
+.chip--ai{background:color-mix(in srgb,var(--c-teal) 12%,transparent);color:var(--c-teal);border-color:transparent}
+.chip--topic{background:color-mix(in srgb,var(--c-fore) 12%,transparent);color:var(--c-fore);border-color:transparent}
+.chip--coop{background:color-mix(in srgb,var(--c-coop) 13%,transparent);color:var(--c-coop);border-color:transparent}
+.chip--ind{background:color-mix(in srgb,var(--c-ind) 13%,transparent);color:var(--c-ind);border-color:transparent}
+.chip--aff{background:color-mix(in srgb,var(--c-pro) 13%,transparent);color:var(--c-pro);border-color:transparent}
+.chip--people{background:color-mix(in srgb,var(--c-poss) 13%,transparent);color:var(--c-poss);border-color:transparent}
+.chip--pro{background:color-mix(in srgb,var(--c-pro) 13%,transparent);color:var(--c-pro);border-color:transparent}
+.chip--poss{background:color-mix(in srgb,var(--c-poss) 12%,transparent);color:var(--c-poss);border-color:transparent}
+.chip--fore{background:color-mix(in srgb,var(--c-fore) 12%,transparent);color:var(--c-fore);border-color:transparent}
+.badge{font-size:11px;padding:1px 7px;border-radius:99px;font-weight:600}
+.badge--same{background:color-mix(in srgb,var(--c-teal) 14%,transparent);color:var(--c-teal)}
+.badge--diff{background:color-mix(in srgb,var(--c-poss) 14%,transparent);color:var(--c-poss)}
+.src{font-size:11.5px;color:var(--muted)}
+.title{display:block;font-size:16px;line-height:1.55;font-weight:600}
+.title:active{opacity:.6}
+.doc{margin-top:5px;font-size:12px;color:var(--c-poss);font-variant-numeric:tabular-nums}
+.excerpt{margin:6px 0 0;font-size:13.5px;line-height:1.65;color:var(--muted)}
+.note{margin:0 0 4px;padding:12px 0;font-size:13px;color:var(--muted);border-bottom:1px solid var(--line)}
+.empty{padding:18px 0;color:var(--muted);font-size:14px;margin:0}
+.degrade{margin:12px 0;padding:12px 14px;background:var(--soft);border-radius:10px;font-size:13px;color:var(--muted);line-height:1.6}
+.pair{display:grid;gap:10px;margin:8px 0 6px}
+.side{display:flex;gap:9px;align-items:flex-start}
+.side>div{flex:1;min-width:0}
+.flag{flex:0 0 auto;width:18px;height:18px;border-radius:5px;font-size:11px;font-weight:700;display:grid;place-items:center;background:color-mix(in srgb,var(--c-poss) 14%,transparent);color:var(--c-poss);margin-top:4px}
+.flag--intl{background:color-mix(in srgb,var(--c-normal) 16%,transparent);color:var(--c-normal)}
+.side .title{font-size:14.5px;font-weight:500}
+.side .src{display:block;margin-top:2px}
+.shared{margin-top:6px;font-size:11.5px;color:var(--muted)}
+.shared b{font-weight:600;color:var(--ink);opacity:.75}
+.tracks{padding:6px 16px}
+.track{padding:16px 0 16px 14px;position:relative}
+.track+.track{border-top:1px solid var(--line)}
+.track::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:3px;border-radius:2px;background:var(--c-poss);opacity:.35}
+.track--pro::before{background:var(--c-pro)}
+.track-h{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.track-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.track-list li{display:block;font-size:14.5px;line-height:1.65}
+.track-list b{display:block;font-size:11.5px;font-weight:600;color:var(--muted);margin-bottom:1px}
+h3{font-size:12px;letter-spacing:.12em;color:var(--muted);margin:20px 0 8px;font-weight:600}
+.nodes{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:13.5px}
+.nodes li{display:flex;gap:10px;color:var(--muted)}
+.nodes time{font-variant-numeric:tabular-nums;color:var(--c-fore);font-weight:600;flex:0 0 44px}
+details{margin-top:22px;border-top:1px dashed var(--line);padding-top:14px}
+summary{font-size:13px;color:var(--muted);cursor:pointer;outline:none}
+details ul{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:8px}
+details li{display:flex;gap:8px;font-size:13px;color:var(--muted);line-height:1.6}
+footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.8}
+.srcgrid{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 14px}
+.src-chip{display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border:1px solid var(--line);border-radius:99px;font-size:11px}
+.src-chip b{font-weight:600;font-variant-numeric:tabular-nums;opacity:.7}
+.src-chip--down{opacity:.45;text-decoration:line-through}
+.arch{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.arch-item{display:flex;align-items:center;gap:6px;padding:4px 9px;border:1px solid var(--line);border-radius:8px;font-size:11.5px}
+.arch-date{font-variant-numeric:tabular-nums}
+.arch-type--normal{color:var(--c-normal)}.arch-type--poss{color:var(--c-poss)}.arch-type--fore{color:var(--c-fore)}
+@media (max-width:420px){.vtype{font-size:29px}.wrap{padding:18px 14px 64px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="mast">
+    <div class="brand"><span class="dot"></span>今日坐标</div>
+    <div class="date"><b>11.28</b><span>2026 · 周六</span></div>
+  </header>
+
+  <section class="card verdict t-normal">
+    <div class="vlabel">判定</div>
+    <h1 class="vtype">正常一天</h1>
+    <p class="vone">今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。</p>
+    
+    <div class="meter" role="img" aria-label="正常 57%、可能性 22%、前瞻性 21%">
+      <i class="seg seg--normal" style="width:57%"></i>
+      <i class="seg seg--poss" style="width:22%"></i>
+      <i class="seg seg--fore" style="width:21%"></i>
+    </div>
+    <div class="legend">
+      <span><b class="dot dot--normal"></b>正常 57%</span>
+      <span><b class="dot dot--poss"></b>可能性 22%</span>
+      <span><b class="dot dot--fore"></b>前瞻性 21%</span>
+    </div>
+    <ul class="overview"><li><span class="tk">政策</span><span>今天没有新增，最近一次是 18 天前的《基金会管理条例》，最近一个施行节点在 1月1日。</span></li><li><span class="tk">科技</span><span>12.9–12.10 深圳｜AI 算力、GaN/SiC、边缘 AI、工业 …（集邦）</span></li><li><span class="tk">合作</span><span>小鹏 MONA 全系累计交付汽车突破 40 万台，平均月交付近 1.5 万台（IT之家）</span></li><li><span class="tk">产业</span><span>HBM、SSD、GPU、MLCC产能告急（集邦）</span></li></ul>
+  </section>
+
+  <nav class="tabs">
+    <a href="#gov">国务院</a>
+    <a href="#tech">科技</a>
+    <a href="#coop">中外合作</a>
+    <a href="#industry">产业</a>
+    <a href="#consensus">共识</a>
+    <a href="#impact">影响</a>
+    <a href="#summary">总结</a>
+  </nav>
+
+  <h2 class="sec" id="gov"><span class="num">01</span>国务院 · 今日发布<span class="hint">原文为准</span></h2>
+  <div class="card list"><p class="note">今日无新增文件。下面列出最近 4 条。</p><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国务院令</span>
+          <time>11/10</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085661.htm" target="_blank" rel="noopener">基金会管理条例</a>
+        <div class="doc">国令第848号 · 2027-01-01 起施行</div>
+        <p class="excerpt">国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国务院令</span>
+          <time>11/9</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085591.htm" target="_blank" rel="noopener">中医药传统知识保护条例</a>
+        <div class="doc">国令第850号 · 2027-01-01 起施行</div>
+        <p class="excerpt">国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国家层面</span>
+          <time>11/6</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/202611/content_7085350.htm" target="_blank" rel="noopener">国家统计局职能配置、内设机构和人员编制规定</a>
+        <div class="doc">2026-10-28 起施行</div>
+        <p class="excerpt">为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--org">国务院</span>
+          <time>11/5</time>
+        </div>
+        <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085109.htm" target="_blank" rel="noopener">国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复</a>
+        <div class="doc">​国函〔2026〕113号</div>
+        <p class="excerpt">《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。</p>
+      </article></div>
+
+  <h2 class="sec" id="tech"><span class="num">02</span>科技 · AI · 半导体<span class="hint">今日 17 / 共 176</span></h2>
+  <div class="card list"><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ai">AI</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/AI/20261127-41521.html" target="_blank" rel="noopener">12.9–12.10 深圳｜AI 算力、GaN/SiC、边缘 AI、工业 4.0：工程师年底充电就来 IIC Shenzhen</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ai">AI</span>
+          <span class="src">EE Times</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/" target="_blank" rel="noopener">Penguin Revives Retired DDR4 for AI Servers</a>
+        <p class="excerpt">Hyperscalers are already reclaiming older DRAM, but enterprises have been slower to reuse </p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ai">AI</span>
+          <span class="src">量子位</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.qbitai.com/2026/11/513194.html" target="_blank" rel="noopener">钛动科技 × 腾讯云达成战略合作，用AI打开企业全球增长新空间</a>
+        <p class="excerpt">企业需要有用的 AI</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--tag">前沿</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/AI/20261127-41524.html" target="_blank" rel="noopener">欧盟正式提出《量子法案》草案，布局量子产业与后量子密码转型</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--tag">前沿</span>
+          <span class="src">环球</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://tech.huanqiu.com/article/4UC3wBWvZJg" target="_blank" rel="noopener">我国科学家在量子精密测量领域取得新突破</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--tag">前沿</span>
+          <span class="src">量子位</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.qbitai.com/2026/11/513352.html" target="_blank" rel="noopener">人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了</a>
+        <p class="excerpt">一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--tag">前沿</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/744.htm" target="_blank" rel="noopener">智元：精灵 G2 机器人在龙旗科技产线正式承担喇叭 BOX 安装任务并实现并线生产</a>
+        <p class="excerpt">IT之家 11 月 27 日消息，智元今日宣布，旗下机器人精灵 G2 在龙旗科技产线的部署近期再获突破：在质检上下料工序并线稳定运行的基础上，进一步拓展至精密装配环节， 正式承担喇</p>
+      </article></div>
+
+  <h2 class="sec" id="coop"><span class="num">03</span>中外合作<span class="hint">签约 · 投资 · 订单 · 往来</span></h2>
+  <div class="card list"><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">贸易</span>
+          <span class="src">欧洲 · 泰国 · 中东</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/721.htm" target="_blank" rel="noopener">小鹏 MONA 全系累计交付汽车突破 40 万台，平均月交付近 1.5 万台</a>
+        <p class="excerpt">IT之家 11 月 27 日消息，在 2026 广州车展上，小鹏汽车公布 MONA 系列市场数据： 全系累计交付量突破 40 万辆 ，平均月交付量接近 1.5 万辆。 此外，MONA L03 海外订单</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">合作</span>
+          <span class="src">三星</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/made-sealing/20261127-41520.html" target="_blank" rel="noopener">三星组建专项团队，推进芯片产线机器人落地</a>
+        
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">机制</span>
+          <span class="src">英伟达</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/Memory/20261127-41519.html" target="_blank" rel="noopener">铠侠、英伟达合作，解锁 GPU 存储扩展新方案</a>
+        
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">贸易</span>
+          <span class="src">大众</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/750.htm" target="_blank" rel="noopener">大众中国 CEO 齐泽凯：预计 11 月向用户交付 3.2 万辆新能源汽车，接近去年同期的 5 倍</a>
+        <p class="excerpt">IT之家 11 月 27 日消息，大众汽车乘用车品牌中国 CEO 齐泽凯今日发文称，预计 11 月向用户交付 3.2 万辆新能源汽车，接近去年同期的 5 倍。据其介绍，尽管整体新能源市场仍在承压，这一</p>
+      </article><article class="item">
+        <div class="meta">
+          <span class="chip chip--coop">合作</span>
+          <span class="src">欧盟</span>
+          <span class="src">观察者</span>
+          <time>3 天前</time>
+        </div>
+        <a class="title" href="https://www.guancha.cn/ShenYi/2026_11_25_909887.shtml" target="_blank" rel="noopener">欧盟公布混动车进口临时配额，中国拿到了什么？先看三个数字</a>
+        
+      </article></div>
+
+  <h2 class="sec" id="industry"><span class="num">04</span>产业与其他<span class="hint">价格 · 产能 · 订单</span></h2>
+  <div class="card list"><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/server/20261106-41404.html" target="_blank" rel="noopener">HBM、SSD、GPU、MLCC产能告急</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">集邦</span>
+          <time>今天</time>
+        </div>
+        <a class="title" href="https://www.dramx.com/News/made-sealing/20260514-40422.html" target="_blank" rel="noopener">CoWoS产能告急，英特尔EMIB搅动风</a>
+        
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/767.htm" target="_blank" rel="noopener">恒大汽车：香港联交所上市委员会决定取消公司的上市地位，最快 12 月 14 日摘牌</a>
+        <p class="excerpt">IT之家 11 月 27 日消息，恒大汽车今日在港交所发布公告称，公司于 2026 年 11 月 27 日接获联交所函件，联交所上市委员会已决定根据上市规则第 6.01A (1) </p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">IT之家</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.ithome.com/1/033/765.htm" target="_blank" rel="noopener">蔚来李斌：吉利汽车已经在规划和开发相关换电车型</a>
+        <p class="excerpt">IT之家 11 月 27 日消息，蔚来创始人、董事长、CEO 李斌在 2026 广州车展上接受每日经济新闻采访时透露， 吉利汽车已经在规划和开发相关换电车型 。 今年是我们运营换电</p>
+      </article><article class="item item--tight">
+        <div class="meta">
+          <span class="chip chip--ind">产业</span>
+          <span class="src">观察者</span>
+          <time>昨天</time>
+        </div>
+        <a class="title" href="https://www.guancha.cn/ZhengZhi/2026_11_27_910222.shtml" target="_blank" rel="noopener">多数农产品常态化过剩，是时候建立“价格联动休耕”了</a>
+        
+      </article></div>
+
+  <h2 class="sec" id="consensus"><span class="num">05</span>内外共识<span class="hint">同题 + 同实体</span></h2>
+  <div class="card list"><div class="degrade">境外 8 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。</div></div>
+
+  <h2 class="sec" id="impact"><span class="num">06</span>影响分析<span class="hint">对象 · 时间尺度</span></h2>
+  <div class="card list"><article class="item">
+      <div class="meta">
+        <span class="chip chip--aff">影响 · 行业</span>
+        <span class="chip">3 个月内</span>
+        <span class="src">最新政策</span>
+      </div>
+      <a class="title" href="https://www.gov.cn/zhengce/content/202611/content_7085661.htm" target="_blank" rel="noopener">基金会管理条例</a>
+      <p class="excerpt">1月1日 起施行，主要约束机构与企业，个人短期影响有限。</p>
+    </article><article class="item">
+      <div class="meta">
+        <span class="chip chip--aff">影响 · 行业</span>
+        <span class="chip">1-3 个月</span>
+        <span class="src">IT之家</span>
+      </div>
+      <a class="title" href="https://www.ithome.com/1/033/721.htm" target="_blank" rel="noopener">小鹏 MONA 全系累计交付汽车突破 40 万台，平均月交付近 1.5 万台</a>
+      <p class="excerpt">订单与出货先动，价格和供给要过一段才传到终端。</p>
+    </article><article class="item">
+      <div class="meta">
+        <span class="chip chip--aff">影响 · 两者</span>
+        <span class="chip">1-3 个月</span>
+        <span class="src">集邦</span>
+      </div>
+      <a class="title" href="https://www.dramx.com/News/server/20261106-41404.html" target="_blank" rel="noopener">HBM、SSD、GPU、MLCC产能告急</a>
+      <p class="excerpt">价格与产能会先出现在企业报表里，再传到货架和你的账单上。</p>
+    </article></div>
+
+  <h2 class="sec" id="summary"><span class="num">07</span>今日总结<span class="hint">两条线</span></h2>
+  <div class="card tracks"><div class="track track--people">
+      <div class="track-h"><span class="chip chip--people">普通人</span><span class="src">今天要不要动、离你多远</span></div>
+      <ul class="track-list"><li><b>要不要动</b><span>今天没有必须立刻处理的事，可以把注意力留给长期的事。</span></li><li><b>与你最近</b><span>HBM、SSD、GPU、MLCC产能告急——价格与产能会先出现在企业报表里，再传到货架和你的账单上。</span></li><li><b>下一个节点</b><span>1月1日（34 天后）起《基金会管理条例》施行。</span></li></ul>
+    </div><div class="track track--pro">
+      <div class="track-h"><span class="chip chip--pro">从业者</span><span class="src">产业、对外与技术信号</span></div>
+      <ul class="track-list"><li><b>产业面</b><span>HBM、SSD、GPU、MLCC产能告急（集邦）</span></li><li><b>对外</b><span>小鹏 MONA 全系累计交付汽车突破 40 万台，平均月交付近…｜贸易类 · 欧洲、泰国、中东</span></li><li><b>技术面</b><span>12.9–12.10 深圳｜AI 算力、GaN/SiC、边缘 …（AI）</span></li></ul>
+    </div></div>
+
+  <div class="card" style="padding:18px;margin-top:12px">
+    <h3>未来 30 天的节点</h3><ul class="nodes"><li><time>01-01</time><span>《基金会管理条例》施行</span></li><li><time>01-01</time><span>《中医药传统知识保护条例》施行</span></li></ul>
+    <details>
+      <summary>判定依据：这个结论是怎么算出来的</summary>
+      <ul><li><span class="chip chip--poss">可能</span>市场异动 1 条：AI股大涨大跌，华尔街在恐慌什么？</li><li><span class="chip chip--fore">前瞻</span>1月1日（34 天后）起施行：基金会管理条例</li><li><span class="chip chip--fore">前瞻</span>1月1日（34 天后）起施行：中医药传统知识保护条例</li></ul>
+    </details>
+  </div>
+
+  <footer>
+    <div>数据来自 18 个可用来源，抓取 429 条；生成于 2026-11-28 03:33:29（北京时间）。</div>
+    <div class="srcgrid"><span class="src-chip " title="">TrendForce 集邦咨询<b>15</b></span><span class="src-chip " title="">中国政府网 · 国务院文件<b>40</b></span><span class="src-chip " title="">中国政府网 · 要闻<b>40</b></span><span class="src-chip " title="">中国政府网 · 最新政策<b>40</b></span><span class="src-chip " title="">观察者网<b>30</b></span><span class="src-chip " title="">环球网<b>30</b></span><span class="src-chip " title="">IT之家<b>40</b></span><span class="src-chip " title="">量子位<b>10</b></span><span class="src-chip " title="">少数派<b>10</b></span><span class="src-chip " title="">arXiv cs.AI<b>15</b></span><span class="src-chip " title="">BBC World<b>31</b></span><span class="src-chip " title="">BBC Technology<b>21</b></span><span class="src-chip " title="">EE Times<b>10</b></span><span class="src-chip " title="">Hacker News<b>20</b></span><span class="src-chip src-chip--down" title="HTTP 404">Reuters<b>×</b></span><span class="src-chip " title="">TechCrunch<b>20</b></span><span class="src-chip " title="">The Verge<b>10</b></span><span class="src-chip " title="">联合国新闻（中文）<b>30</b></span><span class="src-chip " title="">联合早报<b>17</b></span></div>
+    <div>今日不可达：Reuters。</div>
+    <div style="margin-top:14px">归档</div>
+    <div class="arch"><a class="arch-item" href="./"><span class="arch-date">11-28</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-27.html"><span class="arch-date">11-27</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-26.html"><span class="arch-date">11-26</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-25.html"><span class="arch-date">11-25</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-24.html"><span class="arch-date">11-24</span><span class="arch-type arch-type--normal">正常一天</span></a><a class="arch-item" href="d/2026-11-23.html"><span class="arch-date">11-23</span><span class="arch-type arch-type--normal">正常一天</span></a></div>
+    <div style="margin-top:16px;opacity:.75">
+      自动聚合：原文链接均指向来源站点，摘要为机器截取，可能有误差；政策类请以 gov.cn 原文为准。
+      「中外合作」按标题动词 + 国家/外企实体匹配，「影响分析」是规则推断，都不是预测，也不构成建议。
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
