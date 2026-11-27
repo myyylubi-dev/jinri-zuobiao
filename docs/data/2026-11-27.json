@@ -2,9 +2,9 @@
  "meta": {
   "date": "2026-11-27",
   "weekday": "周五",
-  "generatedAt": "2026-11-26T19:43:35.633Z",
+  "generatedAt": "2026-11-27T04:55:59.818Z",
   "mode": "ci",
-  "totalItems": 427,
+  "totalItems": 429,
   "cnSources": 9,
   "cnSourceTotal": 9,
   "intlSources": 9,
@@ -12,30 +12,24 @@
   "schema": 1
  },
  "day": {
-  "type": "前瞻性一天",
+  "type": "正常一天",
   "dist": {
-   "normal": 46,
-   "possibility": 0,
-   "foresight": 54
+   "normal": 57,
+   "possibility": 22,
+   "foresight": 21
   },
   "score": {
-   "sF": 50,
-   "sP": 0,
-   "sN": 43
+   "sF": 18,
+   "sP": 18,
+   "sN": 48
   },
-  "oneLine": "今天的关键词是「倒计时」：有明确的未来时间点，现在就把日程往前排更划算。",
+  "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
   "signals": [
    {
-    "bucket": "foresight",
-    "w": 8,
-    "text": "技术节点：首台设备搬入！存储巨头HBM厂规划2027年初投产",
-    "tag": "tech-anchor"
-   },
-   {
-    "bucket": "foresight",
-    "w": 8,
-    "text": "技术节点：让渐冻症患者“开口说话”，我国首例无线侵入式汉语脑机接口临床试…",
-    "tag": "tech-anchor"
+    "bucket": "possibility",
+    "w": 9,
+    "text": "市场异动 1 条：AI股大涨大跌，华尔街在恐慌什么？",
+    "tag": "market"
    },
    {
     "bucket": "foresight",
@@ -99,7 +93,7 @@
   },
   {
    "label": "产业",
-   "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+   "text": "魏牌谭健：打死不做增程、打死不做速成，是长城汽车永远不变的做事准则（IT之家）"
   }
  ],
  "impact": [
@@ -146,7 +140,7 @@
   "pro": [
    {
     "label": "产业面",
-    "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+    "text": "魏牌谭健：打死不做增程、打死不做速成，是长城汽车永远不变的做事…（IT之家）"
    },
    {
     "label": "对外",
@@ -159,9 +153,9 @@
   ]
  },
  "gov": {
-  "headline": "今天国务院层面无新增文件；最近一次文件是 17 天前（11月10日）",
+  "headline": "今天国务院层面无新增文件，政府网要闻 2 条；最近一次文件是 17 天前（11月10日）",
   "todayCount": 0,
-  "newsCount": 0,
+  "newsCount": 2,
   "weekCount": 0,
   "items": [
    {
@@ -235,6 +229,24 @@
     "effectiveAt": "",
     "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
     "org": "国务院"
+   },
+   {
+    "key": "gov-yaowen:https://www.gov.cn/yaowen/liebiao/202611/content_7087445.htm",
+    "sourceId": "gov-yaowen",
+    "sourceName": "中国政府网 · 要闻",
+    "short": "要闻",
+    "region": "cn",
+    "kind": "official",
+    "weight": 90,
+    "title": "李强主持召开国务院常务会议 听取推动高质量发展综合督查情况汇报等",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7087445.htm",
+    "date": "2026-11-27",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "",
+    "excerpt": "国务院总理李强11月27日主持召开国务院常务会议，听取推动高质量发展综合督查情况汇报，研究持续深化资本市场投融资综合改革工作，听取国家标准体系建设情况汇报，审议通过《生产安全事故隐患排查治理条例（草案）》。",
+    "org": "要闻"
    }
   ],
   "recent": [
@@ -358,60 +370,64 @@
     "score": 128.94
    },
    {
-    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143270",
-    "sourceId": "un-news",
-    "sourceName": "联合国新闻（中文）",
-    "short": "联合国",
-    "region": "intl",
-    "kind": "official",
-    "weight": 80,
-    "title": "联合国大学澳门人工智能大会探讨以人为本的人工智能教育",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143270",
-    "date": "2026-11-26",
-    "summary": "第三届联合国大学澳门人工智能大会11月25日至26日在澳门举行，来自全球的400多名政策制定者、教育工作者、学者和青年创新者齐聚一堂，探讨如何利用人工智能促进教育发展，同时确保技术应用符合人的主体性、社会公平和信任等原则。",
-    "categories": [],
-    "tag": "AI",
-    "raw": 91,
-    "score": 127.39999999999999
-   },
-   {
-    "key": "dramx:https://www.dramx.com/News/AI/20261125-41508.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 66,
-    "title": "摩尔线程携手Sand.ai：AI视频模型MAGI-2，跑在国产算力上",
-    "url": "https://www.dramx.com/News/AI/20261125-41508.html",
-    "date": "2026-11-27",
-    "summary": "",
-    "categories": [],
-    "tag": "AI",
-    "raw": 88.30000000000001,
-    "score": 123.62
-   },
-   {
-    "key": "qbitai:https://www.qbitai.com/2026/11/512972.html",
+    "key": "qbitai:https://www.qbitai.com/2026/11/513075.html",
     "sourceId": "qbitai",
     "sourceName": "量子位",
     "short": "量子位",
     "region": "cn",
     "kind": "tech",
     "weight": 72,
-    "title": "90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守",
-    "url": "https://www.qbitai.com/2026/11/512972.html",
-    "date": "2026-11-26",
-    "summary": "全栈方案破解工业机器人连续作业难题",
+    "title": "陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”",
+    "url": "https://www.qbitai.com/2026/11/513075.html",
+    "date": "2026-11-27",
+    "summary": "担心课题被AI抢先，该怎么办？",
     "categories": [
      "资讯",
-     "具微科技",
-     "具身智能",
-     "工业机器人"
+     "首页轮播",
+     "AI"
     ],
+    "tag": "AI",
+    "raw": 91.6,
+    "score": 128.23999999999998
+   },
+   {
+    "key": "qbitai:https://www.qbitai.com/2026/11/513053.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 72,
+    "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+    "url": "https://www.qbitai.com/2026/11/513053.html",
+    "date": "2026-11-27",
+    "summary": "Quickwit查询总耗时降31%，最高降87%",
+    "categories": [
+     "资讯",
+     "ClickBench",
+     "Quickwit",
+     "TabbyML"
+    ],
+    "tag": "AI",
+    "raw": 91.6,
+    "score": 128.23999999999998
+   },
+   {
+    "key": "huanqiu:https://tech.huanqiu.com/article/4UC3wBWvZJg",
+    "sourceId": "huanqiu",
+    "sourceName": "环球网",
+    "short": "环球",
+    "region": "cn",
+    "kind": "media",
+    "weight": 56,
+    "title": "我国科学家在量子精密测量领域取得新突破",
+    "url": "https://tech.huanqiu.com/article/4UC3wBWvZJg",
+    "date": "2026-11-27",
+    "summary": "",
+    "categories": [],
     "tag": "前沿",
-    "raw": 82.6,
-    "score": 94.98999999999998
+    "raw": 82.80000000000001,
+    "score": 95.22
    },
    {
     "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143247",
@@ -431,44 +447,44 @@
     "score": 85.1
    },
    {
-    "key": "dramx:https://www.dramx.com/News/Memory/20261126-41515.html",
+    "key": "un-news:https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "sourceId": "un-news",
+    "sourceName": "联合国新闻（中文）",
+    "short": "联合国",
+    "region": "intl",
+    "kind": "official",
+    "weight": 80,
+    "title": "【世界进行时】2026年11月20日",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
+    "date": "2026-11-20",
+    "summary": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 74,
+    "score": 85.1
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20261127-41522.html",
     "sourceId": "dramx",
     "sourceName": "TrendForce 集邦咨询",
     "short": "集邦",
     "region": "cn",
     "kind": "tech",
     "weight": 66,
-    "title": "首台设备搬入！存储巨头HBM厂规划2027年初投产",
-    "url": "https://www.dramx.com/News/Memory/20261126-41515.html",
+    "title": "日本把晶圆厂搬上卡车：mobileFab 巡回学校与企业，现场教做芯片",
+    "url": "https://www.dramx.com/News/made-sealing/20261127-41522.html",
     "date": "2026-11-27",
     "summary": "",
     "categories": [],
     "tag": "半导体",
     "raw": 88.30000000000001,
     "score": 83.885
-   },
-   {
-    "key": "ithome:https://www.ithome.com/1/033/101.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 58,
-    "title": "让渐冻症患者“开口说话”，我国首例无线侵入式汉语脑机接口临床试验成功开展",
-    "url": "https://www.ithome.com/1/033/101.htm",
-    "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日消息，复旦大学今日发文，介绍了脑机接口的里程碑新突破：成功开展了 我国首例无线侵入式汉语脑机接口临床试验 ，让渐冻症患者实现了“靠意念就能交流”。 身患渐冻症的李阿姨无法顺畅发声，仅仅轻轻动一动嘴唇，屏幕立刻浮现文字，设备随后传出带着她本人音色的语音。 我重新点燃了生活的希望，真心期盼这项研究早日成熟，帮到更多有需要的病友。 这一幕，来自复旦大学附属华山医院 / 现代语言学研究院路俊锋、毛颖、张梦翰团队，联…",
-    "categories": [],
-    "tag": "前沿",
-    "raw": 72.9,
-    "score": 83.835
    }
   ],
   "counts": {
-   "total": 173,
-   "today": 16,
-   "semiconductor": 14,
+   "total": 171,
+   "today": 63,
+   "semiconductor": 18,
    "ai": 49
   }
  },
@@ -513,50 +529,113 @@
     "score": 53
    },
    {
-    "key": "ithome:https://www.ithome.com/1/033/116.htm",
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20261127-41520.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "合作",
+    "weight": 66,
+    "title": "三星组建专项团队，推进芯片产线机器人落地",
+    "url": "https://www.dramx.com/News/made-sealing/20261127-41520.html",
+    "date": "2026-11-27",
+    "summary": "",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "三星"
+    ],
+    "score": 43
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/Memory/20261127-41519.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "机制",
+    "weight": 66,
+    "title": "铠侠、英伟达合作，解锁 GPU 存储扩展新方案",
+    "url": "https://www.dramx.com/News/Memory/20261127-41519.html",
+    "date": "2026-11-27",
+    "summary": "",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "英伟达"
+    ],
+    "score": 43
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/033/279.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
-    "kind": "贸易",
+    "kind": "合作",
     "weight": 58,
-    "title": "消息称马斯克为采购存储芯片曾主动提出为三星工厂提供融资担保，被李在镕拒绝",
-    "url": "https://www.ithome.com/1/033/116.htm",
-    "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日消息，据华尔街日报于当地时间 11 月 25 日报道，资本集团（Capital Group）投资组合经理卡尔 · 卡瓦贾（Carl Kawaja）回忆了他与马斯克就特斯拉存储芯片问题进行的一次交谈。 卡瓦贾称，马斯克表示他曾向三星提出长期芯片（IT之家注：根据原报道上下文，此处指存储芯片）采购承诺，结果三星会长李在镕却回答说，其他所有人都在向他提供同样的条件，你还能拿出什么别的筹码？ 而当马斯克随后提出为三…",
+    "title": "全球首款增程汉兰达来了：广汽丰田汉兰达 9X 官宣，携手华为、宁德时代打造",
+    "url": "https://www.ithome.com/1/033/279.htm",
+    "date": "2026-11-27",
+    "summary": "IT之家 11 月 27 日消息，在今天开幕的 2026 广州车展上，广汽丰田宣布，第五代丰田汉兰达将命名为汉兰达 9X，明年一季度全球首发。新车是丰田的首款增程车型及 全球首款增程汉兰达 ，并有华为乾崑智驾和鸿蒙座舱、与宁德时代联合定制电池方案的加持。 根据介绍，2027 年将是广汽丰田的产品大年，带来 2 款全新增程、2 款纯电改款、1 款混动换代 车型。不过截至IT之家发稿，新车外观暂未公布。 2025 年 6 月，广汽丰田宣布…",
     "categories": [],
     "where": [],
     "firms": [
-     "特斯拉",
-     "三星"
+     "丰田"
     ],
-    "score": 49
-   },
-   {
-    "key": "guancha:https://www.guancha.cn/ShenYi/2026_11_25_909887.shtml",
-    "sourceId": "guancha",
-    "sourceName": "观察者网",
-    "short": "观察者",
-    "region": "cn",
-    "kind": "合作",
-    "weight": 60,
-    "title": "欧盟公布混动车进口临时配额，中国拿到了什么？先看三个数字",
-    "url": "https://www.guancha.cn/ShenYi/2026_11_25_909887.shtml",
-    "date": "2026-11-25",
-    "summary": "",
-    "categories": [],
-    "where": [
-     "欧盟"
-    ],
-    "firms": [],
-    "score": 38
+    "score": 39
    }
   ],
-  "total": 4,
+  "total": 6,
   "note": ""
  },
  "industry": {
   "items": [
+   {
+    "key": "ithome:https://www.ithome.com/1/033/326.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "魏牌谭健：打死不做增程、打死不做速成，是长城汽车永远不变的做事准则",
+    "url": "https://www.ithome.com/1/033/326.htm",
+    "date": "2026-11-27",
+    "summary": "IT之家 11 月 27 日消息，在今天的 2026 广州车展上，长城汽车魏牌执行副总经理谭健在长城汽车全球多动力战略暨魏牌新品发布会上登台发表讲话。 谭健表示， 打死不做增程、打死不做速成，是魏牌和长城汽车永远不变的做事准则 。 据IT之家此前报道，今年 1 月，在长城归元平台全球发布会上，对于增程车型， 长城汽车总裁穆峰喊出“打死不做增程”这一口号 。他谈到，增程其实在技术上生成路线不存在什么门槛。而且由于发动机无法直驱的这个缺陷…",
+    "categories": [],
+    "score": 59
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/033/320.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "长城汽车发布行业首个全场景物理 AI 操作系统 Coffee AIOS 4",
+    "url": "https://www.ithome.com/1/033/320.htm",
+    "date": "2026-11-27",
+    "summary": "IT之家 11 月 27 日消息，在今天的 2026 广州车展上，长城汽车官宣发布行业首个全场景物理 AI 操作系统 —— Coffee AIOS 4。 据介绍，长城 Coffee AIOS 4 主打“ 一个大脑 三位一体 ”， 含辅助驾驶、智能座舱、智慧服务三大板块 。 长城汽车智能化负责人姜海鹏表示，“一个大脑”指的是 Master Agent（简称“MA”），支持全域感知、深度思考、协同行动、持续进化等。 智能座舱方面，Coff…",
+    "categories": [],
+    "score": 59
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/AI/20261127-41521.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "12.9–12.10 深圳｜AI 算力、GaN/SiC、边缘 AI、工业 4.0：工程师年底充电就来 IIC Shenzhen",
+    "url": "https://www.dramx.com/News/AI/20261127-41521.html",
+    "date": "2026-11-27",
+    "summary": "",
+    "categories": [],
+    "score": 57
+   },
    {
     "key": "dramx:https://www.dramx.com/News/server/20261106-41404.html",
     "sourceId": "dramx",
@@ -571,51 +650,6 @@
     "summary": "",
     "categories": [],
     "score": 57
-   },
-   {
-    "key": "dramx:https://www.dramx.com/News/made-sealing/20260514-40422.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 66,
-    "title": "CoWoS产能告急，英特尔EMIB搅动风",
-    "url": "https://www.dramx.com/News/made-sealing/20260514-40422.html",
-    "date": "2026-11-27",
-    "summary": "",
-    "categories": [],
-    "score": 57
-   },
-   {
-    "key": "ithome:https://www.ithome.com/1/033/131.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 58,
-    "title": "瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵",
-    "url": "https://www.ithome.com/1/033/131.htm",
-    "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日消息，据路透社报道，瑞士联邦网络安全局（BACS）周四通报，过去几天瑞士发生五起网络攻击，攻击者使用 AI 智能体针对企业以及关键基础设施运营方发起入侵。 IT之家注意到，该局在公告中表示，五起攻击里有四起攻击得手，相关系统遭到入侵。遭到攻击的对象包含三家关键基础设施运营主体，据瑞士公共广播公司 SRF 介绍，它们分别是电力、供水以及通信服务供应商。 瑞士联邦网络安全局没有透露攻击的幕后主体信息。机构建议相…",
-    "categories": [],
-    "score": 51
-   },
-   {
-    "key": "ithome:https://www.ithome.com/1/033/129.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 58,
-    "title": "宁德时代预告 30#巧克力电池：首发 100kWh 版本，支持实现 3s 级零百加速",
-    "url": "https://www.ithome.com/1/033/129.htm",
-    "date": "2026-11-26",
-    "summary": "IT之家 11 月 26 日现场消息，在今晚的 2026 华为乾崑生态大会上，华为智能汽车解决方案 BU CEO 靳玉志正式官宣华为乾崑智驾 × 宁德时代巧克力换电达成合作，并发布了智能补能解决方案。 宁德时代市场联席总裁杨峻还在现场预告了 30#巧克力电池，其定位是“更全能的电池”。 长续航： 首发 100kWh 版本 ，支持实现 700+km 续航； 可升级：不同档位电量，按需配电； 快补能：99 秒极速换电，超充 10 分钟 4…",
-    "categories": [],
-    "score": 51
    },
    {
     "key": "guancha:https://www.guancha.cn/nanjituzhu/2026_11_26_909977.shtml",
@@ -633,7 +667,7 @@
     "score": 46
    }
   ],
-  "total": 12,
+  "total": 13,
   "note": ""
  },
  "consensus": {
@@ -652,7 +686,7 @@
    "kind": "tech",
    "ok": true,
    "count": 16,
-   "ms": 2858
+   "ms": 2556
   },
   {
    "id": "gov-gwy",
@@ -661,7 +695,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 287
+   "ms": 1083
   },
   {
    "id": "gov-yaowen",
@@ -670,7 +704,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 165
+   "ms": 900
   },
   {
    "id": "gov-zuixin",
@@ -679,7 +713,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 289
+   "ms": 1016
   },
   {
    "id": "guancha",
@@ -688,7 +722,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 4458
+   "ms": 1455
   },
   {
    "id": "huanqiu",
@@ -697,7 +731,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 597
+   "ms": 999
   },
   {
    "id": "ithome",
@@ -706,7 +740,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 589
+   "ms": 1016
   },
   {
    "id": "qbitai",
@@ -715,7 +749,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1948
+   "ms": 1959
   },
   {
    "id": "sspai",
@@ -724,7 +758,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1459
+   "ms": 1196
   },
   {
    "id": "arxiv",
@@ -733,7 +767,7 @@
    "kind": "academic",
    "ok": true,
    "count": 15,
-   "ms": 113
+   "ms": 103
   },
   {
    "id": "bbc",
@@ -741,8 +775,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 28,
-   "ms": 25
+   "count": 31,
+   "ms": 24
   },
   {
    "id": "bbc-tech",
@@ -751,7 +785,7 @@
    "kind": "tech",
    "ok": true,
    "count": 21,
-   "ms": 7
+   "ms": 78
   },
   {
    "id": "eetimes",
@@ -760,7 +794,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 130
+   "ms": 150
   },
   {
    "id": "hn",
@@ -769,7 +803,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 57
+   "ms": 3517
   },
   {
    "id": "reuters",
@@ -778,7 +812,7 @@
    "kind": "media",
    "ok": false,
    "count": 0,
-   "ms": 2452,
+   "ms": 2636,
    "error": "HTTP 404"
   },
   {
@@ -788,7 +822,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 34
+   "ms": 50
   },
   {
    "id": "theverge",
@@ -797,7 +831,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 73
+   "ms": 106
   },
   {
    "id": "un-news",
@@ -806,7 +840,7 @@
    "kind": "official",
    "ok": true,
    "count": 30,
-   "ms": 1022
+   "ms": 84
   },
   {
    "id": "zaobao",
@@ -814,8 +848,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 17,
-   "ms": 54
+   "count": 16,
+   "ms": 66
   }
  ]
 }
