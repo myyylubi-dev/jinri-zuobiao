@@ -2,9 +2,9 @@
  "meta": {
   "date": "2026-11-28",
   "weekday": "周六",
-  "generatedAt": "2026-11-28T04:42:02.419Z",
+  "generatedAt": "2026-11-28T12:10:25.168Z",
   "mode": "ci",
-  "totalItems": 420,
+  "totalItems": 427,
   "cnSources": 9,
   "cnSourceTotal": 9,
   "intlSources": 9,
@@ -34,7 +34,7 @@
    {
     "bucket": "foresight",
     "w": 8,
-    "text": "技术节点：刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+    "text": "技术节点：世界最高输电铁塔在江苏首次开展检修，外骨骼机器人辅助极限作业",
     "tag": "tech-anchor"
    },
    {
@@ -57,7 +57,7 @@
    },
    {
     "label": "科技",
-    "text": "值得记一笔：How gamers are using AI and leake…（BBC Tech）。"
+    "text": "值得记一笔：OpenAI counter-sues Apple over al…（BBC）。"
    },
    {
     "label": "内外",
@@ -65,7 +65,7 @@
    }
   ],
   "actions": [
-   "科技面值得跟进：How gamers are using AI and…。"
+   "科技面值得跟进：OpenAI counter-sues Apple o…。"
   ],
   "upcoming": [
    {
@@ -91,7 +91,7 @@
   },
   {
    "label": "科技",
-   "text": "How gamers are using AI and leaked fi…（BBC Tech）"
+   "text": "OpenAI counter-sues Apple over allege…（BBC）"
   },
   {
    "label": "合作",
@@ -99,7 +99,7 @@
   },
   {
    "label": "产业",
-   "text": "影石 Ace Pro 3 被曝采用 1/1.1 英寸方形传感器、双 OLE…（IT之家）"
+   "text": "岚图汽车 CEO 蒋焘：明年车市依然严峻，战略从“以量为主”转向“量利双衡”（IT之家）"
   }
  ],
  "impact": [
@@ -146,7 +146,7 @@
   "pro": [
    {
     "label": "产业面",
-    "text": "影石 Ace Pro 3 被曝采用 1/1.1 英寸方形传感器…（IT之家）"
+    "text": "岚图汽车 CEO 蒋焘：明年车市依然严峻，战略从“以量为主”转…（IT之家）"
    },
    {
     "label": "对外",
@@ -154,7 +154,7 @@
    },
    {
     "label": "技术面",
-    "text": "How gamers are using AI and lea…（AI）"
+    "text": "OpenAI counter-sues Apple over …（AI）"
    }
   ]
  },
@@ -358,6 +358,23 @@
  "tech": {
   "items": [
    {
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc",
+    "sourceName": "BBC World",
+    "short": "BBC",
+    "region": "intl",
+    "kind": "media",
+    "weight": 82,
+    "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+    "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-28",
+    "summary": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 101.1,
+    "score": 141.54
+   },
+   {
     "key": "bbc-tech:https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss",
     "sourceId": "bbc-tech",
     "sourceName": "BBC Technology",
@@ -375,38 +392,24 @@
     "score": 138.46
    },
    {
-    "key": "dramx:https://www.dramx.com/News/AI/20261127-41521.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
+    "key": "qbitai:https://www.qbitai.com/2026/11/513428.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
     "region": "cn",
     "kind": "tech",
-    "weight": 66,
-    "title": "12.9–12.10 深圳｜AI 算力、GaN/SiC、边缘 AI、工业 4.0：工程师年底充电就来 IIC Shenzhen",
-    "url": "https://www.dramx.com/News/AI/20261127-41521.html",
+    "weight": 72,
+    "title": "亏贼！卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
+    "url": "https://www.qbitai.com/2026/11/513428.html",
     "date": "2026-11-28",
-    "summary": "",
-    "categories": [],
+    "summary": "这种大模型现做的即时交互工具，能不能来一波知识付费？",
+    "categories": [
+     "资讯",
+     "Claude"
+    ],
     "tag": "AI",
-    "raw": 88.30000000000001,
-    "score": 123.62
-   },
-   {
-    "key": "ithome:https://www.ithome.com/1/033/824.htm",
-    "sourceId": "ithome",
-    "sourceName": "IT之家",
-    "short": "IT之家",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 58,
-    "title": "“iPod 之父”法德尔：OpenAI 曾邀乔纳森 · 艾维打造实体 AI 设备，因为苹果永远不会提供数据",
-    "url": "https://www.ithome.com/1/033/824.htm",
-    "date": "2026-11-28",
-    "summary": "IT之家 11 月 28 日消息，当地时间 26 日，据《财富》杂志报道，托尼 · 法德尔透露，萨姆 · 奥尔特曼曾邀请苹果前设计主管乔纳森 · 艾夫为 OpenAI 打造一款实体设备，原因是 OpenAI 无法从运行其 AI 服务的 iPhone 中取得所需数据 。 法德尔曾与艾夫在苹果共事，因被誉为“iPod 之父”以及参与创造 iPhone 而广为人知。他创办了 Build Collective，此前还创立过 Nest Labs…",
-    "categories": [],
-    "tag": "AI",
-    "raw": 87.9,
-    "score": 123.06
+    "raw": 91.6,
+    "score": 128.23999999999998
    },
    {
     "key": "dramx:https://www.dramx.com/News/AI/20261127-41524.html",
@@ -426,21 +429,38 @@
     "score": 101.545
    },
    {
-    "key": "huanqiu:https://tech.huanqiu.com/article/4UC3wBWvZJg",
-    "sourceId": "huanqiu",
-    "sourceName": "环球网",
-    "short": "环球",
+    "key": "ithome:https://www.ithome.com/1/033/942.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
     "region": "cn",
-    "kind": "media",
-    "weight": 56,
-    "title": "我国科学家在量子精密测量领域取得新突破",
-    "url": "https://tech.huanqiu.com/article/4UC3wBWvZJg",
+    "kind": "tech",
+    "weight": 58,
+    "title": "世界最高输电铁塔在江苏首次开展检修，外骨骼机器人辅助极限作业",
+    "url": "https://www.ithome.com/1/033/942.htm",
     "date": "2026-11-28",
-    "summary": "",
+    "summary": "IT之家 11 月 28 日消息，11 月 28 日，位于江苏的 500 千伏凤城至梅里长江大跨越工程开展首次人工走线检修，外骨骼机器人首次投入这项高空作业。 据央视新闻报道，该工程是国内规模最大的超高压跨江输变电工程，承担着江苏北部清洁能源送往苏南用电负荷中心的任务，这也是世界最高输电铁塔的首次人工走线检修。 据江苏省送变电有限公司检修作业负责人郑熠珉介绍，这座铁塔长期运行在跨江高湿、多阵风环境中，随着运行时间积累，设备腐蚀、松动等…",
     "categories": [],
     "tag": "前沿",
-    "raw": 82.80000000000001,
-    "score": 95.22
+    "raw": 87.9,
+    "score": 101.085
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/033/912.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "何小鹏：机器人交付后，预计首年实现良好盈利",
+    "url": "https://www.ithome.com/1/033/912.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，小鹏集团董事长、CEO 何小鹏在 2026 广州车展期间的活动中谈到了小鹏机器人。他表示，机器人作为小鹏的生态产品， 交付后首年预计实现良好盈利 。技术上，机器人产品 IRON 已实现 全身运控与视听感知打通 ，触觉是主要攻关难点，压力、扭力等触觉能力有望今明两年取得突破，期待明年科技日展示新进展。此外，产品设计已兼顾海外多语言、安全、隐私合规要求，将先在国内交付，再拓展海外市场。 据IT之家了解 2…",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 87.9,
+    "score": 101.085
    },
    {
     "key": "qbitai:https://www.qbitai.com/2026/11/513352.html",
@@ -463,36 +483,13 @@
     "tag": "前沿",
     "raw": 82.6,
     "score": 94.98999999999998
-   },
-   {
-    "key": "qbitai:https://www.qbitai.com/2026/11/513227.html",
-    "sourceId": "qbitai",
-    "sourceName": "量子位",
-    "short": "量子位",
-    "region": "cn",
-    "kind": "tech",
-    "weight": 72,
-    "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
-    "url": "https://www.qbitai.com/2026/11/513227.html",
-    "date": "2026-11-27",
-    "summary": "地图能随时修，记忆能跨任务用",
-    "categories": [
-     "资讯",
-     "首页轮播",
-     "具身智能",
-     "机器人",
-     "空间记忆"
-    ],
-    "tag": "前沿",
-    "raw": 82.6,
-    "score": 94.98999999999998
    }
   ],
   "counts": {
    "total": 177,
-   "today": 63,
-   "semiconductor": 17,
-   "ai": 50
+   "today": 76,
+   "semiconductor": 14,
+   "ai": 56
   }
  },
  "coop": {
@@ -536,7 +533,7 @@
     "score": 43
    },
    {
-    "key": "zaobao:https://www.zaobao.com.sg/news/singapore/story20261128-10071249?ref=today-news-section-card-1",
+    "key": "zaobao:https://www.zaobao.com.sg/news/singapore/story20261128-10071249?ref=today-news-section-card-2",
     "sourceId": "zaobao",
     "sourceName": "联合早报",
     "short": "早报",
@@ -544,7 +541,7 @@
     "kind": "合作",
     "weight": 64,
     "title": "五医疗机构携手成立新加坡健康联盟 从单一疾病转向整体健康管理",
-    "url": "https://www.zaobao.com.sg/news/singapore/story20261128-10071249?ref=today-news-section-card-1",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20261128-10071249?ref=today-news-section-card-2",
     "date": "2026-11-28",
     "summary": "",
     "categories": [],
@@ -572,42 +569,76 @@
     ],
     "firms": [],
     "score": 38
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/033/938.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "贸易",
+    "weight": 58,
+    "title": "出海新节点：零跑汽车累计出口超 26 万台，官宣业务覆盖全球超 50 个国际市场",
+    "url": "https://www.ithome.com/1/033/938.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，零跑汽车官方今日宣布，达成“出海新节点”—— 累计出口超 26 万台 ，海通太仓港累计发运零跑超 20 万台，成为首个出口破 20 万台的单一港口。 2023 年启动出海，2024 年成立零跑国际、首批整车发运欧洲，今年前 10 个月零跑出口超 18 万台，至今累计出口已超 26 万台。 零跑海外业务覆盖全球超 50 个国际市场，海外门店超 1200 家。 据IT之家此前报道，本月 19 日，零跑汽车…",
+    "categories": [],
+    "where": [
+     "欧洲"
+    ],
+    "firms": [],
+    "score": 37
    }
   ],
-  "total": 4,
+  "total": 5,
   "note": ""
  },
  "industry": {
   "items": [
    {
-    "key": "ithome:https://www.ithome.com/1/033/821.htm",
+    "key": "ithome:https://www.ithome.com/1/033/931.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
     "kind": "tech",
     "weight": 58,
-    "title": "影石 Ace Pro 3 被曝采用 1/1.1 英寸方形传感器、双 OLED 屏、2250mAh 电池，12 月 1 日发布",
-    "url": "https://www.ithome.com/1/033/821.htm",
+    "title": "岚图汽车 CEO 蒋焘：明年车市依然严峻，战略从“以量为主”转向“量利双衡”",
+    "url": "https://www.ithome.com/1/033/931.htm",
     "date": "2026-11-28",
-    "summary": "IT之家 11 月 28 日消息，影石 Insta360 的新一代旗舰运动相机 Ace Pro 3 已定档 12 月 1 日晚 8 点在中国发布，官方预热主题为“定局已破”。 在发布会前，官方预热视频重点展示了对焦控制、背景虚化、可变光圈以及镜头或光学组件更换等功能，暗示该系列产品可能在影像系统方面迎来较大调整。 爆料者 Igor Bogdanov 分享的宣传资料显示，影石 Ace Pro 3 可能配备徕卡 Summicron 主摄（…",
+    "summary": "IT之家 11 月 28 日消息，据界面新闻报道，在 2026 广州车展上，岚图汽车 CEO 蒋焘表示，今年国内车市下滑明显， 业界对明年全年的预期相对保守 。 受补贴退坡影响，明年一季度或有部分需求提前释放；海外出口方面，受关税及法规趋严影响，增量空间亦将受限。总体而言， 今明两年汽车行业面临的形势依然严峻 ，类似变化在手机、家电、光伏产业均有先例。 在战略调整方面，蒋焘表示， 岚图将从此前“以量为主”转向“量与利润双平衡” 。未来…",
     "categories": [],
     "score": 59
    },
    {
-    "key": "ithome:https://www.ithome.com/1/033/815.htm",
+    "key": "ithome:https://www.ithome.com/1/033/926.htm",
     "sourceId": "ithome",
     "sourceName": "IT之家",
     "short": "IT之家",
     "region": "cn",
     "kind": "tech",
     "weight": 58,
-    "title": "广汽弹匣电池 3.0 亮相广州车展：底部防护 2000J、手榴弹爆破不起火",
-    "url": "https://www.ithome.com/1/033/815.htm",
+    "title": "今年 10 月，欧盟纯电动汽车销量超过汽柴油汽车之和",
+    "url": "https://www.ithome.com/1/033/926.htm",
     "date": "2026-11-28",
-    "summary": "IT之家 11 月 28 日消息，在 2026 广州车展上，广汽集团正式展出弹匣电池 3.0 技术，围绕底部撞击与侧面碰撞两类用车高频风险，提出“两硬三防”的电池安全方案。 广汽集团电池系统研发负责人王清泉在车展现场介绍称，新技术的重点是强化结构防护，同时把风险识别环节前移。 “两硬三防”中的“两硬”指两道结构防护。第一道针对底部撞击。新版动力电池安全国标首次将底部撞击纳入强制测试，能量要求为 150 焦耳（IT之家注：焦耳是能量单位…",
+    "summary": "IT之家 11 月 28 日消息，当地时间 27 日，据外媒 insideevs 报道，欧盟纯电动汽车市场正加速增长。10 月新车注册量比 2025 年同期增加约 24000 辆，其中纯电动车就贡献了超过 10.6 万辆的增量。与之形成对比的是，纯汽油车注册量下降近 30%，柴油车也下降了 31%。 欧洲汽车制造商协会（ACEA）数据显示，欧盟 10 月共 注册 279799 辆纯电动乘用车 ，同比上涨 61.4%。同期， 汽油车注册…",
     "categories": [],
     "score": 59
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/AI/20261127-41521.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "12.9–12.10 深圳｜AI 算力、GaN/SiC、边缘 AI、工业 4.0：工程师年底充电就来 IIC Shenzhen",
+    "url": "https://www.dramx.com/News/AI/20261127-41521.html",
+    "date": "2026-11-28",
+    "summary": "",
+    "categories": [],
+    "score": 57
    },
    {
     "key": "dramx:https://www.dramx.com/News/server/20261106-41404.html",
@@ -625,37 +656,22 @@
     "score": 57
    },
    {
-    "key": "dramx:https://www.dramx.com/News/made-sealing/20260514-40422.html",
-    "sourceId": "dramx",
-    "sourceName": "TrendForce 集邦咨询",
-    "short": "集邦",
+    "key": "guancha:https://www.guancha.cn/ZhengZhi/2026_11_27_910222.shtml",
+    "sourceId": "guancha",
+    "sourceName": "观察者网",
+    "short": "观察者",
     "region": "cn",
-    "kind": "tech",
-    "weight": 66,
-    "title": "CoWoS产能告急，英特尔EMIB搅动风",
-    "url": "https://www.dramx.com/News/made-sealing/20260514-40422.html",
-    "date": "2026-11-28",
-    "summary": "",
-    "categories": [],
-    "score": 57
-   },
-   {
-    "key": "zaobao:https://www.zaobao.com.sg/news/china/story20261128-10071389",
-    "sourceId": "zaobao",
-    "sourceName": "联合早报",
-    "short": "早报",
-    "region": "intl",
     "kind": "media",
-    "weight": 64,
-    "title": "港交所取消恒大汽车上市地位",
-    "url": "https://www.zaobao.com.sg/news/china/story20261128-10071389",
-    "date": "2026-11-28",
+    "weight": 60,
+    "title": "多数农产品常态化过剩，是时候建立“价格联动休耕”了",
+    "url": "https://www.guancha.cn/ZhengZhi/2026_11_27_910222.shtml",
+    "date": "2026-11-27",
     "summary": "",
     "categories": [],
-    "score": 56
+    "score": 46
    }
   ],
-  "total": 12,
+  "total": 11,
   "note": ""
  },
  "consensus": {
@@ -674,7 +690,7 @@
    "kind": "tech",
    "ok": true,
    "count": 15,
-   "ms": 2834
+   "ms": 2573
   },
   {
    "id": "gov-gwy",
@@ -683,7 +699,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1842
+   "ms": 802
   },
   {
    "id": "gov-yaowen",
@@ -692,7 +708,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1832
+   "ms": 613
   },
   {
    "id": "gov-zuixin",
@@ -701,7 +717,7 @@
    "kind": "official",
    "ok": true,
    "count": 40,
-   "ms": 1954
+   "ms": 727
   },
   {
    "id": "guancha",
@@ -710,7 +726,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 4234
+   "ms": 1809
   },
   {
    "id": "huanqiu",
@@ -719,7 +735,7 @@
    "kind": "media",
    "ok": true,
    "count": 30,
-   "ms": 4413
+   "ms": 600
   },
   {
    "id": "ithome",
@@ -728,7 +744,7 @@
    "kind": "tech",
    "ok": true,
    "count": 40,
-   "ms": 2079
+   "ms": 789
   },
   {
    "id": "qbitai",
@@ -737,7 +753,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 4014
+   "ms": 1889
   },
   {
    "id": "sspai",
@@ -746,7 +762,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 1259
+   "ms": 1015
   },
   {
    "id": "arxiv",
@@ -755,7 +771,7 @@
    "kind": "academic",
    "ok": true,
    "count": 15,
-   "ms": 64
+   "ms": 138
   },
   {
    "id": "bbc",
@@ -763,8 +779,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 21,
-   "ms": 364
+   "count": 25,
+   "ms": 166
   },
   {
    "id": "bbc-tech",
@@ -773,7 +789,7 @@
    "kind": "tech",
    "ok": true,
    "count": 21,
-   "ms": 272
+   "ms": 10
   },
   {
    "id": "eetimes",
@@ -782,7 +798,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 140
+   "ms": 292
   },
   {
    "id": "hn",
@@ -791,7 +807,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 4517
+   "ms": 428
   },
   {
    "id": "reuters",
@@ -800,7 +816,7 @@
    "kind": "media",
    "ok": false,
    "count": 0,
-   "ms": 2962,
+   "ms": 2685,
    "error": "HTTP 404"
   },
   {
@@ -810,7 +826,7 @@
    "kind": "tech",
    "ok": true,
    "count": 20,
-   "ms": 71
+   "ms": 45
   },
   {
    "id": "theverge",
@@ -819,7 +835,7 @@
    "kind": "tech",
    "ok": true,
    "count": 10,
-   "ms": 399
+   "ms": 105
   },
   {
    "id": "un-news",
@@ -828,7 +844,7 @@
    "kind": "official",
    "ok": true,
    "count": 30,
-   "ms": 1081
+   "ms": 107
   },
   {
    "id": "zaobao",
@@ -836,8 +852,8 @@
    "region": "intl",
    "kind": "media",
    "ok": true,
-   "count": 18,
-   "ms": 1849
+   "count": 21,
+   "ms": 159
   }
  ]
 }
