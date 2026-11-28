@@ -1,0 +1,820 @@
+{
+ "meta": {
+  "date": "2026-11-29",
+  "weekday": "周日",
+  "generatedAt": "2026-11-28T18:19:27.208Z",
+  "mode": "ci",
+  "totalItems": 428,
+  "cnSources": 9,
+  "cnSourceTotal": 9,
+  "intlSources": 9,
+  "intlSourceTotal": 10,
+  "schema": 1
+ },
+ "day": {
+  "type": "正常一天",
+  "dist": {
+   "normal": 45,
+   "possibility": 19,
+   "foresight": 36
+  },
+  "score": {
+   "sF": 34,
+   "sP": 18,
+   "sN": 42
+  },
+  "oneLine": "今天没有新的国务院文件，科技面是产业与产品消息，内外共识落在既有议题上。对普通人来说，是照常过的一天。",
+  "signals": [
+   {
+    "bucket": "possibility",
+    "w": 9,
+    "text": "市场异动 1 条：AI股大涨大跌，华尔街在恐慌什么？",
+    "tag": "market"
+   },
+   {
+    "bucket": "foresight",
+    "w": 8,
+    "text": "技术节点：世界最高输电铁塔在江苏首次开展检修，外骨骼机器人辅助极限作业",
+    "tag": "tech-anchor"
+   },
+   {
+    "bucket": "foresight",
+    "w": 4.4,
+    "text": "1月1日（33 天后）起施行：基金会管理条例",
+    "tag": "policy-effective"
+   },
+   {
+    "bucket": "foresight",
+    "w": 4.4,
+    "text": "1月1日（33 天后）起施行：中医药传统知识保护条例",
+    "tag": "policy-effective"
+   }
+  ],
+  "takeaways": [
+   {
+    "label": "政策",
+    "text": "今天没有新增，最近一次是 19 天前的《基金会管理条例》，最近一个施行节点在 1月1日。"
+   },
+   {
+    "label": "科技",
+    "text": "值得记一笔：OpenAI counter-sues Apple over al…（BBC）。"
+   },
+   {
+    "label": "内外",
+    "text": "今天没有一个议题被两侧同时提及，属于信息上比较「各说各话」的一天。"
+   }
+  ],
+  "actions": [
+   "科技面值得跟进：OpenAI counter-sues Apple o…。"
+  ],
+  "upcoming": [
+   {
+    "date": "2027-01-01",
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "days": 33,
+    "docNumber": "国令第848号"
+   },
+   {
+    "date": "2027-01-01",
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "days": 33,
+    "docNumber": "国令第850号"
+   }
+  ]
+ },
+ "overview": [
+  {
+   "label": "政策",
+   "text": "今天没有新增，最近一次是 19 天前的《基金会管理条例》，最近一个施行节点在 1月1日。"
+  },
+  {
+   "label": "科技",
+   "text": "OpenAI counter-sues Apple over allege…（BBC）"
+  },
+  {
+   "label": "合作",
+   "text": "三星组建专项团队，推进芯片产线机器人落地（集邦）"
+  },
+  {
+   "label": "产业",
+   "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+  }
+ ],
+ "impact": [
+  {
+   "title": "基金会管理条例",
+   "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+   "short": "最新政策",
+   "affects": "行业",
+   "horizon": "3 个月内",
+   "text": "1月1日 起施行，主要约束机构与企业，个人短期影响有限。"
+  },
+  {
+   "title": "三星组建专项团队，推进芯片产线机器人落地",
+   "url": "https://www.dramx.com/News/made-sealing/20261127-41520.html",
+   "short": "集邦",
+   "affects": "行业",
+   "horizon": "1-3 个月",
+   "text": "合作框架先动，价格和供给要过一段才传到终端。"
+  },
+  {
+   "title": "HBM、SSD、GPU、MLCC产能告急",
+   "url": "https://www.dramx.com/News/server/20261106-41404.html",
+   "short": "集邦",
+   "affects": "两者",
+   "horizon": "1-3 个月",
+   "text": "价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+  }
+ ],
+ "summary": {
+  "people": [
+   {
+    "label": "要不要动",
+    "text": "今天没有必须立刻处理的事，可以把注意力留给长期的事。"
+   },
+   {
+    "label": "与你最近",
+    "text": "HBM、SSD、GPU、MLCC产能告急——价格与产能会先出现在企业报表里，再传到货架和你的账单上。"
+   },
+   {
+    "label": "下一个节点",
+    "text": "1月1日（33 天后）起《基金会管理条例》施行。"
+   }
+  ],
+  "pro": [
+   {
+    "label": "产业面",
+    "text": "HBM、SSD、GPU、MLCC产能告急（集邦）"
+   },
+   {
+    "label": "对外",
+    "text": "三星组建专项团队，推进芯片产线机器人落地｜合作类 · 三星"
+   },
+   {
+    "label": "技术面",
+    "text": "OpenAI counter-sues Apple over …（AI）"
+   }
+  ]
+ },
+ "gov": {
+  "headline": "今天国务院层面无新增文件；最近一次文件是 19 天前（11月10日）",
+  "todayCount": 0,
+  "newsCount": 0,
+  "weekCount": 0,
+  "items": [
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "date": "2026-11-10",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第848号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。",
+    "org": "国务院令"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "date": "2026-11-09",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第850号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。",
+    "org": "国务院令"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国家统计局职能配置、内设机构和人员编制规定",
+    "url": "https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "date": "2026-11-06",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "2026-10-28",
+    "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。",
+    "org": "国家层面"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": [],
+    "docNumber": "​国函〔2026〕113号",
+    "effectiveAt": "",
+    "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。",
+    "org": "国务院"
+   }
+  ],
+  "recent": [
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "基金会管理条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+    "date": "2026-11-10",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第848号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第96次常务会议修订通过，现予公布，自2027年1月1日起施行。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "中医药传统知识保护条例",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm",
+    "date": "2026-11-09",
+    "summary": "",
+    "categories": [],
+    "docNumber": "国令第850号",
+    "effectiveAt": "2027-01-01",
+    "excerpt": "国务院第97次常务会议通过，现予公布，自2027年1月1日起施行。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国家统计局职能配置、内设机构和人员编制规定",
+    "url": "https://www.gov.cn/zhengce/202611/content_7085350.htm",
+    "date": "2026-11-06",
+    "summary": "",
+    "categories": [],
+    "docNumber": "",
+    "effectiveAt": "2026-10-28",
+    "excerpt": "为了规范国家统计局的职能配置、内设机构和人员编制，推进机构、职能、权限、程序、责任法定化，根据《中国共产党机构编制工作条例》和党中央对统计工作的有关要求，制定本规定。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": [],
+    "docNumber": "​国函〔2026〕113号",
+    "effectiveAt": "",
+    "excerpt": "《自然资源部、生态环境部关于报请批准辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的请示》（自然资发〔2026〕137号）收悉。"
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院办公厅关于2027年部分节假日安排的通知",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   },
+   {
+    "key": "gov-zuixin:https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "sourceId": "gov-zuixin",
+    "sourceName": "中国政府网 · 最新政策",
+    "short": "最新政策",
+    "region": "cn",
+    "kind": "official",
+    "weight": 100,
+    "title": "国务院关于修改和废止部分行政法规的决定",
+    "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+    "date": "2026-11-05",
+    "summary": "",
+    "categories": []
+   }
+  ],
+  "latestDate": "2026-11-10",
+  "latestTitle": "基金会管理条例"
+ },
+ "tech": {
+  "items": [
+   {
+    "key": "bbc:https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc",
+    "sourceName": "BBC World",
+    "short": "BBC",
+    "region": "intl",
+    "kind": "media",
+    "weight": 82,
+    "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+    "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-28",
+    "summary": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 92.1,
+    "score": 128.94
+   },
+   {
+    "key": "bbc-tech:https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss",
+    "sourceId": "bbc-tech",
+    "sourceName": "BBC Technology",
+    "short": "BBC Tech",
+    "region": "intl",
+    "kind": "tech",
+    "weight": 78,
+    "title": "How gamers are using AI and leaked files to clone Grand Theft Auto 6",
+    "url": "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-28",
+    "summary": "With an official PC version potentially still months away, fans are getting impatient.",
+    "categories": [],
+    "tag": "AI",
+    "raw": 89.9,
+    "score": 125.86
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/AI/20261127-41521.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "12.9–12.10 深圳｜AI 算力、GaN/SiC、边缘 AI、工业 4.0：工程师年底充电就来 IIC Shenzhen",
+    "url": "https://www.dramx.com/News/AI/20261127-41521.html",
+    "date": "2026-11-29",
+    "summary": "",
+    "categories": [],
+    "tag": "AI",
+    "raw": 88.30000000000001,
+    "score": 123.62
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/AI/20261127-41524.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "欧盟正式提出《量子法案》草案，布局量子产业与后量子密码转型",
+    "url": "https://www.dramx.com/News/AI/20261127-41524.html",
+    "date": "2026-11-29",
+    "summary": "",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 88.30000000000001,
+    "score": 101.545
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/034/015.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "联想来酷外骨骼机器人行者 ONE 开售：穿戴式助行设备、1.8kg 镁合金机身，6999 元",
+    "url": "https://www.ithome.com/1/034/015.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，联想来酷外骨骼机器人行者 ONE 今日正式开售， 售价 6999 元 。 这款产品是一款面向老人出行、户外徒步、上下楼锻炼场景的穿戴式助行设备，采用 1.8kg 镁合金机身，帮助缓解下肢行走负担。 动力方面，来酷行者 ONE 采用双髋独立驱动设计，单边输出 19N·m、双边合计 38N·m 峰值扭矩，峰值功率达 900W，助行效率 ≥45%，可在爬楼、户外登山等场景下降低体能消耗。 机身结构上，产品前…",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 78.9,
+    "score": 90.735
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/033/942.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "世界最高输电铁塔在江苏首次开展检修，外骨骼机器人辅助极限作业",
+    "url": "https://www.ithome.com/1/033/942.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，11 月 28 日，位于江苏的 500 千伏凤城至梅里长江大跨越工程开展首次人工走线检修，外骨骼机器人首次投入这项高空作业。 据央视新闻报道，该工程是国内规模最大的超高压跨江输变电工程，承担着江苏北部清洁能源送往苏南用电负荷中心的任务，这也是世界最高输电铁塔的首次人工走线检修。 据江苏省送变电有限公司检修作业负责人郑熠珉介绍，这座铁塔长期运行在跨江高湿、多阵风环境中，随着运行时间积累，设备腐蚀、松动等…",
+    "categories": [],
+    "tag": "前沿",
+    "raw": 78.9,
+    "score": 90.735
+   },
+   {
+    "key": "qbitai:https://www.qbitai.com/2026/11/513352.html",
+    "sourceId": "qbitai",
+    "sourceName": "量子位",
+    "short": "量子位",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 72,
+    "title": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了",
+    "url": "https://www.qbitai.com/2026/11/513352.html",
+    "date": "2026-11-27",
+    "summary": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
+    "categories": [
+     "资讯",
+     "众擎机器人",
+     "具身生态",
+     "算法"
+    ],
+    "tag": "前沿",
+    "raw": 73.6,
+    "score": 84.63999999999999
+   }
+  ],
+  "counts": {
+   "total": 177,
+   "today": 17,
+   "semiconductor": 15,
+   "ai": 56
+  }
+ },
+ "coop": {
+  "items": [
+   {
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20261127-41520.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "合作",
+    "weight": 66,
+    "title": "三星组建专项团队，推进芯片产线机器人落地",
+    "url": "https://www.dramx.com/News/made-sealing/20261127-41520.html",
+    "date": "2026-11-29",
+    "summary": "",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "三星"
+    ],
+    "score": 43
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/Memory/20261127-41519.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "机制",
+    "weight": 66,
+    "title": "铠侠、英伟达合作，解锁 GPU 存储扩展新方案",
+    "url": "https://www.dramx.com/News/Memory/20261127-41519.html",
+    "date": "2026-11-29",
+    "summary": "",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "英伟达"
+    ],
+    "score": 43
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/034/013.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "贸易",
+    "weight": 58,
+    "title": "用时三年，广汽丰田铂智品牌完成 20 万台交付",
+    "url": "https://www.ithome.com/1/034/013.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，广汽丰田今日宣布铂智品牌第 20 万台圆满交付，车主为马拉松全国纪录保持者丰配友。 IT之家注意到，广汽丰田新能源品牌铂智在 2023 广州车展首日发布，首款纯电车型铂智 4X 同步上市， 至今已经三年 。目前，铂智系列有铂智 7、铂智 3X、铂智 4X 等车型，建议零售价分别为 16.98 万元起、10.98 万元起以及 17.98 万元起。 广汽丰田还在 2026 广州车展上公开了智能泊车辅助事故…",
+    "categories": [],
+    "where": [],
+    "firms": [
+     "丰田"
+    ],
+    "score": 39
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/033/938.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "贸易",
+    "weight": 58,
+    "title": "出海新节点：零跑汽车累计出口超 26 万台，官宣业务覆盖全球超 50 个国际市场",
+    "url": "https://www.ithome.com/1/033/938.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，零跑汽车官方今日宣布，达成“出海新节点”—— 累计出口超 26 万台 ，海通太仓港累计发运零跑超 20 万台，成为首个出口破 20 万台的单一港口。 2023 年启动出海，2024 年成立零跑国际、首批整车发运欧洲，今年前 10 个月零跑出口超 18 万台，至今累计出口已超 26 万台。 零跑海外业务覆盖全球超 50 个国际市场，海外门店超 1200 家。 据IT之家此前报道，本月 19 日，零跑汽车…",
+    "categories": [],
+    "where": [
+     "欧洲"
+    ],
+    "firms": [],
+    "score": 37
+   }
+  ],
+  "total": 4,
+  "note": ""
+ },
+ "industry": {
+  "items": [
+   {
+    "key": "dramx:https://www.dramx.com/News/server/20261106-41404.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "HBM、SSD、GPU、MLCC产能告急",
+    "url": "https://www.dramx.com/News/server/20261106-41404.html",
+    "date": "2026-11-29",
+    "summary": "",
+    "categories": [],
+    "score": 57
+   },
+   {
+    "key": "dramx:https://www.dramx.com/News/made-sealing/20260514-40422.html",
+    "sourceId": "dramx",
+    "sourceName": "TrendForce 集邦咨询",
+    "short": "集邦",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 66,
+    "title": "CoWoS产能告急，英特尔EMIB搅动风",
+    "url": "https://www.dramx.com/News/made-sealing/20260514-40422.html",
+    "date": "2026-11-29",
+    "summary": "",
+    "categories": [],
+    "score": 57
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/034/023.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "长安汽车预计全年海外销量突破 100 万辆，计划到 2030 年海外销量突破 200 万",
+    "url": "https://www.ithome.com/1/034/023.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，据新浪汽车，在 2026 广州车展，长安汽车品牌部总经理赵春艳透露 2026 年长安出海规模将突破 100 万辆。 出海业务上，长安已完成年初出海目标，1‑10 月长安海外销量 83 万辆，同比增长 58.7%， 预计全年海外销量突破 100 万 。采用多品牌分层出海，阿维塔主攻高端、深蓝面向科技年轻群体，长安启源与 V 标燃油车覆盖主流市场。 此外， 长安计划到 2030 年，长安海外销量突破 20…",
+    "categories": [],
+    "score": 51
+   },
+   {
+    "key": "ithome:https://www.ithome.com/1/034/022.htm",
+    "sourceId": "ithome",
+    "sourceName": "IT之家",
+    "short": "IT之家",
+    "region": "cn",
+    "kind": "tech",
+    "weight": 58,
+    "title": "美国航空公司两架客机发生擦碰事故，其中一架客机的翼梢小翼撞断",
+    "url": "https://www.ithome.com/1/034/022.htm",
+    "date": "2026-11-28",
+    "summary": "IT之家 11 月 28 日消息，据央视新闻今日报道，美国航空公司两架客机 27 日在罗纳德 · 里根华盛顿国家机场发生机翼擦碰事故， 其中一架客机的翼梢小翼撞断 ，所幸没有人员伤亡。 报道提到，这两架客机机型均为波音 737，航班号分别是 638 和 2152，一架目的地为达拉斯，另一架计划飞往芝加哥。 事故发生在客机滑行前往跑道期间。空管无线电通话录音显示，638 航班于 27 日 17 时许准备起飞时，机长报告说该机位置略微越过…",
+    "categories": [],
+    "score": 51
+   },
+   {
+    "key": "guancha:https://www.guancha.cn/ZhengZhi/2026_11_27_910222.shtml",
+    "sourceId": "guancha",
+    "sourceName": "观察者网",
+    "short": "观察者",
+    "region": "cn",
+    "kind": "media",
+    "weight": 60,
+    "title": "多数农产品常态化过剩，是时候建立“价格联动休耕”了",
+    "url": "https://www.guancha.cn/ZhengZhi/2026_11_27_910222.shtml",
+    "date": "2026-11-27",
+    "summary": "",
+    "categories": [],
+    "score": 38
+   }
+  ],
+  "total": 9,
+  "note": ""
+ },
+ "consensus": {
+  "available": true,
+  "intlSourcesUp": 8,
+  "cnSourcesUp": 7,
+  "topics": [],
+  "note": "境外 8 个源、境内 7 个源同时覆盖；配对规则 = 同一议题 + 共享实体，语气按标题情绪词估算。",
+  "cnOnly": []
+ },
+ "health": [
+  {
+   "id": "dramx",
+   "name": "TrendForce 集邦咨询",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 15,
+   "ms": 6995
+  },
+  {
+   "id": "gov-gwy",
+   "name": "中国政府网 · 国务院文件",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 332
+  },
+  {
+   "id": "gov-yaowen",
+   "name": "中国政府网 · 要闻",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 88
+  },
+  {
+   "id": "gov-zuixin",
+   "name": "中国政府网 · 最新政策",
+   "region": "cn",
+   "kind": "official",
+   "ok": true,
+   "count": 40,
+   "ms": 263
+  },
+  {
+   "id": "guancha",
+   "name": "观察者网",
+   "region": "cn",
+   "kind": "media",
+   "ok": true,
+   "count": 30,
+   "ms": 2545
+  },
+  {
+   "id": "huanqiu",
+   "name": "环球网",
+   "region": "cn",
+   "kind": "media",
+   "ok": true,
+   "count": 30,
+   "ms": 566
+  },
+  {
+   "id": "ithome",
+   "name": "IT之家",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 40,
+   "ms": 312
+  },
+  {
+   "id": "qbitai",
+   "name": "量子位",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 2420
+  },
+  {
+   "id": "sspai",
+   "name": "少数派",
+   "region": "cn",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 1499
+  },
+  {
+   "id": "arxiv",
+   "name": "arXiv cs.AI",
+   "region": "intl",
+   "kind": "academic",
+   "ok": true,
+   "count": 15,
+   "ms": 63
+  },
+  {
+   "id": "bbc",
+   "name": "BBC World",
+   "region": "intl",
+   "kind": "media",
+   "ok": true,
+   "count": 26,
+   "ms": 296
+  },
+  {
+   "id": "bbc-tech",
+   "name": "BBC Technology",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 21,
+   "ms": 91
+  },
+  {
+   "id": "eetimes",
+   "name": "EE Times",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 327
+  },
+  {
+   "id": "hn",
+   "name": "Hacker News",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 252
+  },
+  {
+   "id": "reuters",
+   "name": "Reuters",
+   "region": "intl",
+   "kind": "media",
+   "ok": false,
+   "count": 0,
+   "ms": 2642,
+   "error": "HTTP 404"
+  },
+  {
+   "id": "techcrunch",
+   "name": "TechCrunch",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 20,
+   "ms": 81
+  },
+  {
+   "id": "theverge",
+   "name": "The Verge",
+   "region": "intl",
+   "kind": "tech",
+   "ok": true,
+   "count": 10,
+   "ms": 94
+  },
+  {
+   "id": "un-news",
+   "name": "联合国新闻（中文）",
+   "region": "intl",
+   "kind": "official",
+   "ok": true,
+   "count": 30,
+   "ms": 45
+  },
+  {
+   "id": "zaobao",
+   "name": "联合早报",
+   "region": "intl",
+   "kind": "media",
+   "ok": true,
+   "count": 21,
+   "ms": 130
+  }
+ ]
+}
